@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "id": "whats-included",
+      "title": {
+        "en": "What's Included",
+        "nl": "Wat is Inbegrepen",
+        "fr": "Ce qui est Inclus"
+      },
+      "questions": [
+        {
+          "id": "included-salary-structure",
+          "question": {
+            "en": "What salary components can you calculate using this calculator?",
+            "nl": "Welke looncomponenten kan je berekenen met deze calculator?",
+            "fr": "Quels composants salariaux pouvez-vous calculer avec ce calculateur?"
+          },
+          "answer": {
+            "en": "The calculator covers your complete salary structure:\n• Base hourly wage with flexible work schedule (hours/day, days/week)\n• 13th month (optional)\n• Double vacation bonus (optional)\n• Extra yearly gross (for commissions, bonuses not in other fields)\n• Municipality tax rate (varies by region)\n• Work bonus (calculated automatically based on income)",
+            "nl": "De calculator dekt je volledige loonstructuur:\n• Basis uurloon met flexibel werkschema (uren/dag, dagen/week)\n• 13de maand (optioneel)\n• Dubbel vakantiegeld (optioneel)\n• Extra jaarlijks bruto (voor commissies, bonussen niet in andere velden)\n• Gemeentebelasting (varieert per regio)\n• Werkbonus (automatisch berekend op basis van inkomen)",
+            "fr": "Le calculateur couvre votre structure salariale complète:\n• Salaire horaire de base avec horaire de travail flexible (heures/jour, jours/semaine)\n• 13ème mois (optionnel)\n• Double pécule de vacances (optionnel)\n• Brut annuel supplémentaire (pour commissions, bonus pas dans d'autres champs)\n• Taxe communale (varie selon la région)\n• Bonus à l'emploi (calculé automatiquement selon le revenu)"
+          },
+          "keywords": ["salary", "salaris", "salaire", "wage", "loon", "13th month", "13de maand", "13ème mois", "vacation", "vakantie", "vacances", "gross", "bruto", "brut", "hours", "uren", "heures", "days", "dagen", "jours", "work bonus", "werkbonus"]
+        },
+        {
+          "id": "included-vouchers-benefits",
+          "question": {
+            "en": "What vouchers and benefits are supported?",
+            "nl": "Welke cheques en voordelen worden ondersteund?",
+            "fr": "Quels chèques et avantages sont pris en charge?"
+          },
+          "answer": {
+            "en": "The calculator supports these employer-provided benefits:\n• Meal vouchers (with employer/employee contribution split)\n• Ecocheques (annual budget)\n• Sport & Culture vouchers (annual budget)\n• Mobility budget (with pillar allocation)\n• CAO 90 bonus (non-recurring result-based premium)\n• Profit participation bonus",
+            "nl": "De calculator ondersteunt deze werkgevervoordelen:\n• Maaltijdcheques (met werkgever/werknemer bijdrageverdeling)\n• Ecocheques (jaarlijks budget)\n• Sport & Cultuur cheques (jaarlijks budget)\n• Mobiliteitsbudget (met pilarallocatie)\n• CAO 90 bonus (niet-recurrente resultaatgebonden premie)\n• Winstparticipatiebonus",
+            "fr": "Le calculateur prend en charge ces avantages employeur:\n• Chèques-repas (avec répartition contribution employeur/employé)\n• Écochèques (budget annuel)\n• Chèques Sport & Culture (budget annuel)\n• Budget mobilité (avec allocation par pilier)\n• Bonus CCT 90 (prime non récurrente liée aux résultats)\n• Bonus de participation aux bénéfices"
+          },
+          "keywords": ["voucher", "cheque", "meal", "maaltijd", "repas", "ecocheque", "ecochèque", "sport", "culture", "cultuur", "mobility", "mobiliteit", "mobilité", "CAO 90", "CCT 90", "profit", "winst", "bénéfice"]
+        },
+        {
+          "id": "mobility-budget-maximum",
+          "question": {
+            "en": "How is the Mobility Budget maximum calculated?",
+            "nl": "Hoe wordt het Mobiliteitsbudget maximum berekend?",
+            "fr": "Comment le maximum du Budget Mobilité est-il calculé?"
+          },
+          "answer": {
+            "en": "The Mobility Budget maximum depends on your \"reference income\" - a specific calculation that includes SOME but not all of your compensation:\n\n**INCLUDED in reference income (pushes maximum UP):**\n• Base gross salary\n• 13th month bonus\n• Bike allowance (fietsvergoeding)\n• Cafeteria plan value\n• Meal vouchers (nominal employer + employee value) OR Daily allowance (dagelijkse vergoeding) - whichever you use\n• Ecocheques\n• Sport & Culture vouchers\n• Telecommuting allowance\n• Internet & PC allowance\n• Profit participation\n• CAO 90 bonus\n• Total reimbursed costs (annual amount you specify)\n\n**EXCLUDED from reference income (does NOT affect maximum):**\n• Vacation pay (single & double holiday pay)\n• Extra vacation days monetary value\n• The mobility budget itself\n\n**The Formula:**\nYour maximum = MIN(€16,875/year, Reference Income × 20%)\n\n**Why this matters:**\nIf you enable extralegals like ecocheques or CAO 90 bonus, your mobility budget maximum will INCREASE because these count toward your reference income. This is why the calculator tooltip says \"Enable other extralegals first to increase your maximum!\"\n\n**Note on Daily Allowance vs. Meal Vouchers:**\nYou can only use ONE of these at a time (they're mutually exclusive). If you enable daily allowance, meal vouchers are automatically zeroed out. The daily allowance is calculated as: Daily Rate × Working Days/Month × 12 months and this annual value is added to your reference income for mobility budget maximum calculation.\n\n**Need more details?**\nSource: https://www.mbe.be/en/faq",
+            "nl": "Het Mobiliteitsbudget maximum hangt af van je \"referentie-inkomen\" - een specifieke berekening die SOMMIGE maar niet alle onderdelen van je vergoeding omvat:\n\n**INBEGREPEN in referentie-inkomen (verhoogt maximum):**\n• Basis brutoloon\n• 13de maand bonus\n• Fietsvergoeding\n• Cafetariaplan waarde\n• Maaltijdcheques (nominale werkgever + werknemer waarde) OF Dagelijkse vergoeding - welke je ook gebruikt\n• Ecocheques\n• Sport & Cultuur cheques\n• Thuiswerkvergoeding\n• Internet & PC vergoeding\n• Winstparticipatie\n• CAO 90 bonus\n• Totale terugbetaalde kosten (jaarlijks bedrag dat je specificeert)\n\n**UITGESLOTEN van referentie-inkomen (beïnvloedt maximum NIET):**\n• Vakantiegeld (enkel + dubbel)\n• Waarde van extra vakantiedagen\n• Het mobiliteitsbudget zelf\n\n**De Formule:**\nJe maximum = MIN(€16.875/jaar, Referentie-inkomen × 20%)\n\n**Waarom dit belangrijk is:**\nAls je extralegale voordelen zoals ecocheques of CAO 90 bonus inschakelt, zal je mobiliteitsbudget maximum TOENEMEN omdat deze meetellen voor je referentie-inkomen. Daarom zegt de calculator tooltip \"Schakel eerst andere extralegale voordelen in om je maximum te verhogen!\"\n\n**Opmerking over Dagelijkse Vergoeding vs. Maaltijdcheques:**\nJe kan maar ÉÉN van deze tegelijk gebruiken (ze sluiten elkaar uit). Als je dagelijkse vergoeding inschakelt, worden maaltijdcheques automatisch op nul gezet. De dagelijkse vergoeding wordt berekend als: Dagtarief × Werkdagen/Maand × 12 maanden en deze jaarwaarde wordt toegevoegd aan je referentie-inkomen voor de berekening van het mobiliteitsbudget maximum.\n\n**Meer details nodig?**\nBron: https://www.mbe.be/en/faq",
+            "fr": "Le maximum du Budget Mobilité dépend de votre \"revenu de référence\" - un calcul spécifique qui inclut CERTAINES mais pas toutes vos compensations:\n\n**INCLUS dans le revenu de référence (augmente le maximum):**\n• Salaire brut de base\n• Prime 13ème mois\n• Indemnité vélo\n• Valeur plan cafétéria\n• Chèques-repas (valeur nominale employeur + employé) OU Indemnité journalière - selon ce que vous utilisez\n• Écochèques\n• Chèques Sport & Culture\n• Indemnité télétravail\n• Indemnité Internet & PC\n• Participation aux bénéfices\n• Bonus CCT 90\n• Total des frais remboursés (montant annuel que vous spécifiez)\n\n**EXCLUS du revenu de référence (n'affecte PAS le maximum):**\n• Pécule de vacances (simple + double)\n• Valeur monétaire des jours de congé supplémentaires\n• Le budget mobilité lui-même\n\n**La Formule:**\nVotre maximum = MIN(€16.875/an, Revenu de référence × 20%)\n\n**Pourquoi c'est important:**\nSi vous activez des avantages extralégaux comme les écochèques ou le bonus CCT 90, votre maximum de budget mobilité va AUGMENTER car ils comptent dans votre revenu de référence. C'est pourquoi l'infobulle du calculateur dit \"Activez d'abord d'autres avantages extralégaux pour augmenter votre maximum!\"\n\n**Note sur Indemnité Journalière vs. Chèques-repas:**\nVous ne pouvez utiliser qu'UN SEUL à la fois (ils sont mutuellement exclusifs). Si vous activez l'indemnité journalière, les chèques-repas sont automatiquement remis à zéro. L'indemnité journalière est calculée comme: Tarif journalier × Jours travaillés/Mois × 12 mois et cette valeur annuelle est ajoutée à votre revenu de référence pour le calcul du maximum du budget mobilité.\n\n**Besoin de plus de détails?**\nSource: https://www.mbe.be/en/faq"
+          },
+          "keywords": ["mobility", "mobiliteit", "mobilité", "budget", "maximum", "max", "reference income", "referentie-inkomen", "revenu de référence", "included", "excluded", "formula", "formule", "13th month", "13de maand", "13ème mois", "daily allowance", "dagelijkse vergoeding", "indemnité journalière"]
+        },
+        {
+          "id": "included-net-allowances",
+          "question": {
+            "en": "What net allowances are included?",
+            "nl": "Welke netto vergoedingen zijn inbegrepen?",
+            "fr": "Quelles indemnités nettes sont incluses?"
+          },
+          "answer": {
+            "en": "The calculator includes several common net allowances:\n• Telecommuting allowance - for working from home\n• PC & Internet allowance\n• Bike allowance\n• Meal vouchers (optional, with employer/employee contribution split)\n• Per-day allowance - for work-related travel (€10-€21.22/day, 100% tax-free, mutually exclusive with meal vouchers)",
+            "nl": "De calculator bevat verschillende gangbare netto vergoedingen:\n• Thuiswerkvergoeding - voor thuiswerken\n• PC & Internet vergoeding\n• Fietsvergoeding\n• Maaltijdcheques (optioneel, met werkgever/werknemer bijdrageverdeling)\n• Dagelijkse reisvergoeding - voor werkgerelateerde reizen (€10-€21,22/dag, 100% belastingvrij, wederzijds exclusief met maaltijdcheques)",
+            "fr": "Le calculateur inclut plusieurs indemnités nettes courantes:\n• Indemnité de télétravail - pour le travail à domicile\n• Indemnité PC & Internet\n• Indemnité vélo\n• Chèques-repas (optionnel, avec répartition contribution employeur/employé)\n• Indemnité journalière - pour les déplacements professionnels (€10-€21,22/jour, 100% exonéré d'impôt, mutuellement exclusif avec les chèques-repas)"
+          },
+          "keywords": ["allowance", "vergoeding", "indemnité", "telecommuting", "thuiswerk", "télétravail", "bike", "fiets", "vélo", "meal", "maaltijd", "repas", "internet", "pc", "daily", "dagelijks", "journalier", "travel", "reizen", "déplacement", "included", "inbegrepen", "inclus"]
+        },
+        {
+          "id": "included-family-tax",
+          "question": {
+            "en": "What family and tax situations are covered?",
+            "nl": "Welke gezins- en belastingsituaties worden gedekt?",
+            "fr": "Quelles situations familiales et fiscales sont couvertes?"
+          },
+          "answer": {
+            "en": "The calculator handles various family situations for accurate tax calculations:\n• Marital status (single, married/cohabiting)\n• Partner income (for marital quotient calculation)\n• Number of dependent children\n• Children under 3 (childcare tax credit)\n• Disabled children (counts as 2 dependents)\n• Single parent status (extra tax reduction)",
+            "nl": "De calculator verwerkt verschillende gezinssituaties voor nauwkeurige belastingberekeningen:\n• Burgerlijke staat (alleenstaand, getrouwd/samenwonend)\n• Partner inkomen (voor huwelijksquotiënt berekening)\n• Aantal kinderen ten laste\n• Kinderen onder 3 jaar (kinderopvang belastingkrediet)\n• Kinderen met handicap (Telt als 2*kind ten laste)\n• Alleenstaande ouder (extra belastingvermindering)",
+            "fr": "Le calculateur gère diverses situations familiales pour des calculs fiscaux précis:\n• État civil (célibataire, marié/cohabitant)\n• Revenu du partenaire (pour le calcul du quotient conjugal)\n• Nombre d'enfants à charge\n• Enfants de moins de 3 ans (crédit d'impôt garde d'enfants)\n• Enfants handicapés (compte comme 2 enfants à charge)\n• Parent isolé (réduction d'impôt supplémentaire)"
+          },
+          "keywords": ["family", "gezin", "famille", "children", "kinderen", "enfants", "married", "getrouwd", "marié", "single", "alleenstaand", "célibataire", "partner", "tax", "belasting", "impôt", "dependent", "ten laste", "à charge"]
+        },
+        {
+          "id": "unlisted-allowance",
+          "question": {
+            "en": "I have an allowance not listed in the calculator. Where do I add it?",
+            "nl": "Ik heb een vergoeding die niet in de calculator staat. Waar voeg ik die toe?",
+            "fr": "J'ai une indemnité non listée dans le calculateur. Où l'ajouter?"
+          },
+          "answer": {
+            "en": "**If it appears on your payslip and has taxes/RSZ deducted:**\n→ Add to \"Extra Yearly Gross\" field (multiply monthly × 12)\n\n**If it's tax-exempt and pure net (no RSZ/taxes):**\n→ Add it manually to the final net amount shown\n\n**If you're unsure:**\n→ Check your payslip - if you see RSZ (social security) or BV (withholding tax) deducted from it, it's taxable. If not, it's likely a net allowance.",
+            "nl": "**Als het op je loonstrook staat en RSZ/belastingen worden ingehouden:**\n→ Voeg toe aan \"Extra Jaarlijks Bruto\" veld (maandelijks × 12)\n\n**Als het belastingvrij en puur netto is (geen RSZ/belastingen):**\n→ Tel het handmatig op bij het getoonde netto bedrag\n\n**Als je twijfelt:**\n→ Kijk op je loonstrook - als je RSZ of BV (bedrijfsvoorheffing) ziet ingehouden, is het belastbaar. Zo niet, is het waarschijnlijk een netto vergoeding.",
+            "fr": "**Si ça apparaît sur votre fiche de paie avec ONSS/impôts déduits:**\n→ Ajoutez au champ \"Brut Annuel Supplémentaire\" (mensuel × 12)\n\n**Si c'est exonéré d'impôt et purement net (pas d'ONSS/impôts):**\n→ Ajoutez-le manuellement au montant net final affiché\n\n**Si vous n'êtes pas sûr:**\n→ Vérifiez votre fiche de paie - si vous voyez ONSS ou PP (précompte professionnel) déduit, c'est imposable. Sinon, c'est probablement une indemnité nette."
+          },
+          "keywords": ["allowance", "vergoeding", "indemnité", "not listed", "niet vermeld", "non listé", "where", "waar", "où", "add", "toevoegen", "ajouter", "payslip", "loonstrook", "fiche de paie", "taxed", "belast", "imposé", "RSZ", "ONSS", "net", "netto", "phone", "telefoon", "téléphone"]
+        },
+        {
+          "id": "gross-wage-entry",
+          "question": {
+            "en": "How do the hourly, monthly, and yearly gross entries work?",
+            "nl": "Hoe werken de uur-, maand- en jaarlijkse bruto invoervelden?",
+            "fr": "Comment fonctionnent les entrées brutes horaires, mensuelles et annuelles?"
+          },
+          "answer": {
+            "en": "The three gross wage entries (hourly, monthly, yearly) are intrinsically linked - they all represent the same salary, just expressed differently.\n\n**Enter ANY one of them:**\n• Hourly wage → Calculator derives monthly and yearly automatically\n• Monthly wage → Calculator derives hourly and yearly automatically\n• Yearly wage → Calculator derives hourly and monthly automatically\n\nThey're mathematically equivalent based on your work schedule (hours/day × days/week × weeks/year). Change one, and the others update accordingly.",
+            "nl": "De drie bruto loon invoervelden (uurloon, maandloon, jaarloon) zijn intrinsiek gekoppeld - ze vertegenwoordigen allemaal hetzelfde salaris, alleen anders uitgedrukt.\n\n**Voer ÉÉN ervan in:**\n• Uurloon → Calculator leidt maand en jaar automatisch af\n• Maandloon → Calculator leidt uur en jaar automatisch af\n• Jaarloon → Calculator leidt uur en maand automatisch af\n\nZe zijn wiskundig equivalent op basis van je werkschema (uren/dag × dagen/week × weken/jaar). Verander er één, en de anderen worden automatisch bijgewerkt.",
+            "fr": "Les trois entrées de salaire brut (horaire, mensuel, annuel) sont intrinsèquement liées - elles représentent toutes le même salaire, juste exprimé différemment.\n\n**Entrez L'UNE d'entre elles:**\n• Salaire horaire → Le calculateur dérive mensuel et annuel automatiquement\n• Salaire mensuel → Le calculateur dérive horaire et annuel automatiquement\n• Salaire annuel → Le calculateur dérive horaire et mensuel automatiquement\n\nElles sont mathématiquement équivalentes selon votre horaire de travail (heures/jour × jours/semaine × semaines/an). Changez l'une, et les autres se mettent à jour en conséquence."
+          },
+          "keywords": ["hourly", "uurloon", "horaire", "monthly", "maandloon", "mensuel", "yearly", "jaarloon", "annuel", "gross", "bruto", "brut", "linked", "gekoppeld", "lié", "equivalent", "equivalent", "équivalent", "entry", "invoer", "entrée"]
+        }
+      ]
+    },
+    {
+      "id": "why-included-excluded",
+      "title": {
+        "en": "Why Things Are Included or Excluded",
+        "nl": "Waarom Dingen Wel of Niet Inbegrepen Zijn",
+        "fr": "Pourquoi Certaines Choses Sont Incluses ou Exclues"
+      },
+      "questions": [
+                {
+          "id": "allowances-vs-reimbursements",
+          "question": {
+            "en": "Why are some benefits included and others not? (Allowances vs Reimbursements)",
+            "nl": "Waarom zijn sommige voordelen wel en andere niet inbegrepen? (Vergoedingen vs Terugbetalingen)",
+            "fr": "Pourquoi certains avantages sont-ils inclus et d'autres non? (Indemnités vs Remboursements)"
+          },
+          "answer": {
+            "en": "Benefits are treated differently based on whether they represent actual income or just cost recovery.\n\n**INCLUDED: Flat Allowances (Added to Net Income)**\nFixed amounts you receive regardless of actual costs. You pocket any difference:\n• Bike allowance (€0.27/km) - Get paid per km even if bike costs are minimal\n• Telecommuting allowance - Fixed amount whether your costs are high or low\n• PC & Internet allowance - You get it even if you already owned these\n• Daily allowance (€10-€21.22/day) - Tax-free per-day amount for regular work travel, mutually exclusive with meal vouchers\n• Meal vouchers - Fixed value regardless of actual lunch spending\n\n**Why included:** These are real additions to your disposable income. Lower actual costs = you keep the difference.\n\n**NOT INCLUDED: Expense Reimbursements (Net-Neutral)**\nRequire proof of actual expenses - you spend, submit receipts, get reimbursed:\n• Public transport reimbursement - Requires ticket/pass proof\n• Parking reimbursement - Requires parking receipts\n• Business meal expenses - Requires meal receipts\n• Client travel costs - Requires travel documentation\n• Net cost allowances (up to €250/month) - Requires expense proof\n\n**Why excluded:** Net-neutral transactions. You're just recovering money already spent, so there's no impact on actual disposable income.",
+            "nl": "Voordelen worden verschillend behandeld op basis van of ze daadwerkelijk inkomen of alleen kostenterugbetaling vertegenwoordigen.\n\n**INBEGREPEN: Vaste Vergoedingen (Toegevoegd aan Netto Inkomen)**\nVaste bedragen die je ontvangt ongeacht werkelijke kosten. Je houdt elk verschil:\n• Fietsvergoeding (€0,27/km) - Betaald per km, zelfs bij minimale fietskosten\n• Thuiswerkvergoeding - Vast bedrag ongeacht hoge of lage kosten\n• PC & Internet vergoeding - Je krijgt het zelfs als je deze al bezat\n• Dagelijks reisvergoeding (€10-€21,22/dag) - Belastingvrij dagbedrag voor regelmatige werkgerelateerde reizen, wederzijds exclusief met maaltijdcheques\n• Maaltijdcheques - Vaste waarde ongeacht werkelijke lunchuitgaven\n\n**Waarom inbegrepen:** Echte toevoegingen aan besteedbaar inkomen. Lagere werkelijke kosten = je houdt het verschil.\n\n**NIET INBEGREPEN: Onkostenvergoedingen (Netto-Neutraal)**\nVereisen bewijs van werkelijke uitgaven - je geeft uit, dient bonnetjes in, krijgt terug:\n• Openbaar vervoer vergoeding - Vereist ticket/abonnementsbewijs\n• Parkeervergoeding - Vereist parkeerbonnen\n• Zakelijke maaltijdkosten - Vereist bonnetjes\n• Klantreiskosten - Vereist reisdocumentatie\n• Netto kostenvergoedingen (tot €250/maand) - Vereist kostenbewijs\n\n**Waarom uitgesloten:** Netto-neutrale transacties. Je krijgt alleen geld terug dat je al hebt uitgegeven, dus geen impact op daadwerkelijk besteedbaar inkomen.",
+            "fr": "Les avantages sont traités différemment selon qu'ils représentent un revenu réel ou simplement un remboursement de frais.\n\n**INCLUS: Indemnités Forfaitaires (Ajoutées au Revenu Net)**\nMontants fixes reçus indépendamment des coûts réels. Vous gardez toute différence:\n• Indemnité vélo (€0,27/km) - Payé par km même si coûts vélo minimes\n• Indemnité télétravail - Montant fixe que vos coûts soient élevés ou bas\n• Indemnité PC & Internet - Vous la recevez même si vous les possédiez déjà\n• Indemnité journalière (€10-€21,22/jour) - Montant journalier exonéré d'impôt pour déplacements professionnels réguliers, mutuellement exclusif avec les chèques-repas\n• Chèques-repas - Valeur fixe peu importe dépenses déjeuner réelles\n\n**Pourquoi inclus:** Véritables ajouts au revenu disponible. Coûts réels plus bas = vous gardez la différence.\n\n**NON INCLUS: Remboursements de Frais (Neutre Net)**\nNécessitent preuve des dépenses réelles - vous dépensez, soumettez reçus, récupérez:\n• Remboursement transport public - Nécessite preuve ticket/abonnement\n• Remboursement parking - Nécessite reçus parking\n• Frais repas d'affaires - Nécessite reçus\n• Frais déplacement client - Nécessite documentation voyage\n• Indemnités frais nets (jusqu'à €250/mois) - Nécessite preuve dépenses\n\n**Pourquoi exclus:** Transactions neutres en termes nets. Vous récupérez simplement l'argent déjà dépensé, donc pas d'impact sur le revenu disponible réel."
+          },
+          "keywords": ["allowance", "reimbursement", "vergoeding", "terugbetaling", "indemnité", "remboursement", "net", "expense", "kosten", "frais", "included", "excluded", "why"]
+        },
+        {
+          "id": "no-car-features",
+          "question": {
+            "en": "Why aren't there any car related features?",
+            "nl": "Waarom zijn er geen auto-gerelateerde functies?",
+            "fr": "Pourquoi n'y a-t-il pas de fonctionnalités liées à la voiture?"
+          },
+          "answer": {
+            "en": "Implementing one or a few aspects of cars and taxation would necessitate including all of it, requiring many more settings that would clutter the interface.\n\nCar-related feature requests are saved for potential future implementation if comprehensive car support is ever added.",
+            "nl": "Het implementeren van één of enkele aspecten van auto's en belasting zou vereisen dat alles wordt opgenomen, met veel meer instellingen die de interface zouden onoverzichtelijker maken.\n\nAuto-gerelateerde functieverzoeken worden bewaard voor mogelijke toekomstige implementatie als uitgebreide auto-ondersteuning ooit wordt toegevoegd.",
+            "fr": "Implémenter un ou quelques aspects des voitures et de la fiscalité nécessiterait d'inclure tout, avec beaucoup plus de paramètres qui encombreraient l'interface.\n\nLes demandes de fonctionnalités liées aux voitures sont conservées pour une éventuelle implémentation future si un support complet des voitures est ajouté."
+          },
+          "keywords": ["car", "auto", "voiture", "company car", "bedrijfswagen", "voiture de société", "vehicle", "voertuig", "véhicule", "excluded", "why"]
+        },
+        {
+          "id": "overtime-not-included",
+          "question": {
+            "en": "Why isn't overtime included?",
+            "nl": "Waarom is overwerk niet inbegrepen?",
+            "fr": "Pourquoi les heures supplémentaires ne sont-elles pas incluses?"
+          },
+          "answer": {
+            "en": "Overtime calculations are planned for a future update. Implementation is on hold pending clarity on whether the 180 tax-advantaged overtime hours per year will be extended beyond December 31, 2025. The government extended it by six months in June 2025, but there's no confirmation yet for 2026. Once there's clarity on 2026 rules, this feature will be prioritized.",
+            "nl": "Overwerkberekeningen zijn gepland voor een toekomstige update. Implementatie is uitgesteld in afwachting van duidelijkheid of de 180 fiscaal voordelige overuren per jaar worden verlengd na 31 december 2025. De overheid verlengde het met zes maanden in juni 2025, maar er is nog geen bevestiging voor 2026. Zodra er duidelijkheid is over de regels voor 2026, krijgt deze functie prioriteit.",
+            "fr": "Les calculs d'heures supplémentaires sont prévus pour une mise à jour future. L'implémentation est en attente de clarté sur la prolongation des 180 heures supplémentaires fiscalement avantageuses par an au-delà du 31 décembre 2025. Le gouvernement l'a prolongé de six mois en juin 2025, mais pas encore de confirmation pour 2026. Une fois la clarté sur les règles 2026, cette fonctionnalité sera prioritaire."
+          },
+          "keywords": ["overtime", "overwerk", "heures supplémentaires", "extra hours", "180", "tax advantage", "fiscaal voordeel", "excluded", "why"]
+        },
+        {
+          "id": "group-insurance-pension",
+          "question": {
+            "en": "Why are Group Insurance & Pension Plans not included?",
+            "nl": "Waarom zijn Groepsverzekering & Pensioenplannen niet inbegrepen?",
+            "fr": "Pourquoi l'Assurance Groupe et les Plans de Pension ne sont-ils pas inclus?"
+          },
+          "answer": {
+            "en": "Both are excluded because they are long-term, locked savings vehicles, not disposable income.\n\n• They don't impact your monthly or yearly take-home pay in a meaningful or immediate way.\n• You can mentally add the net yearly cost you would have paid for private insurance if you wish to account for Group Insurance value.",
+            "nl": "Beide zijn uitgesloten omdat het langetermijn, geblokkeerde spaarproducten zijn, geen besteedbaar inkomen.\n\n• Ze hebben geen zinvolle of directe impact op je maandelijks of jaarlijks nettoloon.\n• Je kunt mentaal de netto jaarlijkse kosten toevoegen die je zou hebben betaald voor privéverzekering als je de waarde van Groepsverzekering wilt meenemen.",
+            "fr": "Les deux sont exclus car ce sont des véhicules d'épargne à long terme et bloqués, pas un revenu disponible.\n\n• Ils n'ont pas d'impact significatif ou immédiat sur votre salaire net mensuel ou annuel.\n• Vous pouvez mentalement ajouter le coût net annuel que vous auriez payé pour une assurance privée si vous souhaitez tenir compte de la valeur de l'Assurance Groupe."
+          },
+          "keywords": ["group insurance", "groepsverzekering", "assurance groupe", "pension", "pensioen", "retirement", "DKV", "hospitalization", "hospitalisatie", "excluded", "why"]
+        },
+        {
+          "id": "on-call-premium",
+          "question": {
+            "en": "What about wachtpremie (on-call premium)?",
+            "nl": "Wat met wachtpremie?",
+            "fr": "Qu'en est-il de la prime d'astreinte?"
+          },
+          "answer": {
+            "en": "This is on the roadmap for potential future additions.",
+            "nl": "Dit staat op de roadmap voor mogelijke toekomstige toevoegingen.",
+            "fr": "Ceci est sur la feuille de route pour de potentielles futures additions."
+          },
+          "keywords": ["on-call", "wachtpremie", "astreinte", "standby", "bereikbaarheid", "excluded", "roadmap"]
+        },
+        {
+          "id": "no-company-shares",
+          "question": {
+            "en": "Why can't you add company shares?",
+            "nl": "Waarom kan je geen bedrijfsaandelen toevoegen?",
+            "fr": "Pourquoi ne puis-je pas ajouter des actions d'entreprise?"
+          },
+          "answer": {
+            "en": "Company shares are difficult to represent meaningfully in a monthly/yearly salary calculator because:\n• Their value fluctuates\n• They often have vesting periods\n• Tax treatment varies based on when/how they're sold\n• They're not liquid income you can spend immediately",
+            "nl": "Bedrijfsaandelen zijn moeilijk zinvol weer te geven in een maandelijkse/jaarlijkse salariscalculator omdat:\n• Hun waarde fluctueert\n• Ze vaak vestingperiodes hebben\n• Fiscale behandeling varieert op basis van wanneer/hoe ze worden verkocht\n• Ze geen liquide inkomen zijn dat je direct kunt uitgeven",
+            "fr": "Les actions d'entreprise sont difficiles à représenter de manière significative dans un calculateur de salaire mensuel/annuel car:\n• Leur valeur fluctue\n• Elles ont souvent des périodes d'acquisition\n• Le traitement fiscal varie selon quand/comment elles sont vendues\n• Ce n'est pas un revenu liquide que vous pouvez dépenser immédiatement"
+          },
+          "keywords": ["shares", "aandelen", "actions", "stock", "equity", "RSU", "options", "opties", "excluded", "why"]
+        }
+      ]
+    },
+    {
+      "id": "using-calculator",
+      "title": {
+        "en": "Using the Calculator",
+        "nl": "De Calculator Gebruiken",
+        "fr": "Utiliser le Calculateur"
+      },
+      "questions": [
+        {
+          "id": "find-best-package",
+          "question": {
+            "en": "How can I find the best package combination?",
+            "nl": "Hoe kan ik de beste pakketcombinatie vinden?",
+            "fr": "Comment puis-je trouver la meilleure combinaison de package?"
+          },
+          "answer": {
+            "en": "Experiment with different settings to find the most advantageous combinations for your situation. By adjusting various parameters, you inherently discover what works best.\n\nThis depends highly on what your employer offers. Every company has different benefit structures, so there's no one-size-fits-all answer. Use the calculator to compare scenarios based on what's available to you.",
+            "nl": "Experimenteer met verschillende instellingen om de meest voordelige combinaties voor jouw situatie te vinden. Door verschillende parameters aan te passen, ontdek je inherent wat het beste werkt.\n\nDit hangt sterk af van wat je werkgever aanbiedt. Elk bedrijf heeft verschillende voordeelstructuren, dus er is geen one-size-fits-all antwoord. Gebruik de calculator om scenario's te vergelijken op basis van wat voor jou beschikbaar is.",
+            "fr": "Expérimentez avec différents paramètres pour trouver les combinaisons les plus avantageuses pour votre situation. En ajustant divers paramètres, vous découvrez intrinsèquement ce qui fonctionne le mieux.\n\nCela dépend fortement de ce que votre employeur propose. Chaque entreprise a des structures d'avantages différentes, il n'y a donc pas de réponse universelle. Utilisez le calculateur pour comparer des scénarios en fonction de ce qui est disponible pour vous."
+          },
+          "keywords": ["best", "beste", "meilleur", "package", "pakket", "combination", "combinatie", "optimize", "optimaliseren", "optimiser", "tips", "how to", "use"]
+        }
+      ]
+    },
+    {
+      "id": "feature-requests",
+      "title": {
+        "en": "Feature Requests & Feedback",
+        "nl": "Functie-verzoeken & Feedback",
+        "fr": "Demandes de Fonctionnalités & Retours"
+      },
+      "questions": [
+        {
+          "id": "suggest-features",
+          "question": {
+            "en": "Can I suggest new features?",
+            "nl": "Kan ik nieuwe functies voorstellen?",
+            "fr": "Puis-je suggérer de nouvelles fonctionnalités?"
+          },
+          "answer": {
+            "en": "Yes! Feature suggestions are welcome, though they're evaluated based on:\n• How common the benefit is\n• Complexity of implementation\n• Keeping the interface manageable, for example the car FAQ\n• Whether it meaningfully impacts monthly/yearly take-home calculations",
+            "nl": "Ja! Functiesuggesties zijn welkom, hoewel ze worden geëvalueerd op basis van:\n• Hoe gangbaar het voordeel is\n• Complexiteit van implementatie\n• De interface overzichtelijk houden bvb de auto FAQ\n• Of het de maandelijkse/jaarlijkse netto berekeningen zinvol beïnvloedt",
+            "fr": "Oui! Les suggestions de fonctionnalités sont les bienvenues, bien qu'elles soient évaluées en fonction de:\n• La fréquence de l'avantage\n• La complexité de l'implémentation\n• Garder l'interface gérable, par exemple la FAQ voiture\n• Si cela impacte significativement les calculs de salaire net mensuel/annuel"
+          },
+          "keywords": ["feature", "functie", "fonctionnalité", "suggest", "voorstellen", "suggérer", "request", "verzoek", "demande", "feedback"]
+        }
+      ]
+    }
+  ]
+}
