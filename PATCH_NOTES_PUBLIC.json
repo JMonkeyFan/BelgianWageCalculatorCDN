@@ -1,0 +1,918 @@
+{
+  "version": "1.2.2",
+  "lastUpdated": "2026-01-07",
+  "description": {
+    "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
+    "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
+    "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
+  },
+  "entries": [
+    {
+      "date": "2026-01-07",
+      "version": "1.2.2",
+      "title": {
+        "en": "Performance Improvements & System Optimizations",
+        "nl": "Prestatieverbeteringen & Systeemoptimalisaties",
+        "fr": "Améliorations des Performances & Optimisations Système"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVED: Faster page loading with optimized caching",
+          "FIXED: Backend configuration management streamlined",
+          "OPTIMIZED: Admin panel route security enhanced",
+          "IMPROVED: Overall system stability and response times",
+          "FIXED: Meal voucher employee contribution field now editable (community bug report)",
+          "CORRECTED: €1.09 is the legal minimum, not a fixed maximum for employee contributions"
+        ],
+        "nl": [
+          "VERBETERD: Sneller laden van pagina's met geoptimaliseerde caching",
+          "OPGELOST: Backend configuratiebeheer gestroomlijnd",
+          "GEOPTIMALISEERD: Beveiligingsverbetering admin panel routes",
+          "VERBETERD: Algehele systeemstabiliteit en reactietijden",
+          "OPGELOST: Werknemersbijdrage maaltijdcheques nu bewerkbaar (community bug rapport)",
+          "GECORRIGEERD: €1,09 is het wettelijk minimum, geen vast maximum voor werknemersbijdragen"
+        ],
+        "fr": [
+          "AMÉLIORÉ: Chargement des pages plus rapide avec mise en cache optimisée",
+          "CORRIGÉ: Gestion de configuration backend rationalisée",
+          "OPTIMISÉ: Sécurité des routes du panneau d'administration renforcée",
+          "AMÉLIORÉ: Stabilité globale du système et temps de réponse",
+          "CORRIGÉ: Champ contribution employé pour chèques-repas maintenant modifiable (correction rapportée par la communauté)",
+          "CORRIGÉ: €1,09 est le minimum légal, pas un maximum fixe pour contributions employé"
+        ]
+      },
+      "details": {
+        "en": "This update includes several behind-the-scenes improvements to optimize vercel resource usage per request. Based on community feedback, an issue was fixed where the meal voucher employee contribution field was incorrectly locked at €1.09. ",
+        "nl": "Deze update bevat verschillende verbeteringen achter de schermen om het gebruik van Vercel-bronnen per verzoek te optimaliseren. Op basis van feedback uit de community is ook een probleem opgelost waarbij het veld voor de werknemersbijdrage voor maaltijdcheques onjuist was vergrendeld op €1,09.",
+        "fr": "Cette mise à jour comprend plusieurs améliorations en coulisses pour optimiser l'utilisation des ressources Vercel par requête. Suite aux retours de la communauté, un problème a été corrigé où le champ de contribution employé pour les chèques-repas était incorrectement verrouillé à €1,09."
+      },
+      "category": "optimization"
+    },
+    {
+      "date": "2026-01-06",
+      "version": "1.2.1",
+      "title": {
+        "en": "2026 Government Config Update - Indexed Values for Tax Year 2026",
+        "nl": "2026 Overheidsconfiguratie Update - Geïndexeerde Waarden voor Aanslagjaar 2026",
+        "fr": "Mise à Jour de la Configuration Gouvernementale 2026 - Valeurs Indexées pour l'Année d'Imposition 2026"
+      },
+      "highlights": {
+        "en": [
+          "UPDATED: All indexed government values for tax year 2026 (AJ 2026)",
+          "MAJOR CHANGE: Dependent children max net resources increased from €7,290 to €12,000",
+          "UPDATED: Fiscal Work Bonus annual maximum: €1,380 → €1,540 (+€160/year)",
+          "UPDATED: Child tax-free increments: €1,920 → €1,980 (1st child), €4,950 → €5,110 (2 children), €11,090 → €11,440 (3 children), €17,940 → €18,510 (4 children), €6,850 → €7,070 (each additional)",
+          "UPDATED: Under-3 child increment: €720 → €740",
+          "UPDATED: Single parent increment: €1,920 → €1,980",
+          "VERIFIED: Income tax brackets, bike allowance, ecocheques, CAO90, mobility budget, and all other values confirmed accurate for 2026"
+        ],
+        "nl": [
+          "BIJGEWERKT: Alle geïndexeerde overheidswaarden voor aanslagjaar 2026 (AJ 2026)",
+          "GROTE WIJZIGING: Maximale netto bestaansmiddelen kinderen ten laste verhoogd van €7.290 naar €12.000",
+          "BIJGEWERKT: Fiscale Werkbonus jaarlijks maximum: €1.380 → €1.540 (+€160/jaar)",
+          "BIJGEWERKT: Verhogingen belastingvrije som kinderen: €1.920 → €1.980 (1 kind), €4.950 → €5.110 (2 kinderen), €11.090 → €11.440 (3 kinderen), €17.940 → €18.510 (4 kinderen), €6.850 → €7.070 (elk bijkomend kind)",
+          "BIJGEWERKT: Verhoging kind jonger dan 3 jaar: €720 → €740",
+          "BIJGEWERKT: Verhoging alleenstaande ouder: €1.920 → €1.980",
+          "GEVERIFIEERD: Belastingschalen, fietsvergoeding, ecocheques, CAO90, mobiliteitsbudget en alle andere waarden correct voor 2026"
+        ],
+        "fr": [
+          "MIS À JOUR: Toutes les valeurs gouvernementales indexées pour l'année d'imposition 2026 (AJ 2026)",
+          "CHANGEMENT MAJEUR: Ressources nettes maximales pour enfants à charge augmentées de €7.290 à €12.000",
+          "MIS À JOUR: Bonus Fiscal maximum annuel: €1.380 → €1.540 (+€160/an)",
+          "MIS À JOUR: Augmentations somme exemptée d'impôt enfants: €1.920 → €1.980 (1 enfant), €4.950 → €5.110 (2 enfants), €11.090 → €11.440 (3 enfants), €17.940 → €18.510 (4 enfants), €6.850 → €7.070 (chaque enfant supplémentaire)",
+          "MIS À JOUR: Augmentation enfant de moins de 3 ans: €720 → €740",
+          "MIS À JOUR: Augmentation parent isolé: €1.920 → €1.980",
+          "VÉRIFIÉ: Tranches d'impôt, indemnité vélo, écocheques, CAO90, budget mobilité et toutes les autres valeurs confirmées exactes pour 2026"
+        ]
+      },
+      "details": {
+        "en": "All 2026 government configuration values have been updated based on the official indexed amounts from Practicali.be (https://www.practicali.be/blog/geindexeerde-bedragen-aj-2026). The most significant change is the uniform €12,000 threshold for dependent children net resources (regardless of disability or parental status), up from the previous €7,290. This aligns with the Wet Diverse Bepalingen legislation. Fiscal work bonus maximum increased from €1,380 to €1,540 annually. All child-related tax-free sum increments have been updated with the new indexed values. Income tax brackets (€16,320, €28,800, €49,840), bike allowance (€0.36/km, €3,610 cap), ecocheques (€250), CAO90 thresholds (€3,622 tax-free, €4,164 social security), mobility budget (€3,164-€16,875), childcare max (€16.90/day), and marital quotient (€13,460) remain correctly configured for 2026.",
+        "nl": "Alle overheidsconfiguratie waarden voor 2026 zijn bijgewerkt op basis van de officiële geïndexeerde bedragen van Practicali.be (https://www.practicali.be/blog/geindexeerde-bedragen-aj-2026). De belangrijkste wijziging is de uniforme drempel van €12.000 voor netto bestaansmiddelen van kinderen ten laste (ongeacht handicap of gezinssituatie), een stijging van de vorige €7.290. Dit is in lijn met de Wet Diverse Bepalingen. Het maximum van de fiscale werkbonus is verhoogd van €1.380 naar €1.540 per jaar. Alle verhogingen van de belastingvrije som voor kinderen zijn bijgewerkt met de nieuwe geïndexeerde waarden. Belastingschalen (€16.320, €28.800, €49.840), fietsvergoeding (€0,36/km, €3.610 plafond), ecocheques (€250), CAO90-drempels (€3.622 belastingvrij, €4.164 sociale zekerheid), mobiliteitsbudget (€3.164-€16.875), kinderopvang max (€16,90/dag) en huwelijksquotiënt (€13.460) blijven correct geconfigureerd voor 2026.",
+        "fr": "Toutes les valeurs de configuration gouvernementale pour 2026 ont été mises à jour sur base des montants indexés officiels de Practicali.be (https://www.practicali.be/blog/geindexeerde-bedragen-aj-2026). Le changement le plus important est le seuil uniforme de €12.000 pour les ressources nettes des enfants à charge (quelle que soit la situation de handicap ou parentale), contre €7.290 auparavant. Cela s'aligne avec la législation Wet Diverse Bepalingen. Le maximum du bonus fiscal a augmenté de €1.380 à €1.540 par an. Toutes les augmentations de la somme exemptée d'impôt pour les enfants ont été mises à jour avec les nouvelles valeurs indexées. Les tranches d'impôt (€16.320, €28.800, €49.840), l'indemnité vélo (€0,36/km, plafond €3.610), les écocheques (€250), les seuils CAO90 (€3.622 exempté d'impôt, €4.164 sécurité sociale), le budget mobilité (€3.164-€16.875), la garde d'enfants max (€16,90/jour) et le quotient conjugal (€13.460) restent correctement configurés pour 2026."
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "version": "1.2.0",
+      "title": {
+        "en": "Fiscal Work Bonus + BBSZ Calculation Fix",
+        "nl": "Fiscale Werkbonus + BBSZ Berekeningscorrectie",
+        "fr": "Bonus Fiscal + Correction du Calcul BBSZ"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Fiscal Work Bonus - permanent tax credit that reduces your final tax liability",
+          "Formula: (Work Bonus Part A × 33.14%) + (Work Bonus Part B × 52.54%)",
+          "Maximum benefit: €1,380/year (€115/month)",
+          "CRITICAL: BBSZ calculation now uses correct formula based on gross monthly wage",
+          "FIXED: BBSZ discrepancies",
+          "FIXED: Net salary discrepancy of ~€130/month for low-income workers through fiscal work bonus"
+        ],
+        "nl": [
+          "NIEUW: Fiscale Werkbonus - permanent belastingkrediet dat uw uiteindelijke belastingverplichting verlaagt",
+          "Formule: (Werkbonus Deel A × 33,14%) + (Werkbonus Deel B × 52,54%)",
+          "Maximaal voordeel: €1.380/jaar (€115/maand)",
+          "OPGELOST: BBSZ-berekening gebruikt nu de correcte formule op basis van bruto maandsalaris",
+          "OPGELOST: BBSZ-verschillen",
+          "OPGELOST: Netto salarisverschil voor laagbetaalde werknemers ivm fiscale werkbonus"
+        ],
+        "fr": [ 
+          "NOUVEAU: Bonus Fiscal - crédit d'impôt permanent qui réduit votre obligation fiscale finale",
+          "Formule: (Bonus Travail Partie A × 33,14%) + (Bonus Travail Partie B × 52,54%)",
+          "Avantage maximum: €1.380/an (€115/mois)",
+          "CORRIGÉ: Le calcul BBSZ utilise désormais la formule correcte basée sur le salaire mensuel brut",
+          "CORRIGÉ: Discrepances BBSZ",
+          "CORRIGÉ: Écart de salaire net d'environ €130/mois pour les travailleurs à faible revenu via le bonus fiscal"
+        ]
+      },
+      "details": {
+        "en": "(1) BBSZ calculation corrected: The Special Social Security Contribution now uses the official RSZ tiered formula evaluating quarterly wage thresholds (3× monthly gross) to determine bracket rates, then applying those monthly rates to gross monthly wage. Three tax filing status categories (individual, joint single-income, joint dual-income) each have different quarterly thresholds and monthly rates, resolving previous calculation discrepancies. (2) Fiscal Work Bonus added: A permanent tax credit for low to moderate income workers that was previously missing from the calculator. ",
+        "nl": "(1) BBSZ-berekening gecorrigeerd: De Bijzondere Bijdrage Sociale Zekerheid gebruikt nu de officiële RSZ-formule met niveaus die driemaandelijkse loondrempels (3× bruto maandsalaris) evalueert om schijftarieven te bepalen, waarna die maandelijkse tarieven worden toegepast op bruto maandsalaris. Drie belastingaanslagcategorieën (individueel, gezamenlijk met één inkomen, gezamenlijk met twee inkomens) hebben elk verschillende driemaandelijkse drempels en maandelijkse tarieven, waardoor eerdere berekeningsverschillen worden opgelost. (2) Fiscale Werkbonus toegevoegd: Een permanent belastingkrediet voor laag- tot middeninkomenswerkers dat eerder ontbrak in de calculator. ",
+        "fr": "(1) Calcul BBSZ corrigé: La Contribution Sociale Spéciale utilise désormais la formule officielle RSZ à niveaux évaluant les seuils salariaux trimestriels (3× salaire mensuel brut) pour déterminer les taux de tranche, puis appliquant ces taux mensuels au salaire mensuel brut. Trois catégories de statut fiscal (individuelle, conjointe avec un revenu, conjointe avec deux revenus) ont chacune des seuils trimestriels et taux mensuels différents, résolvant les écarts de calcul antérieurs. (2) Bonus Fiscal ajouté: Un crédit d'impôt permanent pour les travailleurs à faible et moyen revenu qui manquait auparavant dans le calculateur. "
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "version": "1.1.9",
+      "title": {
+        "en": "Mobile Tooltip Improvements - Auto-Close on Scroll + Smart Loading Spinner",
+        "nl": "Mobiele Tooltip Verbeteringen - Automatisch Sluiten bij Scrollen + Slimme Laad Spinner",
+        "fr": "Améliorations des Info-bulles Mobiles - Fermeture Auto au Défilement + Spinner de Chargement Intelligent"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVED: Tooltips now automatically close when scrolling on mobile devices",
+          "NEW: Added loading spinner around info icons for slower-loading devices, ",
+          "If any tooltip takes >220ms, all subsequent tooltips show the spinner to indicate the tooltip is loading.",
+          "Fast devices never see spinner - resets each session for accuracy"
+        ],
+        "nl": [
+          "VERBETERD: Tooltips sluiten nu automatisch bij scrollen op mobiele apparaten",
+          "NIEUW: Laad spinner toegevoegd rond info-iconen voor langzamer ladende apparaten",
+          "Als een tooltip >220ms duurt, tonen alle volgende tooltips de spinner om aan te geven dat de tooltip aan het laden is.",
+          "Snelle apparaten zien nooit de spinner - reset elke sessie voor nauwkeurigheid"
+        ],
+        "fr": [
+          "AMÉLIORÉ: Les info-bulles se ferment désormais automatiquement lors du défilement sur appareils mobiles",
+          "NOUVEAU: Ajout d'un spinner de chargement autour des icônes d'information pour les appareils à chargement plus lent",
+          "Si une info-bulle prend >220ms, toutes les info-bulles suivantes affichent le spinner pour indiquer que l'info-bulle est en cours de chargement.",
+          "Les appareils rapides ne voient jamais le spinner - réinitialise chaque session pour plus de précision"
+        ]
+      },
+      "details": {
+        "en": "Enhanced tooltip user experience with two improvements: (1) Auto-close on scroll (mobile): Tooltips now automatically close when scrolling on mobile devices. (2) Adaptive loading spinner: if any tooltip takes >220ms to load, subsequent tooltips show a subtle loading animation. Fast devices never see the spinner. Resets each session to avoid being stuck in slow mode from previous sessions.",
+        "nl": "Verbeterde tooltip gebruikerservaring met twee verbeteringen: (1) Automatisch sluiten bij scrollen (mobiel): Tooltips sluiten nu automatisch bij scrollen op mobiele apparaten. (2) Adaptieve laad spinner: als een tooltip >220ms duurt om te laden, tonen volgende tooltips een subtiele laadanimatie. Snelle apparaten zien nooit de spinner. Reset elke sessie om te voorkomen dat je vastzit in langzame modus van vorige sessies.",
+        "fr": "Expérience utilisateur des info-bulles améliorée avec deux améliorations: (1) Fermeture auto au défilement (mobile): Les info-bulles se ferment désormais automatiquement lors du défilement sur appareils mobiles. (2) Spinner de chargement adaptatif: si une info-bulle prend >220ms à charger, les info-bulles suivantes affichent une animation de chargement subtile. Les appareils rapides ne voient jamais le spinner. Réinitialise chaque session pour éviter d'être coincé en mode lent des sessions précédentes."
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "version": "1.1.8",
+      "title": {
+        "en": "Fixed Pie Chart Percentage Rounding Bug + Bike Allowance Days Bug resolved, new slider for enhanced 13th month bonuses",
+        "nl": "Taartgrafiek Percentage Afrondingsfout + Fietsvergoeding Dagen Bug Opgelost, nieuwe schuifregelaar voor verbeterde 13de maand bonussen",
+        "fr": "Correction du Bug d'Arrondi des Pourcentages du Graphique Circulaire + Bug Jours Indemnité Vélo résolu, nouveau curseur pour les primes de 13e mois améliorées"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Slider for the bonus 13th month CAO % (100-200%) for sector agreements that provide enhanced 13th month bonuses alongside the previously added input field",
+          "FIXED: Pie chart percentages now always sum to exactly 100%",
+          "Previously: Individual rounding could cause 89% + 5% + 5% = 99%",
+          "Now: Uses largest remainder method to ensure accurate totals",
+          "FIXED: Bike allowance days were always reduced by 1, even without telework",
+          "Now: Bike days only reduced when telework allowance is actually enabled"
+        ],
+        "nl": [
+          "NIEUW: Slider voor de bonus 13de maand CAO % (100-200%) voor sectorakkoorden die verbeterde 13de maand bonussen bieden naast het eerder toegevoegde invoerveld",
+          "OPGELOST: Taartgrafiekpercentages tellen nu altijd op tot exact 100%",
+          "Voorheen: Individuele afronding kon leiden tot 89% + 5% + 5% = 99%",
+          "Nu: Gebruikt grootste restmethode om nauwkeurige totalen te garanderen",
+          "OPGELOST: Fietsvergoeding dagen werden altijd met 1 verminderd, zelfs zonder telewerk",
+          "Nu: Fietsdagen worden alleen verminderd wanneer telewerkvergoeding daadwerkelijk actief is"
+        ],
+        "fr": [
+          "NOUVEAU: Curseur pour le 13e mois bonus CCT % (100-200%) pour les accords sectoriels qui prévoient des primes de 13e mois améliorées en plus du champ de saisie précédemment ajouté",
+          "CORRIGÉ: Les pourcentages du graphique circulaire totalisent maintenant toujours exactement 100%",
+          "Auparavant: L'arrondi individuel pouvait donner 89% + 5% + 5% = 99%",
+          "Maintenant: Utilise la méthode du plus grand reste pour garantir des totaux précis",
+          "CORRIGÉ: Les jours d'indemnité vélo étaient toujours réduits de 1, même sans télétravail",
+          "Maintenant: Les jours vélo ne sont réduits que lorsque l'indemnité de télétravail est activée"
+        ]
+      },
+      "details": {
+        "en": "Fixed two calculation bugs: (1) Pie chart rounding: When displaying cost breakdowns (employee receives / employer pays), each percentage was rounded individually, which could cause the total to be 99% or 101% instead of exactly 100%. Now uses the largest remainder method (Hamilton's method): all values are floored first, then the deficit is distributed to the items with the largest decimal remainders. This ensures pie chart percentages always total exactly 100% while keeping individual values as accurate as possible. (2) Bike allowance days: The calculator was incorrectly always reducing bike days by 1, even when telework allowance was disabled. This was caused by checking the telework AMOUNT instead of whether telework was ENABLED. Now correctly only reduces bike days when telework allowance is actually active.",
+        "nl": "Twee berekeningsfouten opgelost: (1) Taartgrafiek afronding: Bij het weergeven van kostenoverzichten (werknemer ontvangt / werkgever betaalt) werd elk percentage individueel afgerond, wat kon leiden tot een totaal van 99% of 101% in plaats van exact 100%. Nu wordt de grootste restmethode (Hamilton-methode) gebruikt: alle waarden worden eerst naar beneden afgerond, daarna wordt het tekort verdeeld over de items met de grootste decimale resten. Dit zorgt ervoor dat taartgrafiekpercentages altijd exact 100% optellen terwijl individuele waarden zo nauwkeurig mogelijk blijven. (2) Fietsvergoeding dagen: De calculator verminderde fietsdagen altijd met 1, zelfs wanneer telewerkvergoeding uitgeschakeld was. Dit werd veroorzaakt door het controleren van het telewerk BEDRAG in plaats van of telewerk ACTIEF was. Nu worden fietsdagen alleen correct verminderd wanneer telewerkvergoeding daadwerkelijk actief is.",
+        "fr": "Correction de deux bugs de calcul: (1) Arrondi graphique circulaire: Lors de l'affichage des ventilations de coûts (employé reçoit / employeur paie), chaque pourcentage était arrondi individuellement, ce qui pouvait donner un total de 99% ou 101% au lieu d'exactement 100%. Utilise maintenant la méthode du plus grand reste (méthode de Hamilton): toutes les valeurs sont d'abord arrondies vers le bas, puis le déficit est distribué aux éléments ayant les plus grands restes décimaux. Cela garantit que les pourcentages du graphique circulaire totalisent toujours exactement 100% tout en gardant les valeurs individuelles aussi précises que possible. (2) Jours indemnité vélo: Le calculateur réduisait incorrectement toujours les jours vélo de 1, même lorsque l'indemnité de télétravail était désactivée. Cela était causé par la vérification du MONTANT de télétravail au lieu de vérifier si le télétravail était ACTIVÉ. Maintenant, les jours vélo ne sont correctement réduits que lorsque l'indemnité de télétravail est effectivement active."
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "version": "1.1.7",
+      "title": {
+        "en": "Updated the extra gross income Feature: Sign-on Bonuses, Commissions & Variable Pay better UI representation",
+        "nl": "Bijgewerkte extra bruto inkomen feature: Signing bonussen, commissies & variabele vergoeding betere UI-weergave",
+        "fr": "Mise à jour de la fonctionnalité de revenu brut supplémentaire: primes de signature, commissions & rémunération variable meilleure représentation UI"
+      },
+      "highlights": {
+        "en": [
+          "NEW: 13th Month CAO % slider (100-200%) for sector agreements that provide more than standard 13th month",
+          "Use 200% to represent a 14th month bonus if your CAO provides one",
+          "CAO % correctly impacts mobility budget maximum calculation (higher 13th month = higher mobilitybudget max)",
+          "Fixed: Tooltip positioning on mobile and desktop for Firefox users- tooltips now appear correctly next to their icons regardless of scroll position(Had regressed)",
+          "Updated: Extra Yearly Gross field for sign-on bonuses, commissions, and variable annual compensation",
+          "Supports both one-time and recurring bonuses:  enter the total annual amount",
+          "Taxed using standard progressive withholding brackets (25%-50%) at your marginal rate",
+          "Visible in Monthly Calculation (Extra Net Monthly), Employer Comparison, and Year-End Settlement",
+          "Full employer cost breakdown including RSZ contribution (25%)",
+          "Behind the scenes: Optimized Vercel resource usage to extend free tier: community support will hopefully eventually help cover this!"
+        ],
+        "nl": [
+          "NIEUW: 13de Maand CAO % schuifregelaar (100-200%) voor sectorakkoorden die meer dan standaard 13de maand bieden",
+          "Gebruik 200% om een 14de maand bonus te vertegenwoordigen als je CAO er een voorziet",
+          "CAO % beïnvloedt correct de berekening van het mobiliteitsbudget maximum (hogere 13de maand = hoger mobiliteitsbudgetmax)",
+          "Opgelost: Tooltip positionering op mobiel en desktop voor Firefox-gebruikers - tooltips verschijnen nu correct naast hun iconen ongeacht scrollpositie",
+          "Bijgewerkt: Extra Jaarlijks Bruto veld voor signing bonussen, commissies en variabele jaarlijkse vergoeding",
+          "Ondersteunt zowel eenmalige als terugkerende bonussen: voer het totale jaarbedrag in",
+          "Belast volgens standaard progressieve voorheffingsschijven (25%-50%) tegen uw marginaal tarief",
+          "Zichtbaar in Maandelijkse Berekening (Extra Netto Maandelijks), Werkgeversoverzicht en Eindafrekening",
+          "Volledige werkgeverskostenoverzicht inclusief RSZ-bijdrage (25%)",
+          "Achter de schermen: Vercel-resourcegebruik geoptimaliseerd om gratis laag te verlengen: community-steun zal hopelijk uiteindelijk helpen dit te dekken!"
+        ],
+        "fr": [
+          "NOUVEAU: Curseur CCT % du 13e Mois (100-200%) pour les accords sectoriels qui prévoient plus que le 13e mois standard",
+          "Utilisez 200% pour représenter un 14e mois si votre CCT en prévoit un",
+          "Le CCT % impacte correctement le calcul du maximum du budget mobilité (13e mois plus élevé = max mobilitébudget plus élevé)",
+          "CORRIGÉ: Positionnement des info-bulles sur mobile et bureau pour les utilisateurs de Firefox - les info-bulles apparaissent désormais correctement à côté de leurs icônes quel que soit le défilement (avait régressé)",
+          "AMÉLIORÉ: Champ Brut Annuel Supplémentaire pour primes de signature, commissions et rémunération variable annuelle",
+          "Prend en charge les primes uniques et récurrentes: entrez le montant annuel total",
+          "Imposé selon les barèmes progressifs standard de précompte (25%-50%) à votre taux marginal",
+          "Visible dans Calcul Mensuel (Net Extra Mensuel), Comparaison Employeur et Décompte de Fin d'Année",
+          "Ventilation complète des coûts employeur incluant cotisation ONSS (25%)",
+          "En coulisse: Utilisation des ressources Vercel optimisée pour prolonger l'offre gratuite: le soutien de la communauté aidera espérons-le à couvrir cela!"
+        ]
+      },
+      "details": {
+        "en": "Added 13th Month CAO % slider (100-200%) for sector agreements that provide enhanced 13th month bonuses. Some CAOs offer 110%, 120%, or even 150% of monthly gross as 13th month, and you can use 200% to represent a 14th month bonus. This percentage correctly flows through to the mobility budget maximum calculation (mobility max = 20% of reference income, capped at €17,244/year). Also updated comprehensive Extra Gross Commission feature for variable annual compensation. This covers sign-on bonuses, sales commissions, performance bonuses, or any other taxable gross income paid on top of your regular salary. You can enter both one-time bonuses (e.g., €5,000 signing bonus) or recurring annual amounts (e.g., €12,000 annual commission):  just enter the total amount you expect to receive for the year. The withholding tax is calculated using standard progressive brackets (25%, 40%, 45%, 50%) at your marginal rate based on combined income (salary + 13th month + vacation bonus + extra gross). The calculator shows this in: Monthly Calculation (averaged as Extra Net Monthly alongside 13th month and vacation bonus), Employer Comparison (employee and employer cost breakdown with pie charts), and Year-End Settlement (Paid vs Actual tax showing any over/underpayment). Also optimized server-side resource usage to help stay within Vercel's free tier longer: if you find this calculator helpful, community support would help cover future hosting costs!",
+        "nl": "13de Maand CAO % schuifregelaar (100-200%) toegevoegd voor sectorakkoorden die verbeterde 13de maand bonussen bieden. Sommige CAO's bieden 110%, 120% of zelfs 150% van het maandelijks bruto als 13de maand, en je kunt 200% gebruiken om een 14de maand bonus te vertegenwoordigen. Dit percentage stroomt correct door naar de berekening van het mobiliteitsbudget maximum (mobiliteitsmax = 20% van referentie-inkomen, begrensd op €17.244/jaar). Ook  Extra Bruto Commissie feature uitgebreid toegevoegd voor variabele jaarlijkse vergoeding. Dit dekt signing bonussen, verkoopcommissies, prestatiebonussen of elk ander belastbaar bruto inkomen bovenop uw reguliere salaris. U kunt zowel eenmalige bonussen invoeren (bijv. €5.000 signing bonus) als terugkerende jaarbedragen (bijv. €12.000 jaarlijkse commissie): voer gewoon het totale bedrag in dat u verwacht te ontvangen voor het jaar. De bedrijfsvoorheffing wordt berekend met standaard progressieve schijven (25%, 40%, 45%, 50%) tegen uw marginaal tarief op basis van gecombineerd inkomen (salaris + 13e maand + vakantiegeld + extra bruto). De calculator toont dit in: Maandelijkse Berekening (gemiddeld als Extra Netto Maandelijks naast 13e maand en vakantiegeld), Werkgeversoverzicht (werknemers- en werkgeverskostenoverzicht met taartgrafieken), en Eindafrekening (Betaald vs Werkelijke belasting met eventuele over/onderbetaling). Ook server-side resource gebruik geoptimaliseerd om langer binnen Vercel's gratis laag te blijven: als u deze calculator nuttig vindt, zou community-steun helpen om toekomstige hostingkosten te dekken!",
+        "fr": "Curseur CCT % du 13e Mois (100-200%) ajouté pour les accords sectoriels qui prévoient des primes de 13e mois améliorées. Certaines CCT offrent 110%, 120% ou même 150% du brut mensuel comme 13e mois, et vous pouvez utiliser 200% pour représenter une prime de 14e mois. Ce pourcentage se répercute correctement sur le calcul du maximum du budget mobilité (max mobilité = 20% du revenu de référence, plafonné à €17.244/an). Fonctionnalité complète de Commission Brute Supplémentaire également mise à jour pour la rémunération annuelle variable. Cela couvre les primes de signature, les commissions de vente, les primes de performance ou tout autre revenu brut imposable versé en plus de votre salaire régulier. Vous pouvez saisir des primes uniques (ex. €5.000 prime de signature) ou des montants annuels récurrents (ex. €12.000 commission annuelle): entrez simplement le montant total que vous prévoyez de recevoir pour l'année. Le précompte professionnel est calculé en utilisant les tranches progressives standard (25%, 40%, 45%, 50%) à votre taux marginal basé sur le revenu combiné (salaire + 13e mois + prime de vacances + brut supplémentaire). La calculatrice affiche cela dans: Calcul Mensuel (moyenné en Net Extra Mensuel aux côtés du 13e mois et de la prime de vacances), Comparaison Employeur (ventilation des coûts employé et employeur avec graphiques circulaires), et Décompte de Fin d'Année (Payé vs Impôt Réel montrant tout trop-perçu/sous-perçu). Optimisation également de l'utilisation des ressources côté serveur pour aider à rester plus longtemps dans la couche gratuite de Vercel: si vous trouvez ce calculateur utile, le soutien communautaire aiderait à couvrir les coûts d'hébergement futurs!"
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "version": "1.1.6",
+      "title": {
+        "en": "Minimum Wage Warning + UI + Mobility Budget Maximum Fix",
+        "nl": "Minimumloon Waarschuwing + UI + Mobiliteitsbudget Maximum Fix",
+        "fr": "Avertissement Salaire Minimum + UI + Correction Maximum Budget Mobilité"
+      },
+      "highlights": {
+        "en": [
+          "FIXED: Minimum wage warning now correctly pro-rates for part-time workers",
+          "Part-time (32h/week) minimum: €1,781.25/month (not €2,111.89)",
+          "Deficit now shows accurate shortfall against pro-rated minimum",
+          "IMPROVED: Hours/Days fields moved ABOVE salary inputs to prevent confusion",
+          "FIXED: Mobility budget maximum now correctly includes 13th month, bike allowance, cafeteria plan",
+          "Mobility budget maximum now correctly excludes vacation pay VALUE (days × daily rate)"
+        ],
+        "nl": [
+          "OPGELOST: Minimumloon waarschuwing rekent nu correct pro-rata voor deeltijdwerkers",
+          "Deeltijds (32u/week) minimum: €1.781,25/maand (niet €2.111,89)",
+          "Tekort toont nu nauwkeurig verschil ten opzichte van pro-rata minimum",
+          "VERBETERD: Uren/Dagen velden verplaatst BOVEN salarisinvoer om verwarring te voorkomen",
+          "OPGELOST: Mobiliteitsbudget maximum bevat nu correct 13e maand, fietsvergoeding, cafetariaplan",
+          "Mobiliteitsbudget maximum sluit nu correct vakantiegeld WAARDE uit (dagen × dagtarief)"
+        ],
+        "fr": [
+          "CORRIGÉ: L'avertissement salaire minimum calcule maintenant correctement au prorata pour les travailleurs à temps partiel",
+          "Temps partiel (32h/semaine) minimum: €1.781,25/mois (pas €2.111,89)",
+          "Le déficit affiche maintenant le manque précis par rapport au minimum au prorata",
+          "AMÉLIORÉ: Champs heures/jours déplacés AU-DESSUS des entrées de salaire pour éviter la confusion",
+          "CORRIGÉ: Maximum budget mobilité inclut maintenant correctement 13ème mois, indemnité vélo, plan cafétéria",
+          "Maximum budget mobilité exclut maintenant correctement VALEUR pécule de vacances (jours × taux journalier)"
+        ]
+      },
+      "details": {
+        "en": "Fixed these issues:\n- Minimum wage warnings now correctly compare pro-rated minimums for part-time workers (e.g., 32h/week → €1,781 vs €2,111)\n- Mobility budget maximum calculation now includes all required components per Belgian regulations: 13th month, bike allowance, daily allowance, reimbursed costs, meal vouchers, ecocheques, sport/culture, telework, internet, PC, profit participation, CAO 90; excludes vacation pay and extra vacation days value\n- Hours/Days fields moved above salary inputs for better UX",
+        "nl": "Deze problemen opgelost:\n- Minimumloon waarschuwingen vergelijken nu correct pro-rata minimumlonen voor deeltijdwerkers (bijv. 32u/week → €1.781 vs €2.111)\n- Mobiliteitsbudget maximumberekening bevat nu alle vereiste componenten volgens Belgische regelgeving: 13e maand, fietsvergoeding, dagelijkse vergoeding, terugbetaalde kosten, maaltijdcheques, ecocheques, sport/cultuur, telewerk, internet, PC, winstparticipatie, CAO 90; sluit vakantiegeld en extra vakantiedagen waarde uit\n- Uren/Dagen velden verplaatst boven salarisinvoer voor betere UX",
+        "fr": "Problèmes corrigés:\n- Avertissements salaire minimum comparent maintenant correctement les minimums au prorata pour travailleurs à temps partiel (ex. 32h/semaine → €1.781 vs €2.111)\n- Calcul maximum budget mobilité inclut maintenant tous composants requis selon réglementation belge: 13ème mois, indemnité vélo, indemnité journalière, frais remboursés, chèques-repas, écochèques, sport/culture, télétravail, internet, PC, participation bénéfices, bonus CCT 90; exclut pécule vacances et valeur jours congé supplémentaires\n- Champs Heures/Jours déplacés au-dessus des entrées de salaire pour meilleure UX"
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "version": "1.1.5",
+      "title": {
+        "en": "Daily Allowance Feature + Meal Voucher 2026 Updates",
+        "nl": "Dagelijkse Vergoeding Feature + Maaltijdcheques 2026 Updates",
+        "fr": "Indemnité Journalière + Mises à Jour Chèques-Repas 2026"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Daily allowance (dagelijkse vergoeding): Tax-free travel-only compensation (€10-€21.22/day)",
+          "Daily allowance is 100% tax-free and RSZ-exempt (better net return than meal vouchers)",
+          "Mutually exclusive with meal vouchers: enabling one disables the other automatically",
+          "Meal voucher 2026 limits: Employer max €6.91→€8.91 (+29%), Total value €8→€10 (+25%)",
+          "Employee contribution field logic simplified: now fixed at legal minimum AND maximum €1.09"
+        ],
+        "nl": [
+          "NIEUW: Dagelijkse vergoeding: Belastingvrije reiscompensatie (€10-€21,22/dag)",
+          "Dagelijkse vergoeding is 100% belastingvrij en RSZ-vrij (beter netto rendement dan maaltijdcheques)",
+          "Wederzijds exclusief met maaltijdcheques: de ene inschakelen schakelt de andere automatisch uit",
+          "Maaltijdcheques 2026 limieten: Werkgever max €6,91→€8,91 (+29%), Totale waarde €8→€10 (+25%)",
+          "Werknemersbijdrage veld vereenvoudigd: nu vastgesteld op wettelijk minimum €1,09"
+        ],
+        "fr": [
+          "NOUVEAU: Indemnité journalière: Compensation de voyage exonérée d'impôt (€10-€21,22/jour)",
+          "Indemnité journalière est 100% exonérée d'impôt et ONSS (meilleur rendement net que chèques-repas)",
+          "Mutuellement exclusif avec chèques-repas: activer l'un désactive l'autre automatiquement",
+          "Limites chèques-repas 2026: Max employeur €6,91→€8,91 (+29%), Valeur totale €8→€10 (+25%)",
+          "Champ contribution employé simplifié: maintenant fixé au minimum légal €1,09"
+        ]
+      },
+      "details": {
+        "en": "Introduced daily allowance feature for employees with regular work-related travel. This tax-free benefit (€10-€21.22 per working day) offers 100% net return vs meal vouchers' +-85% return. Automatically mutually exclusive with meal vouchers: enabling one disables the other to prevent conflicts. Daily allowance is calculated based on working days per month (accounting for vacation days). Also updated meal voucher limits to reflect 2026 Belgian government regulations: employer maximum increased to €8.91 (from €6.91), total voucher value raised to €10.00 (from €8.00). Employee contribution field is now disabled and grayed out when meal vouchers are enabled, since it's legally fixed at €1.09 per voucher: this simplifies the interface and prevents confusion. Calculator now defaults to the maximum employer contribution for new users. Both benefits are fully RSZ-exempt within legal limits.",
+        "nl": "Dagelijkse vergoeding feature geïntroduceerd voor werknemers met regelmatige werkgerelateerde reizen. Dit belastingvrije voordeel (€10-€21,22 per werkdag) biedt 100% netto rendement vs +-85% voor maaltijdcheques. Automatisch wederzijds exclusief met maaltijdcheques: de ene inschakelen schakelt de andere uit om conflicten te voorkomen. Dagelijkse vergoeding wordt berekend op basis van werkdagen per maand (rekening houdend met vakantiedagen). Ook maaltijdchequelimieten bijgewerkt om de Belgische overheidsregels van 2026 weer te geven: werkgeversmaximum verhoogd naar €8,91 (van €6,91), totale chequewaarde verhoogd naar €10,00 (van €8,00). Werknemersbijdrage veld is nu uitgeschakeld en grijs wanneer maaltijdcheques zijn ingeschakeld, aangezien het wettelijk vastgesteld is op €1,09 per cheque: dit vereenvoudigt de interface en voorkomt verwarring. Calculator staat nu standaard op de maximale werkgeversbijdrage voor nieuwe gebruikers. Beide voordelen zijn volledig RSZ-vrij binnen wettelijke grenzen.",
+        "fr": "Introduction de la fonction indemnité journalière pour les employés ayant des déplacements professionnels réguliers. Cet avantage exonéré d'impôt (€10-€21,22 par jour ouvrable) offre un rendement net de 100% contre +-85% pour les chèques-repas. Automatiquement mutuellement exclusif avec les chèques-repas: activer l'un désactive l'autre pour éviter les conflits. L'indemnité journalière est calculée en fonction des jours ouvrables par mois (tenant compte des jours de vacances). Également mis à jour les limites de chèques-repas pour refléter la réglementation gouvernementale belge de 2026: maximum employeur augmenté à €8,91 (de €6,91), valeur totale du chèque élevée à €10,00 (de €8,00). Le champ contribution employé est maintenant désactivé et grisé lorsque les chèques-repas sont activés, car il est légalement fixé à €1,09 par chèque: cela simplifie l'interface et évite la confusion. Le calculateur est maintenant réglé par défaut sur la contribution employeur maximale pour les nouveaux utilisateurs. Les deux avantages sont entièrement exonérés d'ONSS dans les limites légales."
+      }
+    },
+    {
+      "date": "2025-12-15",
+      "version": "1.1.4",
+      "title": {
+        "en": "Cookie banner & other UI improvements",
+        "nl": "Cookie venster & andere grafische verbeteringen",
+        "fr": "Bannière de cookies & autres améliorations UI"
+      },
+      "highlights": {
+        "en": [
+          "Completely reorganized/redesigned cookie consent banner"
+        ],
+        "nl": [
+          "Volledig herorganiseerd cookie venster "
+        ],
+        "fr": [
+          "Bannière de cookies complètement réorganisée/redessinée"
+        ]
+      },
+      "details": {
+        "en": "Completely reorganized/redesigned cookie consent banner.",
+        "nl": "Volledig herorganiseerd cookie venster.",
+        "fr": "Bannière de cookies complètement réorganisée/redessinée."
+      }
+    },
+    {
+      "date": "2025-12-14",
+      "version": "1.1.3",
+      "title": {
+        "en": "FAQ System Launch",
+        "nl": "FAQ Systeem Lancering",
+        "fr": "Lancement du Système FAQ"
+      },
+      "highlights": {
+        "en": [
+          "Added comprehensive FAQ with intelligent search using TF-IDF-powered search algorithm for relevant answers",
+          "Color-coded highlighting (cyan for unique terms)",
+          "Smart auto-scroll when expanding answers"
+        ],
+        "nl": [
+          "Uitgebreide FAQ met TF-IDF-aangedreven zoekalgoritme voor relevante antwoorden",
+          "Kleurgecodeerde markering (cyaan voor unieke termen)",
+          "Slimme auto-scroll bij uitklappen antwoorden"
+        ],
+        "fr": [
+          "FAQ complète avec recherche intelligente ajoutée",
+          "Algorithme de recherche TF-IDF pour réponses pertinentes",
+          "Surlignage codé par couleur (cyan pour termes uniques)",
+          "Défilement automatique intelligent lors de l'expansion"
+        ]
+      },
+      "details": {
+        "en": "Launched comprehensive FAQ system to address some well.. frequently asked questions >.<. Features intelligent search with TF-IDF scoring, cyan highlighting for rare/important terms, and smart auto-scrolling that ensures expanded answers are fully visible. Mobile-optimized with fixed header and search bar.",
+        "nl": "Uitgebreid FAQ-systeem om wel... enkele veelgestelde vragen te beantwoorden >.<. Bevat intelligente zoekfunctie met TF-IDF-scoring, cyaan markering voor zeldzame/belangrijke termen, en slimme auto-scroll die zorgt dat uitgeklapte antwoorden volledig zichtbaar zijn. Mobiel-geoptimaliseerd met vaste header en zoekbalk.",
+        "fr": "FAQ complète avec recherche intelligente ajoutée, surlignage cyan pour termes rares/importants, et défilement automatique intelligent garantissant que les réponses développées sont entièrement visibles. Optimisé mobile avec en-tête et barre de recherche fixes."
+      }
+    },
+    {
+      "date": "2025-12-13",
+      "version": "1.1.2",
+      "title": {
+        "en": "Additional Variable Gross & Patch Notes",
+        "nl": "Extra Variabel Bruto Loon & Patch Notes",
+        "fr": "Brut Variable Supplémentaire & Patch Notes"
+      },
+      "highlights": {
+        "en": [
+          "Added support for variable gross income (sales commissions/bonuses)",
+          "Added these patch notes in the UI for you to see (Hi there! Patch note-ception I guess? >.<)"
+        ],
+        "nl": [
+          "Ondersteuning toegevoegd voor variabel brutoloon (verkoopcommissies/bonussen)",
+          "Deze patch notes toegevoegd in de UI zodat je ze kunt zien (Hallo daar! Patch note-ception, zeker? >.<)"
+        ],
+        "fr": [
+          "Ajout du support pour les revenus bruts variables (commissions de vente)",
+          "Ajout de ces notes de version dans l'interface utilisateur (Salut! Patch note-ception je suppose... >.<)"
+        ]
+      },
+      "details": {
+        "en": "Added variable extra gross amounts upon request (like sales commissions or monthly bonuses) in addition to your base salary. Unlike CAO 90 bonuses or profit participation, this amount is taxed as regular gross income with standard RSZ and withholding tax.",
+        "nl": "Extra variabele bruto loonbedragen toegevoegd op verzoek (zoals verkoopcommissies of maandelijkse bonussen) bovenop je basissalaris. In tegenstelling tot CAO 90-bonussen of winstparticipatie wordt dit bedrag belast als gewoon bruto-inkomen met standaard RSZ en bedrijfsvoorheffing.",
+        "fr": "Ajout de montants bruts variables supplémentaires sur demande (comme les commissions de vente ou les bonus mensuels) en plus de votre salaire de base. Contrairement aux bonus CCT 90 ou à la participation aux bénéfices, ce montant est imposé comme un revenu brut régulier avec ONSS et précompte professionnel standard."
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "version": "1.1.1",
+      "title": {
+        "en": "Tooltip & Bug Report Improvements",
+        "nl": "Tooltip & Bugrapportage Verbeteringen",
+        "fr": "Améliorations des Info-bulles & Rapports de Bugs"
+      },
+      "highlights": {
+        "en": [
+          "Refined tooltip formatting with color-coded information, tips, alerts and warnings",
+          "Enhanced email validation for bug reports to prevent invalid submissions"
+        ],
+        "nl": [
+          "Verfijnde tooltip-opmaak met kleurgecodeerde informatie, tips, meldingen en waarschuwingen",
+          "Verbeterde e-mailvalidatie voor bugrapporten om ongeldige inzendingen te voorkomen"
+        ],
+        "fr": [
+          "Formatage des info-bulles affiné avec des informations, des conseils, des alertes et des codés par couleur",
+          "Validation d'e-mail améliorée pour les rapports de bugs afin d'éviter les soumissions invalides"
+        ]
+      },
+      "details": {
+        "en": "Tooltips now feature color-coded sections to highlight important information, warnings, and tips for better user understanding. Bug report email validation improved to reduce invalid submissions.",
+        "nl": "Tooltips bevatten nu kleurgecodeerde secties om belangrijke informatie, waarschuwingen en tips te benadrukken voor een beter begrip. E-mailvalidatie voor bugrapporten verbeterd om ongeldige inzendingen te verminderen.",
+        "fr": "Les info-bulles comportent désormais des sections codées par couleur pour mettre en évidence les informations importantes, les avertissements et les conseils pour une meilleure compréhension. Validation d'e-mail des rapports de bugs améliorée pour réduire les soumissions invalides."
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "version": "1.1.0",
+      "title": {
+        "en": "Sharing, Saving and Loading Configurations and shiny coloured tooltips",
+        "nl": "Configuraties Delen, Opslaan en Laden en glanzende gekleurde tooltips",
+        "fr": "Partage, Sauvegarde et Chargement de Configurations et info-bulles colorées brillantes"
+      },
+      "highlights": {
+        "en": [
+          "Share/save/load your calculator configurations, via URLs | V2: the actual release",
+          "Updated bike allowance rates"
+        ],
+        "nl": [
+          "Deel/bewaar/laad je configuraties via URLs | V2: de daadwerkelijke release",
+          "Bijgewerkte fietsvergoedingstarieven"
+        ],
+        "fr": [
+          "Partagez/sauvegardez/chargez votre configuration de calculateur via URLs | V2: la vraie version",
+          "Taux d'indemnité vélo mis à jour"
+        ]
+      },
+      "details": {
+        "en": "The shareable configuration URL feature is now fully functional again after some technical issues with the initial release. Bike allowance rates updated to the latest government figures.",
+        "nl": "De deelbare configuratie URL functie is nu volledig functioneel na enkele technische problemen met de eerste release. Fietsvergoedingstarieven bijgewerkt naar de nieuwste overheidscijfers.",
+        "fr": "La fonctionnalité d'URL de configuration partageable est maintenant pleinement fonctionnelle après quelques problèmes techniques avec la version initiale. Taux d'indemnité vélo mis à jour selon les derniers chiffres gouvernementaux."
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "version": "1.0.6",
+      "title": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "highlights": {
+        "en": [
+          "Dynamically coloured benefit calculation boxes based on percentage net return shown for that element",
+          "Tooltip refinements for benefits and deductions"
+        ],
+        "nl": [
+          "Dynamisch gekleurde voordelenberekenings elementen gebaseerd op percentage netto rendement getoond voor dat element",
+          "Tooltip verfijningen voor voordelen en aftrekposten"
+        ],
+        "fr": [
+          "Boîtes de calcul des avantages colorées dynamiquement en fonction du pourcentage de rendement net affiché pour cet élément",
+          "Affinements des info-bulles pour les avantages et déductions"
+        ]
+      },
+      "details": {
+        "en": "Benefit calculation boxes now dynamically color-coded based on how tax-efficient each component is. Some further tooltip refinement focusing on benefits and year-end settlement explanations.",
+        "nl": "Voordelenberekeningselementen nu dynamisch kleurgecodeerd op basis van hoe belastingefficiënt elk onderdeel is. Enkele verdere tooltip verfijningen met focus op voordelen en eindejaar afrekening uitleg.",
+        "fr": "Les boîtes de calcul des avantages sont maintenant codées dynamiquement par couleur en fonction de l'efficacité fiscale de chaque composant. Quelques affinements supplémentaires des info-bulles axés sur les avantages et les explications de règlement de fin d'année."
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "version": "1.0.5",
+      "title": {
+        "en": "UI Enhancements",
+        "nl": "UI Verbeteringen",
+        "fr": "Améliorations de l'Interface"
+      },
+      "highlights": {
+        "en": [
+          "Annual tax settlement UI reshuffled for better readability",
+          "GDPR compliance notification for bug reports and gathering necessary debug information when a bug report is submitted"
+        ],
+        "nl": [
+          "Jaarlijkse belastingafrekening UI herschikt voor betere leesbaarheid",
+          "GDPR compliance melding voor bugrapporten en verzamelen van noodzakelijke debuginformatie wanneer een bugrapport wordt ingediend"
+        ],
+        "fr": [
+          "Interface de règlement fiscal annuel réorganisée pour une meilleure lisibilité",
+          "Messages de conformité RGPD pour les rapports de bugs et collecte d'informations de débogage nécessaires lors de la soumission d'un rapport de bug"
+        ]
+      },
+      "details": {
+        "en": "Bug report form now collects necessary information and includes GDPR compliance information to ensure transparency about data collection when submitting a bug report to ensure these are actually actionable. \nAfter all, what I don't know about, I can't fix. Annual tax settlement section reorganized for improved clarity.",
+        "nl": "Bugrapportformulier haalt nu benodigde informatie op en bevat nu GDPR compliance-informatie om transparantie te waarborgen over gegevensverzameling bij het indienen van een bugrapport. \nDit om ervoor te zorgen dat deze daadwerkelijk behandelbaar zijn: wat ik niet weet, kan ik niet oplossen. Jaarlijkse belastingafrekening sectie gereorganiseerd voor verbeterde duidelijkheid.",
+        "fr": "Le formulaire de rapport de bugs inclut maintenant des informations de conformité RGPD pour assurer la transparence sur la collecte de données lors de la soumission d'un rapport de bug pour s'assurer que les rapports de bugs sont réellement exploitables, ce que je ne sais pas, je ne peux pas le réparer. Section de règlement fiscal annuel réorganisée pour une clarté améliorée."
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "version": "1.0.4",
+      "title": {
+        "en": "Configuration Sharing & Translation Polish",
+        "nl": "Configuratie Delen & Vertaalverbetering",
+        "fr": "Partage de Configuration & Perfectionnement de la Traduction"
+      },
+      "highlights": {
+        "en": [
+          "Share/save/load your calculator configurations via URL | version 1(I had to retire it temporarily due to technical issues)",
+          "Dynamic net return percentage display for all benefits"
+        ],
+        "nl": [
+          "Deel/bewaar/laad je configuraties via URL | versie 1 (Ik moest het tijdelijk stopzetten vanwege technische problemen)",
+          "Dynamische weergave percentage van netto rendement  voor alle voordelen"
+        ],
+        "fr": [
+          "Partagez/sauvegardez/chargez votre configurations de calculateur via URL | version 1 (J'ai dû le retirer temporairement en raison de problèmes techniques)",
+          "Affichage dynamique du pourcentage de rendement net pour tous les avantages"
+        ]
+      },
+      "details": {
+        "en": "Net return percentages for all benefits are now displayed to show how much you actually receive after taxes. Shareable configuration URLs let you save and share your specific configuration(s) with others(Or well, they should, once I've fixed the technical issues with it ^^).",
+        "nl": "Netto rendement percentages voor alle voordelen worden nu weergegeven om te laten zien hoeveel je daadwerkelijk ontvangt na belastingen. Deelbare configuratie-URL's laten je je specifieke configuratie(s) opslaan en delen met anderen (Of nou ja, dat zouden ze moeten, zodra ik de technische problemen ermee heb opgelost ^^).",
+        "fr": "Les pourcentages de rendement net pour tous les avantages sont maintenant affichés pour montrer combien vous recevez réellement après impôts. Les URLs de configuration partageables vous permettent de sauvegarder et de partager votre configuration spécifique de calculateur avec d'autres (Ou bien, ils devraient, une fois que j'aurai résolu les problèmes techniques ^^)."
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "version": "1.0.3",
+      "title": {
+        "en": "Family Status Impact",
+        "nl": "Gezinsstatus Impact",
+        "fr": "Impact du Statut Familial"
+      },
+      "highlights": {
+        "en": [
+          "New Family Status Impact summary showing tax benefits",
+          "Added Playwright UI tests"
+        ],
+        "nl": [
+          "Nieuwe Gezinsstatus Impact samenvatting met belastingvoordelen",
+          "Playwright UI tests toegevoegd"
+        ],
+        "fr": [
+          "Nouveau résumé d'Impact du Statut Familial montrant les avantages fiscaux",
+          "Ajout de tests UI Playwright"
+        ]
+      },
+      "details": {
+        "en": "Introduced a dedicated Family Status tax benefits summary that explains how your marital status (single, married, or as a single parent) and number of dependents and their status(under 3, disabled) directly impact your withholding tax rate, municipal tax deductions, and annual tax settlement.",
+        "nl": "Een Gezinsstatus belastingvoordelen samenvatting geïntroduceerd die uitlegt hoe je gezinsstatus (alleenstaand, getrouwd of als alleenstaande ouder) en het aantal afhankelijken en hun status (onder 3, gehandicapt) direct invloed hebben op je bedrijfsvoorheffingstarief, gemeentelijke belastingaftrek en jaarlijkse belastingafrekening.",
+        "fr": "Résumé dédié des avantages fiscaux du statut familial expliquant comment votre situation matrimoniale (célibataire, marié ou parent isolé) et le nombre de personnes à charge et leur statut (moins de 3 ans, handicapé) impactent directement votre taux de précompte professionnel, les déductions fiscales municipales et le règlement fiscal annuel."
+      }
+    },
+    {
+      "date": "2025-11-30",
+      "version": "1.0.2",
+      "title": {
+        "en": "CAO 90 Bonus & Profit Participation",
+        "nl": "CAO 90 Bonus & Winstparticipatie",
+        "fr": "Bonus CCT 90 & Participation aux Bénéfices"
+      },
+      "highlights": {
+        "en": [
+          "Added CAO 90 bonus calculation (collective agreement bonuses)",
+          "Added Profit Participation (winstparticipatie) support"
+        ],
+        "nl": [
+          "CAO 90-bonusberekening toegevoegd (collectieve arbeidsovereenkomst bonussen)",
+          "Winstparticipatieondersteuning toegevoegd"
+        ],
+        "fr": [
+          "Ajout du calcul du bonus CCT 90 (bonus de convention collective)",
+          "Ajout du support de la Participation aux Bénéfices (winstparticipatie)"
+        ]
+      },
+      "details": {
+        "en": "CAO 90 bonuses and profit participation bonuses added upon request",
+        "nl": "CAO 90-bonussen en winstparticipatiesbonussen toegevoegd op verzoek",
+        "fr": "Bonus CCT 90 et bonus de participation aux bénéfices ajoutés sur demande"
+      }
+    },
+    {
+      "date": "2025-11-29",
+      "version": "1.0.1",
+      "title": {
+        "en": "Yearly Input Mode, Internet/PC Allowance & Sports Vouchers",
+        "nl": "Jaarlijkse Invoermodus, Internet/PC Vergoeding & Sportcheques",
+        "fr": "Mode de Saisie Annuel, Indemnité Internet/PC & Chèques Sport"
+      },
+      "highlights": {
+        "en": [
+          "Dynamic tooltips based on input values (work in progress)",
+          "Yearly salary input mode",
+          "Sport & Culture vouchers",
+          "Internet and PC allowance support"
+        ],
+        "nl": [
+          "Dynamische tooltips gebaseerd op invoerwaarden (in progress)",
+          "Jaarlijkse salarisinvoermodus",
+          "Sport- en Cultuurcheques",
+          "Internet- en PC-vergoedingsondersteuning"
+        ],
+        "fr": [
+          "Info-bulles dynamiques basées sur les valeurs saisies (travail en cours)",
+          "Mode de saisie de salaire annuel",
+          "Chèques Sport & Culture",
+          "Support d'indemnité Internet et PC"
+        ]
+      },
+      "details": {
+        "en": "Added yearly salary input option alongside existing hourly/monthly modes. Internet and PC allowances now supported (€20/month tax-free each). Sport & Culture vouchers with annual budget tracking. Quite a few dynamic tooltips now adapt based on your inputs to provide more relevant information.",
+        "nl": "Jaarlijkse salarisinvoeroptie toegevoegd naast bestaande uurlijkse/maandelijkse modi. Internet- en PC-vergoedingen nu ondersteund (€20/maand belastingvrij elk). Sport- en Cultuurcheques met jaarlijkse budgettracking. Een behoorlijk aantal dynamische tooltips passen zich nu aan op basis van je invoer om relevantere informatie te bieden.",
+        "fr": "Ajout de l'option de saisie de salaire annuel aux côtés des modes horaire/mensuel existants. Indemnités Internet et PC maintenant prises en charge (20 €/mois hors taxes chacune). Chèques Sport & Culture avec suivi du budget annuel. Pas mal d'info-bulles dynamiques s'adaptent maintenant en fonction de vos saisies pour fournir des informations plus pertinentes."
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "version": "1.0.0",
+      "title": {
+        "en": "First Stable Release: Test Infrastructure Complete",
+        "nl": "Eerste Stabiele Release: Testinfrastructuur Compleet",
+        "fr": "Première Version Stable: Infrastructure de Test Complète"
+      },
+      "highlights": {
+        "en": [
+          "Finished AVA test migration from vitest for all calculations",
+          "Added pre-commit hooks for ensuring code quality on all deployed versions",
+          "Fixed meal voucher annual calculation accuracy",
+          "Improved salary input precision"
+        ],
+        "nl": [
+          "AVA-testmigratie van vitest voltooid voor alle berekeningen",
+          "Pre-commit hooks toegevoegd om codekwaliteit te waarborgen op alle live versies",
+          "Maaltijdcheques jaarlijkse berekeningsnauwkeurigheid verbeterd",
+          "Salarisinvoerprecisie verbeterd"
+        ],
+        "fr": [
+          "Migration de tests AVA depuis vitest terminée pour tous les modules de calcul",
+          "Ajout de hooks pré-commit pour assurer la qualité du code sur toutes les versions déployées",
+          "Correction de la précision du calcul annuel des chèques-repas",
+          "Amélioration de la précision de saisie du salaire"
+        ]
+      },
+      "details": {
+        "en": "First stable release with solid testing infrastructure. Complete feature set at this point: Gross-to-net calculations with RSZ (employee + employer), Withholding tax with (1-9)-code family status system, BBSZ, Work bonus (Part A + B), 13th month with cafeteria plans (two types), Double vacation pay, Meal vouchers, Ecocheques, Mobility budget, Telecommuting allowance, Bike allowance, Year-end settlement with marital quotient, Pro-rating for partial year employment, calculation breakdown pie charts. All calculations and tests use centralized config file. AVA test suite + pre-commit hooks ensure quality going forward.",
+        "nl": "Eerste stabiele release met solide testinfrastructuur. Featureset op dit punt: Bruto-naar-netto berekeningen met RSZ (werknemer + werkgever), Bedrijfsvoorheffing met (1-9)-code gezinsstatussysteem  BBSZ, Werkbonus (Deel A + B), 13e maand met twee soorten cafetariaplannen, Dubbel vakantiegeld, Maaltijdcheques, Ecocheques, Mobiliteitsbudget, Telewerkvergoeding, Fietsvergoeding, Eindejaarsafrekening met huwelijksquotiënt, Pro-rata voor onvolledige jaren weer te geven, Visualisatie via pie charts. Alle berekeningen en tests gebruiken gecentraliseerde config file. AVA-testsuite + pre-commit hooks waarbogen kwaliteit in de toekomst.",
+        "fr": "Première version stable avec une infrastructure de test solide. Ensemble de fonctionnalités complet à ce stade: Calculs brut-net avec ONSS (employé + employeur), Précompte professionnel avec système de statut familial à (1-9) codes, CPAS, Prime de travail (Partie A + B), 13e mois avec plans cafétéria (deux types), Double pécule de vacances, Chèques-repas, Écochèques, Budget mobilité, Indemnité de télétravail, Indemnité vélo, Règlement de fin d'année avec quotient conjugal, Calcul au prorata pour emploi année partielle, graphiques circulaires de ventilation des calculs. Tous les calculs et tests utilisent une configuration gouvernementale centralisée. Suite de tests AVA + hooks pré-commit garantissent la qualité à l'avenir."
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "version": "0.9.0",
+      "title": {
+        "en": "Family Status Tax Reductions & Benefits",
+        "nl": "Gezinsstatus Belastingverminderingen & Voordelen",
+        "fr": "Réductions Fiscales du Statut Familial & Avantages"
+      },
+      "highlights": {
+        "en": [
+          "Monthly withholding tax reductions based on marital status and dependents",
+          "Bike allowance with distance and frequency tracking",
+          "Cost breakdown pie charts",
+          "Improved mobile responsiveness",
+          "Extra vacation days field"
+        ],
+        "nl": [
+          "Maandelijkse bedrijfsvoorheffing verminderingen op basis van burgerlijke staat en ten laste",
+          "Fietsvergoeding met afstands- en frequentie tracking",
+          "Kosten uitsplitsing cirkeldiagrammen",
+          "Verbeterde mobiele responsiviteit",
+          "Extra vakantiedagen veld"
+        ],
+        "fr": [
+          "Réductions mensuelles de précompte professionnel basées sur l'état civil et les personnes à charge",
+          "Indemnité vélo avec suivi de distance et fréquence",
+          "Graphiques circulaires de ventilation des coûts",
+          "Amélioration de la réactivité mobile",
+          "Champ jours de congé supplémentaires"
+        ]
+      },
+      "details": {
+        "en": "Integrating family status into monthly calculations (until now only applied year-end so far). Tax code system (Code 1-9) now applies monthly reductions. Added bike allowance as well as pie charts to visualize employer costs VS what the employee receives net.",
+        "nl": "Integratie van gezinsstatus in maandelijkse berekeningen (telde voordien enkel voor de eindejaarsberekeningen). Belastingcode systeem van 1 tot 9 past nu maandelijkse verminderingen toe. Fietsvergoeding toegevoegd evenals piecharts om werkgeverskosten te visualiseren VS wat de werknemer netto ontvangt.",
+        "fr": "Intégration du statut familial dans les calculs mensuels (jusqu'à présent appliqué uniquement en fin d'année). Le système de code fiscal (Code 1-9) applique maintenant des réductions mensuelles. Ajout de l'indemnité vélo ainsi que des graphiques circulaires pour visualiser les coûts employeur VS ce que l'employé reçoit net."
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "version": "0.8.5",
+      "title": {
+        "en": "Year-End Settlement Accuracy & Pro-Rating",
+        "nl": "Eindejaar Afrekening Nauwkeurigheid & Pro-Rata",
+        "fr": "Précision du Règlement de Fin d'Année & Calcul au Prorata"
+      },
+      "highlights": {
+        "en": [
+          "Pro-rating for partial year employment based on months worked",
+          "Tax exemption handling for low incomes (<€10,900)",
+          "Accessibility improvements (ARIA labels, keyboard navigation)",
+          "Translation improvements"
+        ],
+        "nl": [
+          "Pro-rata voor gedeeltelijk gewerkte jaren op basis van gewerkte maanden",
+          "Belastingvrijstelling behandeling voor lage inkomens (<€10.900)",
+          "Toegankelijkheidsverbeteringen (ARIA labels, toetsenbordnavigatie)",
+          "Vertaalverbeteringen"
+        ],
+        "fr": [
+          "Calcul au prorata pour emploi année partielle (mois travaillés)",
+          "Gestion de l'exonération fiscale pour les bas revenus (<10 900 €)",
+          "Améliorations de l'accessibilité (étiquettes ARIA, navigation au clavier)",
+          "Améliorations de la traduction"
+        ]
+      },
+      "details": {
+        "en": "Partial-year calculations now correctly pro-rate benefits and taxes based on months worked. Low-income tax exemption logic added to ensure accurate withholding.",
+        "nl": "Deels gewerkte jaar berekeningen verdelen nu correct voordelen en belastingen naar ratio op basis van gewerkte maanden. bugfix voor inkomens onder 10900",
+        "fr": "Les calculs d'année partielle répartissent maintenant correctement au prorata les avantages et les impôts en fonction des mois travaillés. Logique d'exonération fiscale pour bas revenus ajoutée pour assurer une retenue précise."
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "version": "0.8.0",
+      "title": {
+        "en": "Status Code System, cafeteria plans (2 types) & first version of the contact Form",
+        "nl": "Statuscode Systeem, twee soorten cafetariaplannen & eerste versie van het contactformulier",
+        "fr": "Système de Code de Statut, plans cafétéria (2 types) & première version du formulaire de contact"
+      },
+      "highlights": {
+        "en": [
+          "Cafeteria plan options for 13th month",
+          "Marital status and dependents fields added",
+          "First version of the contact form with bug reporting",
+          "Favicon and visual polish"
+        ],
+        "nl": [
+          "Cafetariaplan opties voor 13e maand",
+          "Burgerlijke staat en ten laste velden toegevoegd",
+          "Eerste versie van het contactformulier met bug rapportage",
+          "Favicon en visuele afwerking"
+        ],
+        "fr": [
+          "Options de plan cafétéria pour le 13e mois",
+          "Champs état civil et personnes à charge ajoutés",
+          "Première version du formulaire de contact avec rapport de bugs",
+          "Favicon et finition visuelle"
+        ]
+      },
+      "details": {
+        "en": "Cafeteria plan options for 13th month Added user communication channel via contact form/ and year end integration for family status tax code system.",
+        "nl": "Cafetariaplan opties voor 13e maand Toegevoegd gebruikerscommunicatiekanaal via contactformulier en eindejaar integratie voor gezinsstatus belastingcode systeem.",
+        "fr": "Options de plan cafétéria pour le 13e mois Ajout d'un canal de communication utilisateur via formulaire de contact et intégration de fin d'année pour le système de code fiscal du statut familial."
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "version": "0.7.0",
+      "title": {
+        "en": "13th month, double vacation pay, meal vouchers & UI improvements",
+        "nl": "13e maand, dubbel vakantiegeld, maaltijdcheques & UI verbeteringen",
+        "fr": "13e mois, double pécule de vacances, chèques-repas & améliorations de l'interface"
+      },
+      "highlights": {
+        "en": [
+          "13th month(base)",
+          "Vacation bonus (double vacation pay)",
+          "Meal Vouchers",
+          "Dark mode scrollbar styling",
+          "Net return percentage display for salary components",
+          "Improved mobile zoom detection"
+        ],
+        "nl": [
+          "13e maand (basis)",
+          "Vakantiegeld bonus (dubbel vakantiegeld)",
+          "Maaltijdcheques",
+          "Donkere modus scrollbar styling",
+          "Netto rendement percentage weergave voor salariscomponenten",
+          "Verbeterde mobiele zoom detectie"
+        ],
+        "fr": [
+          "13e mois (base)",
+          "Prime de vacances (double pécule de vacances)",
+          "Chèques-repas",
+          "Style de barre de défilement en mode sombre",
+          "Affichage du pourcentage de rendement net pour les composants salariaux",
+          "Amélioration de la détection du zoom mobile"
+        ]
+      },
+      "details": {
+        "en": "13th month, double vacation pay and meal vouchers as well as visual improvements like a fancier scrollbar and net return percentages showing how much of each benefit you actually receive after taxes.",
+        "nl": "13e maand, dubbel vakantiegeld en maaltijdcheques evenals visuele verbeteringen zoals een mooiere scrollbar en netto rendement percentages die laten zien hoeveel van elk voordeel je daadwerkelijk ontvangt na belastingen.",
+        "fr": "13e mois, double pécule de vacances et chèques-repas ainsi que des améliorations visuelles comme une barre de défilement plus élégante et des pourcentages de rendement net montrant combien de chaque avantage vous recevez réellement après impôts."
+      }
+    },
+    {
+      "date": "2025-11-23",
+      "version": "0.6.0",
+      "title": {
+        "en": "Government Config System & workbonus/ecocheques",
+        "nl": "Overheids Configuratie Systeem & werkbonus/ecocheques",
+        "fr": "Système de Configuration Gouvernementale & prime de travail/écochèques"
+      },
+      "highlights": {
+        "en": [
+          "Centralized configuration files used for both testing and calculations to ensure consistency",
+          "Work bonus calculation with Part A & Part B",
+          "Ecocheques",
+          "Improved tooltip positioning",
+          "Translations for the cookie banner"
+        ],
+        "nl": [
+          "Gecentraliseerde configuratiebestanden voor zowel testen als berekeningen om consistentie te waarborgen",
+          "Werkbonus berekening met Deel A & Deel B",
+          "Ecocheques",
+          "Verbeterde tooltip positionering",
+          "Vertalingen voor de cookie banner"
+        ],
+        "fr": [
+          "Fichiers de configuration centralisés utilisés pour les tests et les calculs afin d'assurer la cohérence",
+          "Calcul de la prime de travail avec Partie A & Partie B",
+          "Écochèques",
+          "Amélioration du positionnement des info-bulles",
+          "Traductions pour la bannière de cookies"
+        ]
+      },
+      "details": {
+        "en": "Centralized hardcoded values into a single configuration file, to ensure accuracy and maintainability. All Belgian wage components now reference single source of truth for rates and thresholds. Tooltips improved for better visibility(no longer cut off if they spawn on the sides).",
+        "nl": "Hardcoded waarden met het oog op onderhoudbaarheid gecentraliseerd in een configuratiebestand, om nauwkeurigheid en onderhoudbaarheid te waarborgen. Alle Belgische looncomponenten verwijzen nu naar één bron van waarheid voor tarieven en drempels. Tooltips verbeterd voor betere zichtbaarheid (niet langer afgesneden als ze aan de zijkanten spawnen).",
+        "fr": "Réécriture complète des calculs pour qu'il n'y ait pas de valeurs codées en dur utilisant une configuration gouvernementale centralisée, pour assurer précision et maintenabilité. Tous les composants salariaux belges référencent maintenant une source unique de vérité pour les taux et seuils. Info-bulles améliorées pour une meilleure visibilité (plus coupées)."
+      }
+    },
+    {
+      "date": "2025-11-22",
+      "version": "0.5.0",
+      "title": {
+        "en": "Initial Public Release",
+        "nl": "Eerste Publieke Release",
+        "fr": "Première Version Publique"
+      },
+      "highlights": {
+        "en": [
+          "Basic gross to net calculations",
+          "RSZ (social security) deductions",
+          "Withholding tax(base) (bedrijfsvoorheffing)",
+          "BBSZ special social security contribution",
+          "Multilingual support(base) (EN, NL)",
+          "Cookie consent and data persistence",
+          "Responsive mobile layout"
+        ],
+        "nl": [
+          "Basis bruto-naar-netto berekeningen",
+          "RSZ (sociale zekerheid) aftrekposten",
+          "Bedrijfsvoorheffing (basis)",
+          "BBSZ bijzondere sociale zekerheidsbijdrage",
+          "Meertalige ondersteuning (basis) (EN, NL)",
+          "Cookie toestemming en gegevenspersistentie",
+          "Responsieve mobiele layout"
+        ],
+        "fr": [
+          "Calculs de base brut-net",
+          "Déductions ONSS (sécurité sociale)",
+          "Précompte professionnel (base)",
+          "Contribution spéciale de sécurité sociale CPAS",
+          "Support multilingue (base) (EN, NL)",
+          "Consentement aux cookies et persistance des données",
+          "Mise en page mobile réactive"
+        ]
+      },
+      "details": {
+        "en": "First working version with core Belgian salary calculation functionality and translations(EN, NL). Mobile first responsive design and cookie consent banner for GDPR compliance.",
+        "nl": "Eerste werkende versie met kern Belgische loonberekening functionaliteit en vertalingen (EN, NL). Mobile first responsive ontwerp en cookie toestemmingsbanner voor GDPR naleving.",
+        "fr": "Première version fonctionnelle avec fonctionnalité de calcul de salaire belge de base et traductions (EN, NL). Conception réactive mobile first et bannière de consentement aux cookies pour conformité RGPD."
+      }
+    }
+  ],
+  "upcomingFeatures": [],
+  "technicalNotes": {
+    "en": "All calculations based on Belgian federal tax year 2025 regulations. Updated as of December 14th, 2025. Many features were in development and iteratively improved(including after going live). These release dates show when they went first went live, not when development was completed.",
+    "nl": "Alle berekeningen gebaseerd op Belgische federale belastingjaar 2025 regelgeving. Bijgewerkt per 14 december 2025. Release datums markeren implementatie mijlpalen, niet ontwikkelings start/eind datums. Veel functies waren al eerder in ontwikkeling en zijn(ook daarna nog) iteratief verbeterd. Deze datums tonen wanneer ze voor het eerst live gingen, niet wanneer het werk afgerond was.",
+    "fr": "Tous les calculs basés sur les règlements fiscaux fédéraux belges de l'année 2025. Mis à jour au 14 décembre 2025. Les dates de version marquent les jalons de déploiement, pas les dates de début/fin de développement. Beaucoup de fonctionnalités ont été lancées avant et améliorées de manière itérative après, mentionnées ici pour la première fois et ont souvent été travaillées sur plusieurs jours."
+  }
+}

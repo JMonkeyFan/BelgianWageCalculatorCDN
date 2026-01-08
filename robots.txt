@@ -1,0 +1,34 @@
+# robots.txt for Belgian Wage Calculator 2026
+User-agent: *
+Allow: /
+
+# Block admin and monitoring pages from crawlers (prevent edge function abuse)
+Disallow: /admin
+Disallow: /admin/
+Disallow: /config-monitor
+Disallow: /config-monitor/
+Disallow: /reddit-monitor
+Disallow: /reddit-monitor/
+Disallow: /monitoring-health
+Disallow: /monitoring-health/
+Disallow: /monitoring-status
+Disallow: /monitoring-status/
+Disallow: /monitoring-clear
+Disallow: /monitoring-clear/
+Disallow: /settings
+Disallow: /settings/
+Disallow: /contact-entries
+Disallow: /contact-entries/
+Disallow: /login-history
+Disallow: /login-history/
+Disallow: /test-entries
+Disallow: /test-entries/
+Disallow: /questions-advertisement
+Disallow: /questions-advertisement/
+
+# Block API endpoints from direct crawler access
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://belgian-wage-calculator.vercel.app/sitemap.xml
+Sitemap: https://belgian-wage-calculator.vercel.app/sitemap.txt
