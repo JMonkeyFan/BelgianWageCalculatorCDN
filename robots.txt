@@ -31,4 +31,3 @@ Disallow: /api/
 
 # Sitemap location
 Sitemap: https://belgian-wage-calculator.vercel.app/sitemap.xml
-Sitemap: https://belgian-wage-calculator.vercel.app/sitemap.txt

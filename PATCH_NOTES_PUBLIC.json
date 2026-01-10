@@ -6,9 +6,42 @@
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
+
   "entries": [
-    {
-      "date": "2026-01-07",
+    { 
+      "date": "2026-01-11",
+      "version": "1.2.3",
+      "title": {
+        "en": "Further Vercel Edge Call optimizations, Caching Optimizations & Site Analytics Removal",
+        "nl": "Verdere Vercel Edge Call optimalisaties, Cache Optimalisaties & Verwijdering Site Analytics",
+        "fr": "Optimisations supplémentaires des appels Vercel Edge, Optimisations de Cache & Suppression des Analyses du Site"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVED: Further cache optimizations, all paths that can use caching now do so.",
+          "IMPROVED: Vercel edge calls per request further reduced by loading resources through CDN instead of from the public folder, since static assets count as edge requests for vercel and I nearly hit the limit last month >.<",
+          "FIXED: Also removed basic site analytics like amount of visitors to reduce vercel edge calls per request, moving to Umami instead."
+        ],
+        "nl": [ 
+          "VERBETERD: Verdere cache optimalisaties, alle paden die caching kunnen gebruiken doen dat nu ook.",
+          "VERBETERD: Vercel edge calls per verzoek verder verminderd door bronnen te laden via CDN in plaats van vanuit de openbare folder, aangezien statische assets als edge verzoeken tellen voor vercel en ik bijna de limiet bereikte vorige maand >.<",
+          "OPGELOST: Ook basis site-analytics zoals aantal bezoekers verwijderd om vercel edge calls per verzoek te verminderen, overstappend naar Umami in plaats daarvan."
+        ],
+        "fr": [    
+          "AMÉLIORÉ: Nouvelles optimisations de cache, tous les chemins pouvant utiliser le cache le font désormais.",
+          "AMÉLIORÉ: Les appels Vercel edge par requête ont été encore réduits en chargeant les ressources via le CDN au lieu du dossier public, car les assets statiques comptent comme des requêtes edge pour vercel et j'ai presque atteint la limite le mois dernier >.<",
+          "CORRIGÉ: Suppression également des analyses de site de base telles que le nombre de visiteurs pour réduire les appels Vercel edge par requête, en passant à Umami à la place."
+        ]
+      },
+      "details": {  
+        "en": "Vercel edge calls per request further reduced by loading resources through CDN instead of from the public folder, since static assets count as edge requests for vercel and I nearly hit the limit last month >.<  Also removed basic site analytics like amount of visitors to reduce vercel edge calls per request, moving to Umami since these do not cost edge request",
+         "nl": "Vercel edge calls per verzoek verder verminderd door bronnen te laden via CDN in plaats van vanuit de public folder, aangezien statische assets als edge verzoeken tellen voor vercel en ik bijna de limiet bereikte vorige maand >.<  Ook basis site-analytics zoals aantal bezoekers verwijderd om vercel edge calls per verzoek te verminderen, overstappend naar Umami gezien deze geen edge requests kosten.",
+        "fr": "Les appels Vercel edge par requête ont été encore réduits en chargeant les ressources via le CDN au lieu du dossier public, car les assets statiques comptent comme des requêtes edge pour vercel et j'ai presque atteint la limite le mois dernier >.<  Suppression également des analyses de site de base telles que le nombre de visiteurs pour réduire les appels Vercel edge par requête, en passant à Umami car ceux-ci ne coûtent pas de requêtes edge."   
+      },
+      "category": "optimization"
+    },
+    { 
+      "date": "2026-01-09",
       "version": "1.2.2",
       "title": {
         "en": "Performance Improvements & System Optimizations",
@@ -49,7 +82,7 @@
       "category": "optimization"
     },
     {
-      "date": "2026-01-06",
+      "date": "2026-01-07",
       "version": "1.2.1",
       "title": {
         "en": "2026 Government Config Update - Indexed Values for Tax Year 2026",
@@ -92,7 +125,7 @@
       }
     },
     {
-      "date": "2026-01-05",
+      "date": "2026-01-06",
       "version": "1.2.0",
       "title": {
         "en": "Fiscal Work Bonus + BBSZ Calculation Fix",
@@ -132,7 +165,7 @@
       }
     },
     {
-      "date": "2026-01-04",
+      "date": "2026-01-05",
       "version": "1.1.9",
       "title": {
         "en": "Mobile Tooltip Improvements - Auto-Close on Scroll + Smart Loading Spinner",
@@ -166,7 +199,7 @@
       }
     },
     {
-      "date": "2026-01-03",
+      "date": "2026-01-04",
       "version": "1.1.8",
       "title": {
         "en": "Fixed Pie Chart Percentage Rounding Bug + Bike Allowance Days Bug resolved, new slider for enhanced 13th month bonuses",
