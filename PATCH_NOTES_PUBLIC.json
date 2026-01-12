@@ -1,14 +1,42 @@
 {
-  "version": "1.2.2",
-  "lastUpdated": "2026-01-07",
+  "version": "1.2.4",
+  "lastUpdated": "2026-01-12",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
-
   "entries": [
-    { 
+    {
+      "date": "2026-01-12",
+      "version": "1.2.4",
+      "title": {
+        "en": "Fixed Wage Input Persistence Issue",
+        "nl": "Loonveld Persistentie Probleem Opgelost",
+        "fr": "Correction du Problème de Persistance des Champs Salariaux"
+      },
+      "highlights": {
+        "en": [
+          "FIXED: ",
+          "FIXED: Monthly gross wage field now correctly persists after page reload, no longer shows incorrect values calculated from old hourly rates if wage was set through hourly and not through monthly."
+        ],
+        "nl": [
+          "OPGELOST: ",
+          "OPGELOST: Maandelijks bruto loonveld blijft nu correct behouden na het herladen van de pagina, toont geen onjuiste waarden meer die zijn berekend op basis van oude uurloonen als het loon via uurloon en niet via maandelijks is ingesteld."
+        ],
+        "fr": [
+          "CORRIGÉ: ",
+          "CORRIGÉ: Le champ du salaire brut mensuel persiste désormais correctement après le rechargement de la page, n'affiche plus de valeurs incorrectes calculées à partir d'anciens taux horaires si le salaire a été défini via le taux horaire et non via le mensuel."
+        ]
+      },
+      "details": {
+        "en": "Fixed a bug where the monthly gross wage was not saved to browser storage. Only the hourly rate was persisted and the monthly value was recalculated from the hourly rate on each page reload. If an old hourly rate was stored from a previous session, the monthly gross would display incorrect values. The monthly gross now saves properly alongside the hourly rate.",
+        "nl": "Bug opgelost waarbij het maandelijks brutoloon niet werd opgeslagen in de browseropslag. Alleen het uurloon werd behouden en de maandelijkse waarde werd bij elke pagina-herlading opnieuw berekend op basis van het uurloon. Als een oud uurloon was opgeslagen van een vorige sessie, zou het maandelijks bruto onjuiste waarden tonen. Het maandelijks bruto wordt nu correct opgeslagen naast het uurloon.",
+        "fr": "Correction d'un bug où le salaire brut mensuel n'était pas enregistré dans le stockage du navigateur. Seul le taux horaire était conservé et la valeur mensuelle était recalculée à partir du taux horaire à chaque rechargement de la page. Si un ancien taux horaire était stocké à partir d'une session précédente, le salaire brut mensuel affichait des valeurs incorrectes. Le salaire brut mensuel est désormais correctement enregistré aux côtés du taux horaire."
+      },
+      "category": "bugfix"
+    },
+    {
       "date": "2026-01-11",
       "version": "1.2.3",
       "title": {
@@ -22,25 +50,25 @@
           "IMPROVED: Vercel edge calls per request further reduced by loading resources through CDN instead of from the public folder, since static assets count as edge requests for vercel and I nearly hit the limit last month >.<",
           "FIXED: Also removed basic site analytics like amount of visitors to reduce vercel edge calls per request, moving to Umami instead."
         ],
-        "nl": [ 
+        "nl": [
           "VERBETERD: Verdere cache optimalisaties, alle paden die caching kunnen gebruiken doen dat nu ook.",
           "VERBETERD: Vercel edge calls per verzoek verder verminderd door bronnen te laden via CDN in plaats van vanuit de openbare folder, aangezien statische assets als edge verzoeken tellen voor vercel en ik bijna de limiet bereikte vorige maand >.<",
           "OPGELOST: Ook basis site-analytics zoals aantal bezoekers verwijderd om vercel edge calls per verzoek te verminderen, overstappend naar Umami in plaats daarvan."
         ],
-        "fr": [    
+        "fr": [
           "AMÉLIORÉ: Nouvelles optimisations de cache, tous les chemins pouvant utiliser le cache le font désormais.",
           "AMÉLIORÉ: Les appels Vercel edge par requête ont été encore réduits en chargeant les ressources via le CDN au lieu du dossier public, car les assets statiques comptent comme des requêtes edge pour vercel et j'ai presque atteint la limite le mois dernier >.<",
           "CORRIGÉ: Suppression également des analyses de site de base telles que le nombre de visiteurs pour réduire les appels Vercel edge par requête, en passant à Umami à la place."
         ]
       },
-      "details": {  
+      "details": {
         "en": "Vercel edge calls per request further reduced by loading resources through CDN instead of from the public folder, since static assets count as edge requests for vercel and I nearly hit the limit last month >.<  Also removed basic site analytics like amount of visitors to reduce vercel edge calls per request, moving to Umami since these do not cost edge request",
-         "nl": "Vercel edge calls per verzoek verder verminderd door bronnen te laden via CDN in plaats van vanuit de public folder, aangezien statische assets als edge verzoeken tellen voor vercel en ik bijna de limiet bereikte vorige maand >.<  Ook basis site-analytics zoals aantal bezoekers verwijderd om vercel edge calls per verzoek te verminderen, overstappend naar Umami gezien deze geen edge requests kosten.",
-        "fr": "Les appels Vercel edge par requête ont été encore réduits en chargeant les ressources via le CDN au lieu du dossier public, car les assets statiques comptent comme des requêtes edge pour vercel et j'ai presque atteint la limite le mois dernier >.<  Suppression également des analyses de site de base telles que le nombre de visiteurs pour réduire les appels Vercel edge par requête, en passant à Umami car ceux-ci ne coûtent pas de requêtes edge."   
+        "nl": "Vercel edge calls per verzoek verder verminderd door bronnen te laden via CDN in plaats van vanuit de public folder, aangezien statische assets als edge verzoeken tellen voor vercel en ik bijna de limiet bereikte vorige maand >.<  Ook basis site-analytics zoals aantal bezoekers verwijderd om vercel edge calls per verzoek te verminderen, overstappend naar Umami gezien deze geen edge requests kosten.",
+        "fr": "Les appels Vercel edge par requête ont été encore réduits en chargeant les ressources via le CDN au lieu du dossier public, car les assets statiques comptent comme des requêtes edge pour vercel et j'ai presque atteint la limite le mois dernier >.<  Suppression également des analyses de site de base telles que le nombre de visiteurs pour réduire les appels Vercel edge par requête, en passant à Umami car ceux-ci ne coûtent pas de requêtes edge."
       },
       "category": "optimization"
     },
-    { 
+    {
       "date": "2026-01-09",
       "version": "1.2.2",
       "title": {
@@ -149,7 +177,7 @@
           "OPGELOST: BBSZ-verschillen",
           "OPGELOST: Netto salarisverschil voor laagbetaalde werknemers ivm fiscale werkbonus"
         ],
-        "fr": [ 
+        "fr": [
           "NOUVEAU: Bonus Fiscal - crédit d'impôt permanent qui réduit votre obligation fiscale finale",
           "Formule: (Bonus Travail Partie A × 33,14%) + (Bonus Travail Partie B × 52,54%)",
           "Avantage maximum: €1.380/an (€115/mois)",
