@@ -1,0 +1,49 @@
+name: Notify Main Repo on CDN Update
+
+# Triggers when CDN content is pushed to main branch
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'PATCH_NOTES_PUBLIC.json'
+      - 'faqData.json'
+      - '*.png'
+      - '*.svg'
+      - '*.txt'
+
+jobs:
+  dispatch-to-main-repo:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout CDN repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need 2 commits to check what changed
+      
+      - name: Get changed files
+        id: changes
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD^..HEAD | tr '\n' ', ')
+          echo "files=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "📝 Changed files: $CHANGED_FILES"
+      
+      - name: Dispatch to main repository
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.MAIN_REPO_PAT }}
+          repository: JMonkeyFan/BelgianWageCalculator2025
+          event-type: cdn-content-updated
+          client-payload: |
+            {
+              "changed_files": "${{ steps.changes.outputs.files }}",
+              "commit_sha": "${{ github.sha }}",
+              "commit_message": "${{ github.event.head_commit.message }}",
+              "pusher": "${{ github.event.pusher.name }}"
+            }
+      
+      - name: Confirmation
+        run: |
+          echo "✅ Dispatched 'cdn-content-updated' event to main repository"
+          echo "🎯 Main repo will auto-increment DATA_VERSION and redeploy"
