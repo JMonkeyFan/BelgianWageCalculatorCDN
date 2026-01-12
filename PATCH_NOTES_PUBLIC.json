@@ -1,12 +1,41 @@
 {
   "version": "1.2.4",
-  "lastUpdated": "2026-01-12",
+  "lastUpdated": "2026-01-13",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-01-13",
+      "version": "1.2.5",
+      "title": {
+        "en": "More Ways to Support The Project 💛",
+        "nl": "Meer Manieren om Het Project te Steunen 💛",
+        "fr": "Plus de Moyens de Soutenir le Projet 💛"
+      },
+      "highlights": {
+        "en": [
+          "NEW: You can now support this project through Buy Me a Coffee in addition to Patreon, whatever works best for you! For this, you don't need an account and can choose between one-time or recurring, so this might be a bit more convenient.",
+          "Both options are in the header for easy access if you'd like to support the further development, maintenance, bugfixing, and hosting costs of this free tool."
+        ],
+        "nl": [
+          "NIEUW: Je kunt dit project nu ondersteunen via Buy Me a Coffee naast Patreon, wat het beste voor jou werkt! Hiervoor heb je geen account nodig en kan je kiezen tussen eenmalig of terugkerend, dus is dit misschien iets handiger.",
+          "Beide opties staan in de header voor gemakkelijke toegang als je de verdere ontwikkeling, het onderhoud, het oplossen van bugs en de hostingkosten van deze gratis tool wilt ondersteunen."
+        ],
+        "fr": [
+          "NOUVEAU: Vous pouvez maintenant soutenir ce projet via Buy Me a Coffee en plus de Patreon, selon ce qui vous convient le mieux! Pour cela, vous n'avez pas besoin de compte et pouvez choisir entre un soutien ponctuel ou récurrent, ce qui peut être un peu plus pratique.",
+          "Les deux options sont dans l'en-tête pour un accès facile si vous souhaitez contribuer."
+        ]
+      },
+      "details": {
+        "en": "Added Buy Me a Coffee as a support option alongside Patreon. This tool remains completely free with no ads (except perhaps vetted select affiliates) OR selling of data. Further development, maintenance, resolving bugs and hosting costs are currently covered by me but will hopefully someday be covered by your community support. Both options are in the header for easy access if you'd like to support the project, be it one time or recurrent. Thank you for your support 💛",
+        "nl": "Buy Me a Coffee toegevoegd als ondersteuningsoptie naast Patreon. Deze tool blijft volledig gratis zonder advertenties (behalve misschien enkele geselecteerde affiliates) OF verkoop van gegevens. Verdere ontwikkeling, onderhoud, het oplossen van bugs en hostingkosten worden momenteel door mij gedekt, maar hopelijk worden deze op een dag gedekt door de community. Beide opties staan in de header voor gemakkelijke toegang als je het project wilt ondersteunen, hetzij eenmalig of terugkerend. Dank je voor je steun 💛",
+        "fr": "Ajout de Buy Me a Coffee comme option de soutien en plus de Patreon. Cet outil reste entièrement gratuit sans publicités (sauf peut-être quelques affiliés sélectionnés) OU vente de données. Le développement ultérieur, la maintenance, la résolution des bugs et les coûts d'hébergement sont actuellement couverts par moi, mais j'espère qu'un jour ils seront couverts par le soutien de la communauté. Les deux options sont dans l'en-tête pour un accès facile si vous souhaitez soutenir le projet, que ce soit une fois ou de manière récurrente. Merci pour votre soutien 💛"
+      },
+      "category": "enhancement"
+    },
     {
       "date": "2026-01-12",
       "version": "1.2.4",
@@ -31,7 +60,7 @@
       },
       "details": {
         "en": "Fixed a bug where the monthly gross wage was not saved to browser storage. Only the hourly rate was persisted and the monthly value was recalculated from the hourly rate on each page reload. If an old hourly rate was stored from a previous session, the monthly gross would display incorrect values. The monthly gross now saves properly alongside the hourly rate.",
-        "nl": "Bug opgelost waarbij het maandelijks brutoloon niet werd opgeslagen in de browseropslag. Alleen het uurloon werd behouden en de maandelijkse waarde werd bij elke pagina-herlading opnieuw berekend op basis van het uurloon. Als een oud uurloon was opgeslagen van een vorige sessie, zou het maandelijks bruto onjuiste waarden tonen. Het maandelijks bruto wordt nu correct opgeslagen naast het uurloon.",
+        "nl": "Bug opgelost waarbij het maandelijks brutoloon niet werd opgeslagen in de browseropslag. Alleen het uurloon werd behouden en de maandelijkse waarde werd bij elke pagina-herlading opnieuw berekend op basis van het uurloon. Als een oud uurloon was opgeslagen van een vorige sessie, zou het maandelijks bruto onjuiste waarden tonen. Het maandelijks bruto wordt nu correct opgeslagen samen met het uurloon.",
         "fr": "Correction d'un bug où le salaire brut mensuel n'était pas enregistré dans le stockage du navigateur. Seul le taux horaire était conservé et la valeur mensuelle était recalculée à partir du taux horaire à chaque rechargement de la page. Si un ancien taux horaire était stocké à partir d'une session précédente, le salaire brut mensuel affichait des valeurs incorrectes. Le salaire brut mensuel est désormais correctement enregistré aux côtés du taux horaire."
       },
       "category": "bugfix"
