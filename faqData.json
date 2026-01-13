@@ -247,20 +247,6 @@
             "fr": "Oui! Les suggestions de fonctionnalités sont les bienvenues, bien qu'elles soient évaluées en fonction de:\n• La fréquence de l'avantage\n• La complexité de l'implémentation\n• Garder l'interface gérable, par exemple la FAQ voiture\n• Si cela impacte significativement les calculs de salaire net mensuel/annuel"
           },
           "keywords": ["feature", "functie", "fonctionnalité", "suggest", "voorstellen", "suggérer", "request", "verzoek", "demande", "feedback"]
-        },
-        {
-          "id": "support-widget-popup",
-          "question": {
-            "en": "Is it possible to stop the BuyMeACoffee widget popup from appearing?",
-            "nl": "Is het mogelijk om de BuyMeACoffee widget popup niet meer te laten verschijnen?",
-            "fr": "Est-il possible d'empêcher l'apparition de la popup du widget BuyMeACoffee?"
-          },
-          "answer": {
-            "en": "No, if we want to use the BuyMeACoffee widget for easy donations on the site itself, we cannot control when the popup message appears - that's managed by the widget provider, every time it loads meaning every time the user refreshes or a new visitor loads in, it'll show up. We can only customize how the popup looks (styling, colors, size) to make it fit better with the site's design.",
-            "nl": "Nee, als we de BuyMeACoffee widget willen gebruiken voor gemakkelijke donaties op de site zelf, kunnen we niet controleren wanneer het popupbericht verschijnt - dat wordt beheerd door de widget-provider, elke keer dat het wordt geladen, wat betekent dat het elke keer verschijnt wanneer de gebruiker vernieuwt of een nieuwe bezoeker binnenkomt. We kunnen alleen aanpassen hoe de popup eruitziet (styling, kleuren, grootte) om beter bij het ontwerp van de site te passen.",
-            "fr": "Non, si nous voulons utiliser le widget BuyMeACoffee pour des dons faciles sur le site lui-même, nous ne pouvons pas contrôler quand le message popup apparaît - cela est géré par le fournisseur du widget, chaque fois qu'il se charge, ce qui signifie qu'il apparaîtra chaque fois que l'utilisateur actualise ou qu'un nouveau visiteur arrive. Nous ne pouvons personnaliser que l'apparence de la popup (style, couleurs, taille) pour mieux s'adapter au design du site."
-          },
-          "keywords": ["support", "widget", "popup", "disable", "control", "uitschakelen", "controleren", "désactiver", "contrôler", "appearance", "styling", "looks"]
         }
       ]
     }
