@@ -1,12 +1,41 @@
 {
-  "version": "1.2.6",
-  "lastUpdated": "2026-01-14",
+  "version": "1.2.7",
+  "lastUpdated": "2026-01-15",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-01-15",
+      "version": "1.2.7",
+      "title": {
+        "en": "Code cleanup and minor optimizations",
+        "nl": "Code opkuis en kleine optimalisaties",
+        "fr": "Nettoyage de code et petites optimisations"
+      },
+      "highlights": {
+        "en": [
+          "Removed some outdated aspects of the code that were no longer relevant.",
+          "If you notice any issues, please be sure to report them via the bug report option in the contactform."
+        ],
+        "nl": [ 
+          "Enkele achterhaalde aspecten van de code die niet meer relevant zijn verwijderd.",
+          "Indien je enig probleem opmerkt, gelieve dit zeker te rapporteren via de bug report optie in de contact sectie."
+        ],
+        "fr": [
+          "Des aspects obsolètes du code qui n'étaient plus pertinents ont été supprimés.",
+          "Si vous remarquez des problèmes, veuillez les signaler via le rapport de bogue dans le formulaire de contact."
+        ]
+      },
+      "details": {
+        "en": "General code cleanup and minor optimizations to improve maintainability. No user-facing changes.",
+        "nl": "Algemene codeopkuis en kleine optimalisaties om de onderhoudbaarheid te verbeteren. Geen wijzigingen voor de gebruiker.",
+        "fr": "Nettoyage général du code et petites optimisations pour améliorer la maintenabilité. Aucune modification visible par l'utilisateur."
+      },
+      "category": "enhancement"
+    },
     {
       "date": "2026-01-14",
       "version": "1.2.6",
