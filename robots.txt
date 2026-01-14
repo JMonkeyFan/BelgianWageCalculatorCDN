@@ -2,6 +2,11 @@
 User-agent: *
 Allow: /
 
+# Block share parameter URLs from crawlers (infinite user-generated variations)
+# These are for users to share calculator configurations, not for indexing
+Disallow: /*?share=*
+Disallow: /*&share=*
+
 # Block admin and monitoring pages from crawlers (prevent edge function abuse)
 Disallow: /admin
 Disallow: /admin/
