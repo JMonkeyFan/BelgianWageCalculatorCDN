@@ -1,6 +1,6 @@
 {
-  "version": "1.2.4",
-  "lastUpdated": "2026-01-13",
+  "version": "1.2.6",
+  "lastUpdated": "2026-01-14",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
@@ -8,31 +8,60 @@
   },
   "entries": [
     {
+      "date": "2026-01-14",
+      "version": "1.2.6",
+      "title": {
+        "en": "Improved User Experience for the Buy Me A Coffee Support Popup",
+        "nl": "Verbeterde User Experience van Buy Me A Coffee Ondersteuningspopup",
+        "fr": "Amélioration de l'Expérience Utilisateur pour la Popup de Soutien Buy Me A Coffee"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVED: Made it so the popup from the Buy Me A Coffee support option does not appear multiple times in one day, for example if the user decides to reload the page or visit again within the same day.",
+          "IMPROVED: Added a randomized delay before the Buy Me A Coffee popup appears, to reduce the chance of it appearing immediately on page load and disrupting user experience and thus to guarantee that users have been able to use the tool before asking for there support, since doing it beforehand when landing on the page wouldn't make much sense.."
+        ],
+        "nl": [
+          "VERBETERD: Het zo gemaakt dat de popup van de Buy Me A Coffee ondersteuningsoptie niet meerdere keren op één dag verschijnt, bijvoorbeeld als de gebruiker besluit de pagina te herladen of opnieuw te bezoeken binnen dezelfde dag.",
+          "VERBETERD: Een willekeurige vertraging toegevoegd voordat de Buy Me A Coffee popup verschijnt, om de kans te verkleinen dat deze onmiddellijk bij het laden van de pagina verschijnt en de gebruikerservaring verstoort en zo te garanderen dat gebruikers in staat zijn geweest om de tool te gebruiken voordat ze om hun steun wordt gevraagd, aangezien het doen ervan vooraf bij het landen op de pagina niet veel zin zou hebben.."
+        ],
+        "fr": [
+          "AMÉLIORÉ: Fait en sorte que la popup de l'option de soutien Buy Me A Coffee n'apparaisse pas plusieurs fois en une journée, par exemple si l'utilisateur décide de recharger la page ou de visiter à nouveau dans la même journée.",
+          "AMÉLIORÉ: Ajout d'un délai aléatoire avant l'apparition de la popup Buy Me A Coffee, pour réduire la probabilité qu'elle apparaisse immédiatement au chargement de la page et perturbe l'expérience utilisateur et ainsi garantir que les utilisateurs ont pu utiliser l'outil avant de demander leur soutien, car le faire avant en arrivant sur la page n'aurait pas beaucoup de sens.."
+        ]
+      },
+      "details": {
+        "en": "Improved the Buy Me A Coffee support popup behavior by ensuring it only appears once per day per user, even if they reload or revisit the page. Additionally, implemented a randomized delay before allowing the popup to show to avoid disrupting the user experience immediately upon page load, allowing users to actually use the tool prior to asking for their support, considering it wouldn't make much sense otherwise.",
+        "nl": "Verbeterd het gedrag van de Buy Me A Coffee ondersteuningspopup door ervoor te zorgen dat deze slechts één keer per dag per gebruiker verschijnt, zelfs als ze de pagina herladen of opnieuw bezoeken. Daarnaast is er een willekeurige vertraging geïmplementeerd voordat de popup mag worden weergegeven om te voorkomen dat de gebruikerservaring onmiddellijk bij het laden van de pagina wordt verstoord, zodat gebruikers de tool daadwerkelijk kunnen gebruiken voordat ze om hun steun wordt gevraagd, aangezien het anders niet veel zin zou hebben.",
+        "fr": "Amélioré le comportement de la popup de soutien Buy Me A Coffee en s'assurant qu'elle n'apparaît qu'une seule fois par jour par utilisateur, même s'ils rechargent ou revisitent la page. De plus, un délai aléatoire a été mis en place avant de permettre l'affichage de la popup afin d'éviter de perturber l'expérience utilisateur immédiatement au chargement de la page, permettant aux utilisateurs d'utiliser réellement l'outil avant de demander leur soutien, car cela n'aurait pas beaucoup de sens autrement."
+      },
+      "category": "enhancement"
+    },
+    {
       "date": "2026-01-13",
       "version": "1.2.5",
       "title": {
-        "en": "More Ways to Support The Project 💛",
-        "nl": "Meer Manieren om Het Project te Steunen 💛",
-        "fr": "Plus de Moyens de Soutenir le Projet 💛"
+        "en": "More Ways to Support The Project :)",
+        "nl": "Meer Manieren om Het Project te Steunen :)",
+        "fr": "Plus de Moyens de Soutenir le Projet :)"
       },
       "highlights": {
         "en": [
           "NEW: You can now support this project through Buy Me a Coffee in addition to Patreon, whatever works best for you! For this, you don't need an account and can choose between one-time or recurring, so this might be a bit more convenient.",
-          "Both options are in the header for easy access if you'd like to support the further development, maintenance, bugfixing, and hosting costs of this free tool."
+          "The Patreon option you can find in the header, the Buy Me a Coffee option is the blue button at the bottom right if you'd like to support the further development, maintenance, bugfixing, and hosting costs of this free tool."
         ],
         "nl": [
           "NIEUW: Je kunt dit project nu ondersteunen via Buy Me a Coffee naast Patreon, wat het beste voor jou werkt! Hiervoor heb je geen account nodig en kan je kiezen tussen eenmalig of terugkerend, dus is dit misschien iets handiger.",
-          "Beide opties staan in de header voor gemakkelijke toegang als je de verdere ontwikkeling, het onderhoud, het oplossen van bugs en de hostingkosten van deze gratis tool wilt ondersteunen."
+          "De Patreon optie vind je in de header, de Buy Me a Coffee optie is de blauwe knop rechtsonder als je de verdere ontwikkeling, het onderhoud, het oplossen van bugs en de hostingkosten van deze gratis tool wilt ondersteunen."
         ],
         "fr": [
           "NOUVEAU: Vous pouvez maintenant soutenir ce projet via Buy Me a Coffee en plus de Patreon, selon ce qui vous convient le mieux! Pour cela, vous n'avez pas besoin de compte et pouvez choisir entre un soutien ponctuel ou récurrent, ce qui peut être un peu plus pratique.",
-          "Les deux options sont dans l'en-tête pour un accès facile si vous souhaitez contribuer."
+          "L'option Patreon se trouve dans l'en-tête, l'option Buy Me a Coffee est le bouton bleu en bas à droite si vous souhaitez soutenir le développement, la maintenance, la correction de bugs et les coûts d'hébergement de cet outil gratuit."
         ]
       },
       "details": {
-        "en": "Added Buy Me a Coffee as a support option alongside Patreon. This tool remains completely free with no ads (except perhaps vetted select affiliates) OR selling of data. Further development, maintenance, resolving bugs and hosting costs are currently covered by me but will hopefully someday be covered by your community support. Both options are in the header for easy access if you'd like to support the project, be it one time or recurrent. Thank you for your support 💛",
-        "nl": "Buy Me a Coffee toegevoegd als ondersteuningsoptie naast Patreon. Deze tool blijft volledig gratis zonder advertenties (behalve misschien enkele geselecteerde affiliates) OF verkoop van gegevens. Verdere ontwikkeling, onderhoud, het oplossen van bugs en hostingkosten worden momenteel door mij gedekt, maar hopelijk worden deze op een dag gedekt door de community. Beide opties staan in de header voor gemakkelijke toegang als je het project wilt ondersteunen, hetzij eenmalig of terugkerend. Dank je voor je steun 💛",
-        "fr": "Ajout de Buy Me a Coffee comme option de soutien en plus de Patreon. Cet outil reste entièrement gratuit sans publicités (sauf peut-être quelques affiliés sélectionnés) OU vente de données. Le développement ultérieur, la maintenance, la résolution des bugs et les coûts d'hébergement sont actuellement couverts par moi, mais j'espère qu'un jour ils seront couverts par le soutien de la communauté. Les deux options sont dans l'en-tête pour un accès facile si vous souhaitez soutenir le projet, que ce soit une fois ou de manière récurrente. Merci pour votre soutien 💛"
+        "en": "Added Buy Me a Coffee as a support option alongside Patreon, you can find The Patreon option in the header while the Buy Me a Coffee option is the blue button at the bottom right . This tool remains completely free with no ads (except perhaps vetted relevant sponsors in the future) OR selling of data. Further development, maintenance, resolving bugs and hosting costs are currently covered by me but will hopefully someday be covered by community support. Your support will be appreciated, be it one time or recurrent! :)",
+        "nl": "Buy Me a Coffee toegevoegd als een ondersteuningsoptie als alternatief voor Patreon, je kunt de Patreon optie in de header vinden terwijl de Buy Me a Coffee optie de blauwe knop rechtsonder is . Deze tool blijft volledig gratis zonder advertenties (behalve misschien gecontroleerde relevante sponsors in de toekomst) OF verkoop van gegevens. Verdere ontwikkeling, onderhoud, het oplossen van bugs en hostingkosten worden momenteel door mij gedekt, maar zullen hopelijk op een dag door community-ondersteuning worden gedekt. Jouw steun wordt gewaardeerd, of het nu eenmalig of terugkerend is! :)",
+        "fr": "Buy Me a Coffee ajouté comme option de soutien en plus de Patreon, vous pouvez trouver l'option Patreon dans l'en-tête tandis que l'option Buy Me a Coffee est le bouton bleu en bas à droite . Cet outil reste entièrement gratuit sans publicités (sauf peut-être des sponsors pertinents vérifiés à l'avenir) OU vente de données. Le développement, la maintenance, la résolution des bugs et les coûts d'hébergement sont actuellement couverts par moi, mais seront espérons-le un jour couverts par le soutien de la communauté. Votre soutien sera apprécié, qu'il soit ponctuel ou récurrent! :)"
       },
       "category": "enhancement"
     },
