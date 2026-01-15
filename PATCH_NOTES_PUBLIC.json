@@ -18,21 +18,24 @@
       "highlights": {
         "en": [
           "Removed some outdated aspects of the code that were no longer relevant.",
+          "Improved page load: Support button now appears only after accepting cookies, for a cleaner first visit experience.",
           "If you notice any issues, please be sure to report them via the bug report option in the contactform."
         ],
         "nl": [ 
           "Enkele achterhaalde aspecten van de code die niet meer relevant zijn verwijderd.",
+          "Verbeterde paginalaadtijd: Ondersteuningsknop verschijnt nu pas na het accepteren van cookies, voor een schonere eerste bezoekervaring.",
           "Indien je enig probleem opmerkt, gelieve dit zeker te rapporteren via de bug report optie in de contact sectie."
         ],
         "fr": [
           "Des aspects obsolètes du code qui n'étaient plus pertinents ont été supprimés.",
+          "Amélioration du chargement: Le bouton de support n'apparaît qu'après avoir accepté les cookies, pour une première visite plus propre.",
           "Si vous remarquez des problèmes, veuillez les signaler via le rapport de bogue dans le formulaire de contact."
         ]
       },
       "details": {
-        "en": "General code cleanup and minor optimizations to improve maintainability. No user-facing changes.",
-        "nl": "Algemene codeopkuis en kleine optimalisaties om de onderhoudbaarheid te verbeteren. Geen wijzigingen voor de gebruiker.",
-        "fr": "Nettoyage général du code et petites optimisations pour améliorer la maintenabilité. Aucune modification visible par l'utilisateur."
+        "en": "General code cleanup and minor optimizations to improve maintainability. Support button visibility now tied to cookie consent for a cleaner first-time visitor experience.",
+        "nl": "Algemene codeopkuis en kleine optimalisaties om de onderhoudbaarheid te verbeteren. Zichtbaarheid van de ondersteuningsknop nu gekoppeld aan cookie toestemming voor een schonere eerste bezoekervaring.",
+        "fr": "Nettoyage général du code et petites optimisations pour améliorer la maintenabilité. La visibilité du bouton de support est maintenant liée au consentement des cookies pour une meilleure expérience de première visite."
       },
       "category": "enhancement"
     },
