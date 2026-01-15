@@ -1,12 +1,53 @@
 {
-  "version": "1.2.7",
-  "lastUpdated": "2026-01-15",
+  "version": "1.2.8",
+  "lastUpdated": "2026-01-16",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-01-16",
+      "version": "1.2.8",
+      "title": {
+        "en": "Color blind mode part 1, added a button to toggle  colour-blind mode in clear view and all main UI calculation fields are optimized for color blind mode",
+        "nl": "Kleurenblind modus deel 1, er is een knop geplaatst in duidelijk zicht om naar kleurenblindheidsmodus te schakelen en alle hoofd UI berekeningsvelden zijn geoptimaliseerd voor kleurenblind modus",
+        "fr": "Mode daltonien partie 1, ajout d'un bouton pour basculer en mode daltonien en vue claire et tous les principaux champs de calcul UI sont optimisés pour le mode daltonien"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Part one of colourblind mode added! Hope it helps someone :)", 
+          "Button to toggle on or off added in clear view at the top of monthly calculations",
+          "All main UI calculation fields optimized for color-blind mode",
+          "Tooltips & net return/backgrounds for colour blindness will come in the near future.",
+          "Maintained the original colourpalette as default.",
+          "BEHIND_THE_SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!"
+        ],
+        "nl": [   
+          "NIEUW: Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :)", 
+          "Knop om modus te wisselen toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen",
+          "Alle hoofd UI berekeningsvelden zijn reeds verwerkt.",
+          "Tooltips & netto rendement + achtergronden voor kleurenblindheid komen in de nabije toekomst.",
+          "Het originele kleurenpalet is behouden als de standaard modus.",
+          "ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
+        ],
+        "fr": [    
+          "NOUVEAU: Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :)", 
+          "Bouton pour basculer activé ou désactivé ajouté en vue claire en haut des calculs mensuels",
+          "Tous les principaux champs de calcul UI optimisés pour le mode daltonien",
+          "Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir.",
+          "Palette de couleurs originale maintenue par défaut.",
+          "DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
+        ]
+      },
+      "details": { 
+        "en": "Part one of colour-blind mode added! Hope it helps someone :) A button to toggle on or off has been added in clear view at the top of monthly calculations. All main UI calculation fields have been optimized for color-blind mode. Tooltips & net return/backgrounds for colour blindness will come in the near future. The original colourpalette is maintained as default. BEHIND THE SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!",
+        "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn reeds verwerkt. Tooltips & netto rendement kleuren alsook achtergronden voor die voor kleurenblindheidmodus geoptimaliseerd zijn komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
+        "fr": "Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :) Un bouton pour basculer activé ou désactivé a été ajouté en vue claire en haut des calculs mensuels. Tous les principaux champs de calcul UI ont été optimisés pour le mode daltonien. Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir. La palette de couleurs originale est maintenue par défaut. DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
+      },
+      "category": "new_feature"
+    },
     {
       "date": "2026-01-15",
       "version": "1.2.7",
