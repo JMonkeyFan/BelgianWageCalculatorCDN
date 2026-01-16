@@ -1,12 +1,47 @@
 {
-  "version": "1.2.8",
-  "lastUpdated": "2026-01-16",
+  "version": "1.2.9",
+  "lastUpdated": "2026-01-18",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-01-18",
+      "version": "1.2.9",
+      "title": {
+        "en": "Extended colourblind support to backgrounds for the middle column and monthly calculations, for the net percentages, as well as for the effective return for the employer/employee column",
+        "nl": "Kleurenblindondersteuning uitgebreid voor de achtergrond van de middelste kolom en maandelijkse berekeningen, voor de nettopercentages, evenals voor het effectieve rendement voor de werkgever/werknemer kolom",
+        "fr": "Support daltonien étendu aux arrière-plans de la colonne du milieu et des calculs mensuels, pour les pourcentages nets, ainsi que pour le rendement effectif pour la colonne employeur/employé"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVEMENT: Before this, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.", 
+          "Net percentage gradations and effective return gradations properly updated for colourblind mode.",
+          "Remaining todo for full colourblind support: All of the tooltips and the piecharts: that's gonna be a serious task, still.",
+          "BEHIND_THE_SCENES: There's still a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!"
+        ],
+        "nl": [   
+          "VERBETERING: Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat het elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen.", 
+          "Nettopercentage gradaties en effectieve rendement gradaties correct bijgewerkt voor kleurenblindheidsmodus.",
+          "Resterende todo voor volledige kleurenblindheidsondersteuning: Alle tooltips: dat wordt nog een serieuze taak",
+          "ACHTER DE SCHERMEN: Er is nog steeds een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
+        ],
+        "fr": [   
+          "AMÉLIORATION: Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels.", 
+          "Les gradations de pourcentage net et les gradations de rendement effectif ont été correctement mises à jour pour le mode daltonien.",
+          "Todo restant pour un support daltonien complet: Toutes les info-bulles: ça va être une tâche sérieuse",
+          "DERRIÈRE LES SCÈNES: Il y a toujours un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
+        ]
+      },
+      "details": { 
+        "en": "So far, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.This way the gradations and net percentages are more easily distinguishable for those with colourblindness. Also included the gradations for the net return and effective return percentages for colourblind mode",
+        "nl": "Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat de kleurenblindheidsmodus elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen. Op deze manier zijn de gradaties en nettopercentages beter te onderscheiden voor mensen met kleurenblindheid. Ook de gradaties voor het netto rendement en het effectieve rendement percentages voor kleurenblindheidsmodus zijn nu aangepast",
+        "fr": "Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels. De cette façon, les gradations et les pourcentages nets sont plus facilement distinguables pour les personnes atteintes de daltonisme. Les gradations pour le rendement net et les pourcentages de rendement effectif pour le mode daltonien ont également été incluses"
+      },
+      "category": "new_feature"
+    },
     {
       "date": "2026-01-16",
       "version": "1.2.8",
