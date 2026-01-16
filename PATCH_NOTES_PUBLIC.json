@@ -7,6 +7,7 @@
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    
     {
       "date": "2026-01-17",
       "version": "1.3.0",
@@ -37,7 +38,7 @@
           "Effectief rendement percentage kleurgradaties zijn aangepast voor kleurenblindheidsmodus.",
           "Enkele andere kleine UI-elementen zijn aangepast voor kleurenblindheidsmodus.",
           "Indien iemand kleurenblind is en iets opmerkt dat nog niet is geoptimaliseerd voor de kleurenblindheidsmodus, laat het me dan zeker weten zodat ik het kan oplossen!",
-          "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt",
+          "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt.",
           "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
           "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!",
           "ACHTER DE SCHERMEN: Er is een nieuwe gratis post op mijn patreon die het resterende werk en de moeilijkheden bij het vinden van compatibele kleurgradaties doorloopt, met name wanneer ook rekening wordt gehouden met het contrast tussen tekst- en achtergrondkleurgradaties. Indien je geïnteresseerd bent, bekijk het dan zeker even!"
@@ -75,19 +76,19 @@
         "en": [
           "IMPROVEMENT: Before this, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.", 
           "Net percentage gradations and effective return gradations properly updated for colourblind mode.",
-          "Remaining todo for full colourblind support: All of the tooltips and the piecharts: that's gonna be a serious task, still.",
+          "Remaining todo for full colourblind support: All of the tooltips and the piecharts",
           "BEHIND_THE_SCENES: There's still a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!"
         ],
         "nl": [   
           "VERBETERING: Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat het elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen.", 
           "Nettopercentage gradaties en effectieve rendement gradaties correct bijgewerkt voor kleurenblindheidsmodus.",
-          "Resterende todo voor volledige kleurenblindheidsondersteuning: Alle tooltips: dat wordt nog een serieuze taak",
+          "Resterende todo voor volledige kleurenblindheidsondersteuning: Alle tooltips en taartdiagrammen",
           "ACHTER DE SCHERMEN: Er is nog steeds een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
         ],
         "fr": [   
           "AMÉLIORATION: Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels.", 
           "Les gradations de pourcentage net et les gradations de rendement effectif ont été correctement mises à jour pour le mode daltonien.",
-          "Todo restant pour un support daltonien complet: Toutes les info-bulles: ça va être une tâche sérieuse",
+          "Todo restant pour un support daltonien complet: Toutes les info-bulles et les graphiques en secteurs",
           "DERRIÈRE LES SCÈNES: Il y a toujours un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
         ]
       },
@@ -118,7 +119,7 @@
         "nl": [   
           "NIEUW: Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :)", 
           "Knop om modus te wisselen toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen",
-          "Alle hoofd UI berekeningsvelden zijn reeds verwerkt.",
+          "Alle hoofd UI berekeningsvelden geoptimaliseerd voor kleurenblindheidsmodus.",
           "Tooltips & netto rendement + achtergronden voor kleurenblindheid komen in de nabije toekomst.",
           "Het originele kleurenpalet is behouden als de standaard modus.",
           "ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
@@ -134,7 +135,7 @@
       },
       "details": { 
         "en": "Part one of colour-blind mode added! Hope it helps someone :) A button to toggle on or off has been added in clear view at the top of monthly calculations. All main UI calculation fields have been optimized for color-blind mode. Tooltips & net return/backgrounds for colour blindness will come in the near future. The original colourpalette is maintained as default. BEHIND THE SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!",
-        "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn reeds verwerkt. Tooltips & netto rendement kleuren alsook achtergronden voor die voor kleurenblindheidmodus geoptimaliseerd zijn komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
+        "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn geoptimaliseerd voor kleurenblindheidsmodus. Tooltips & netto rendement kleuren alsook achtergronden voor die voor kleurenblindheidsmodus geoptimaliseerd zijn komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
         "fr": "Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :) Un bouton pour basculer activé ou désactivé a été ajouté en vue claire en haut des calculs mensuels. Tous les principaux champs de calcul UI ont été optimisés pour le mode daltonien. Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir. La palette de couleurs originale est maintenue par défaut. DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
       },
       "category": "new_feature"
@@ -154,7 +155,7 @@
           "If you notice any issues, please be sure to report them via the bug report option in the contactform."
         ],
         "nl": [ 
-          "Enkele achterhaalde aspecten van de code die niet meer relevant zijn verwijderd.",
+          "Enkele verouderde code aspecten die niet langer relevant zijn verwijderd.",
           "Verbeterde paginalaadtijd: Ondersteuningsknop verschijnt nu pas na het accepteren van cookies, voor een betere eerste bezoekservaring.",
           "Indien je enig probleem opmerkt, gelieve dit zeker te rapporteren via de bug report optie in de contact sectie."
         ],
@@ -555,7 +556,7 @@
           "Deficit now shows accurate shortfall against pro-rated minimum",
           "IMPROVED: Hours/Days fields moved ABOVE salary inputs to prevent confusion",
           "FIXED: Mobility budget maximum now correctly includes 13th month, bike allowance, cafeteria plan",
-          "Mobility budget maximum now correctly excludes vacation pay VALUE (days × daily rate)"
+          "Mobility budget maximum now correctly excludes vacation pay value (days × daily rate)"
         ],
         "nl": [
           "OPGELOST: Minimumloon waarschuwing rekent nu correct pro-rata voor deeltijdwerkers",
@@ -563,7 +564,7 @@
           "Tekort toont nu nauwkeurig verschil ten opzichte van pro-rata minimum",
           "VERBETERD: Uren/Dagen velden verplaatst BOVEN salarisinvoer om verwarring te voorkomen",
           "OPGELOST: Mobiliteitsbudget maximum bevat nu correct 13e maand, fietsvergoeding, cafetariaplan",
-          "Mobiliteitsbudget maximum sluit nu correct vakantiegeld WAARDE uit (dagen × dagtarief)"
+          "Mobiliteitsbudget maximum sluit nu correct vakantiegeld waarde uit (dagen × dagtarief)"
         ],
         "fr": [
           "CORRIGÉ: L'avertissement salaire minimum calcule maintenant correctement au prorata pour les travailleurs à temps partiel",
