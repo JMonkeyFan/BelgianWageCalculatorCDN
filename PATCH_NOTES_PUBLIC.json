@@ -1,6 +1,6 @@
 {
-  "version": "1.2.9",
-  "lastUpdated": "2026-01-18",
+  "version": "1.3.0",
+  "lastUpdated": "2026-01-17",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
@@ -8,7 +8,63 @@
   },
   "entries": [
     {
-      "date": "2026-01-18",
+      "date": "2026-01-17",
+      "version": "1.3.0",
+      "title": {
+        "en": "Colourblind mode is finished! All tooltips, all piecharts, some remaining UI elements, net return, effective return, and so on, as far as I know, every single thing is now included and optimized for colourblind mode! <3",
+        "nl": "Kleurenblindheidsmodus is afgewerkt! Alle tooltips, alle taartdiagrammen, enkele resterende UI-elementen, nettorendement, effectief rendement, enzovoort, voor zover ik weet, is nu alles inbegrepen en geoptimaliseerd voor kleurenblindheidsmodus! <3",
+        "fr": "Le mode daltonien est terminé ! Tous les info-bulles, tous les graphiques en secteurs, certains éléments restants de l'interface utilisateur, le rendement net, le rendement effectif, et ainsi de suite, autant que je sache, chaque chose est maintenant incluse et optimisée pour le mode daltonien ! <3"
+      },
+      "highlights": {
+        "en": [
+          "IMPROVED: Colourblind mode is now fully finished.", 
+          "All piecharts are now optimized for colourblind mode.",
+          "All tooltips have been adjusted for colourblind mode.",
+          "Net return percentage gradations have been adjusted for colourblind mode.",
+          "Effective return percentage colour gradations have been adjusted for colourblind mode.",
+          "Some other minor UI elements have been adjusted for colourblind mode.",
+          "If someone is colourblind and notices something that isn't yet optimized for colourblind mode, please do let me know so I can fix it!",
+          "I am aware that blue-yellow colourblindness (tritanopia) as well as total colourblindness is not yet optimally supported, but given its rarity (only 0.03% of the population) I have not created seperate version for it.",
+          "However, from what I have read they should still be able to read and distinguish the text and I have made some additional efforts like + and - in front of positive and negative numbers... to create a sort of 'catch all' usability for any kind of colourblindness.", 
+          "If there IS someone who regularly uses the calculator and suffers from tritanopia,  feel free to let me know and we can see if we can find a solution(proper colour scheme) together!",
+          "BEHIND_THE_SCENES: There's a new free post on my patreon that goes through the remaining work and the difficulties in finding compatible colour gradations, in particular when also considering contrast between text and background colour gradations as well. If you're interested, check it out!"
+         ],
+        "nl": [   
+          "VERBETERD: Kleurenblindheidsmodus is nu volledig afgewerkt.", 
+          "Alle taartdiagrammen zijn nu geoptimaliseerd voor kleurenblindheidsmodus.",
+          "Alle tooltips zijn aangepast voor kleurenblindheidsmodus.",
+          "Nettorendement percentage gradaties zijn aangepast voor kleurenblindheidsmodus.",
+          "Effectief rendement percentage kleurgradaties zijn aangepast voor kleurenblindheidsmodus.",
+          "Enkele andere kleine UI-elementen zijn aangepast voor kleurenblindheidsmodus.",
+          "Indien iemand kleurenblind is en iets opmerkt dat nog niet is geoptimaliseerd voor de kleurenblindheidsmodus, laat het me dan zeker weten zodat ik het kan oplossen!",
+          "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt",
+          "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
+          "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!",
+          "ACHTER DE SCHERMEN: Er is een nieuwe gratis post op mijn patreon die het resterende werk en de moeilijkheden bij het vinden van compatibele kleurgradaties doorloopt, met name wanneer ook rekening wordt gehouden met het contrast tussen tekst- en achtergrondkleurgradaties. Indien je geïnteresseerd bent, bekijk het dan zeker even!"
+         ],
+        "fr": [  
+          "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.", 
+          "Tous les graphiques en secteurs sont désormais optimisés pour le mode daltonien.",
+          "Toutes les info-bulles ont été ajustées pour le mode daltonien.",
+          "Les gradations de pourcentage de rendement net ont été ajustées pour le mode daltonien.",
+          "Les gradations de couleur du pourcentage de rendement effectif ont été ajustées pour le mode daltonien.",
+          "Certains autres éléments mineurs de l'interface utilisateur ont été ajustés pour le mode daltonien.",
+          "Si quelqu'un est daltonien et remarque quelque chose qui n'est pas encore optimisé pour le mode daltonien, faites-le moi savoir afin que je puisse le corriger!",
+          "Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total ne sont pas encore pris en charge de manière optimale, mais étant donné sa rareté (seulement 0,03% de la population), je n'ai pas créé de version séparée pour cela.",
+          "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.", 
+          "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et nous verrons si nous pouvons trouver une solution (schéma de couleurs approprié) ensemble!",
+          "DERRIÈRE LES SCÈNES: Il y a un nouveau post gratuit sur mon patreon qui passe en revue le travail restant et les difficultés à trouver des gradations de couleurs compatibles, en particulier lorsqu'on prend également en compte le contraste entre la couleur du texte et celle de l'arrière-plan. Si vous êtes intéressé, consultez-le!"
+         ]
+      },
+      "details": { 
+        "en": "Colorblind mode has reached full completion! This comprehensive accessibility feature now covers every visual element of the calculator. All piecharts have been completely redesigned with colorblind-friendly color schemes that maintain clear visual distinction between segments. Every single tooltip throughout the application has been adjusted to use accessible color combinations that work for red-green colorblindness (the most common form, affecting approximately 8% of men and 0.5% of women). Net return percentage gradations and effective return percentage color gradations have been meticulously calibrated to ensure clear differentiation across all value ranges while maintaining proper contrast ratios between text and background colors(keep in mind, I am not colorblind myself, so I did the best I could with information at hand, including an extension called 'Lets get colorblind'). Additional UI elements including buttons, indicators, and visual feedback elements have been optimized as well. While the primary focus has been on deuteranopia and protanopia (red-green colorblindness), Already available and some added universal design principles such as adding plus (+) and minus (-) symbols in front of positive and negative numbers to create a sort of 'catch-all' usability for any kind of colorblindness. I am aware that blue-yellow colorblindness (tritanopia) as well as total colorblindness (achromatopsia) are not yet optimally supported, but given their extreme rarity (only 0.03% of the population combined), I have not created a separate version specifically for these conditions at this time. However, from what I have researched, individuals with these conditions should still be able to read and distinguish the information thanks to the additional non-color visual cues. If there IS someone who regularly uses the calculator and suffers from tritanopia or total colorblindness, please feel free to reach out and we can work together to find a suitable color scheme solution! For those interested in the technical challenges involved, there's a new free post on my Patreon that details the challenges and complexities of finding compatible color gradations and proper contrast, particularly when balancing the contrast requirements between text and background color gradations.",
+        "nl": "De kleurenblindheidsmodus is volledig afgewerkt! Deze uitgebreide toegankelijkheidsfunctie dekt nu elk visueel element van de calculator. Alle taartdiagrammen hebben nu alternatieve kleurenblindvriendelijke kleurenschema's die duidelijk visueel onderscheid en contrast tussen segmenten behouden. Elke tooltip doorheen de applicatie is aangepast om toegankelijke kleurencombinaties te gebruiken die werken voor rood-groen kleurenblindheid (de meest voorkomende vorm, die ongeveer 8% van de mannen en 0,5% van de vrouwen treft). Nettorendement percentage gradaties en effectief rendement percentage kleurgradaties zijn zorgvuldig gekalibreerd om duidelijke differentiatie over alle waardebereiken te garanderen terwijl juiste contrastverhoudingen tussen tekst en achtergrondkleuren behouden blijven(Zelf ben ik niet kleurenblind, dus heb ik het beste gedaan dat ik kon met de beschikbare informatie, inclusief gebruik van een extensie genaamd 'Lets get colorblind') . Bijkomende UI-elementen inclusief knoppen, indicatoren en visuele feedback-elementen zijn ook geoptimaliseerd. Hoewel de primaire focus gericht was op deuteranopie en protanopie (rood-groen kleurenblindheid), heb ik ook universele ontwerpprincipes geïmplementeerd zoals het toevoegen van plus (+) en min (-) symbolen voor positieve en negatieve getallen om een soort 'catch-all' bruikbaarheid voor elk soort kleurenblindheid te creëren. Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid (achromatopsie) nog niet optimaal worden ondersteund, maar gezien hun extreme zeldzaamheid (0,03% van de bevolking samen) heb ik op dit moment geen aparte versie specifiek voor deze aandoeningen gemaakt. Uit wat ik onderzocht heb zouden individuen met deze aandoeningen echter nog steeds in staat moeten zijn om de informatie te lezen en te onderscheiden dankzij de bijkomende niet-kleur visuele aanwijzingen en contrast. Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie of volledige kleurenblindheid, voel je vrij om contact op te nemen en we kunnen samenwerken om een geschikte kleurenschema-oplossing te vinden! Voor diegenen die geïnteresseerd zijn in de technische uitdagingen die hierbij komen kijken, is er een nieuwe gratis post op mijn Patreon die het voltooide werk en de moeilijkheden en complexiteit bij het vinden van compatibele kleurgradaties beschrijft, zoals bij het balanceren van de contrastvereisten tussen tekst- en achtergrondkleurgradaties.",
+        "fr": "Le mode daltonien a atteint son achèvement complet ! Cette fonctionnalité d'accessibilité complète couvre désormais chaque élément visuel de la calculatrice. Tous les graphiques en secteurs ont été entièrement repensés avec des schémas de couleurs adaptés aux daltoniens qui maintiennent une distinction visuelle claire entre les segments. Chaque info-bulle de l'application a été ajustée pour utiliser des combinaisons de couleurs accessibles qui fonctionnent pour le daltonisme rouge-vert (la forme la plus courante, affectant environ 8% des hommes et 0,5% des femmes). Les gradations de pourcentage de rendement net et les gradations de couleur du pourcentage de rendement effectif ont été méticuleusement calibrées pour assurer une différenciation claire sur toutes les plages de valeurs tout en maintenant des ratios de contraste appropriés entre les couleurs du texte et de l'arrière-plan( gardez à l'esprit que je ne suis pas daltonien moi-même, j'ai donc fait de mon mieux avec les informations à ma disposition, y compris une extension appelée 'Lets get colorblind'). Des éléments supplémentaires de l'interface utilisateur, y compris les boutons, les indicateurs et les éléments de retour visuel, ont également été optimisés. Bien que l'accent principal ait été mis sur la deutéranopie et la protanopie (daltonisme rouge-vert), j'ai également mis en œuvre des principes de conception universels tels que l'ajout de symboles plus (+) et moins (-) devant les nombres positifs et négatifs pour créer une sorte d'utilisabilité 'catch-all' pour tout type de daltonisme. Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total (achromatopsie) ne sont pas encore pris en charge de manière optimale, mais étant donné leur extrême rareté (seulement 0,03% de la population combinée), je n'ai pas créé de version séparée spécifiquement pour ces conditions à ce jour. Cependant, d'après mes recherches, les personnes atteintes de ces conditions devraient toujours être capables de lire et de distinguer les informations grâce aux indices visuels supplémentaires non liés à la couleur. S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie ou de daltonisme total, n'hésitez pas à me contacter et nous pouvons travailler ensemble"
+      },
+      "category": "new_feature"
+    },
+    {
+      "date": "2026-01-17",
       "version": "1.2.9",
       "title": {
         "en": "Extended colourblind support to backgrounds for the middle column and monthly calculations, for the net percentages, as well as for the effective return for the employer/employee column",
