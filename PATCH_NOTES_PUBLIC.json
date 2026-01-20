@@ -28,7 +28,9 @@
           "IMPROVED: Piecharts now move below each other if they do not have enough room side by side while zooming, to ensure no overlap.",
           "IMPROVED: Column width sizing now better optimized for higher zoom levels.",
           "IMPROVEd: Column padding reduced, to prevent text from overflowing from their containers at higher zoom levels.",
-          "IMPROVED: Smallest text size increased from 12px to 13.5px to improve general legiblity, as well as the second smallest to 14.5px to to still have a meaningful size difference."
+          "IMPROVED: Smallest text size increased from 12px to 13.5px to improve general legiblity, as well as the second smallest to 14.5px to to still have a meaningful size difference.",
+          "BEHIND_THE_SCENES: There will soon(next 2 weeks) be a new free post on my patreon that goes through the lessons learned and choices made while implementing colourblind mode, if you're interested! It was quite eye opening to me. For example, it goes into detail about how when you look at the green colourblind mode that the fuchsia(intense purple) which seems quite unreadable without colorblindness results in a clear contrasting blueish color with deuteranopia(fully green colorblind)"
+
         ],
         "nl": [ 
           "FEEDBACK: Na het vragen van feedback van r/Colorblind, kreeg ik een compleet nieuw perspectief op wat ik dacht dat leesbaar was voor mensen met kleurenblindheid.",
@@ -42,7 +44,8 @@
           "VERBETERD: Taartdiagrammen plaatsen zich nu onder elkaar indien ze niet genoeg ruimte naast elkaar hebben tijdens zoomen, om overlap te voorkomen.",
           "VERBETERD: Kolombreedtes nu beter geoptimaliseerd voor hogere zoomniveaus.",
           "VERBETERD: Kolom opvulling verminderd om te voorkomen dat tekst overloopt uit hun containers bij hogere zoomniveaus.",
-          "VERBETERD: Kleinste tekstgrootte verhoogd van 12px naar 13.5px om algemene leesbaarheid te verbeteren, evenals de op één na kleinste naar 14.5px om nog steeds een betekenisvol grootteverschil te hebben."
+          "VERBETERD: Kleinste tekstgrootte verhoogd van 12px naar 13.5px om algemene leesbaarheid te verbeteren, evenals de op één na kleinste naar 14.5px om nog steeds een betekenisvol grootteverschil te hebben.",
+          "ACHTER_DE_SCHERMEN: Er zal binnenkort (binnen 2 weken) een nieuwe gratis post op mijn patreon uitgebracht worden die de geleerde lessen en gemaakte keuzes bij het implementeren van de kleurenblindheidsmodus doorloopt, indien je geïnteresseerd bent! Het was voor mij behoorlijk verhelderend. Het gaat bijvoorbeeld in detail over hoe wanneer je naar de groenkleurenblinde modus kijkt, de fuchsia tekst (intens paars) die zonder kleurenblindheid nogal onleesbaar lijkt, resulteert in een duidelijk contrasterende blauwe kleur indien je deuteranopie hebt. (volledig groene kleurenblind)."
         ],
         "fr": [  
           "RETOUR: Après avoir demandé des retours de r/Colorblind, j'ai obtenu une toute nouvelle perspective sur ce que je pensais être lisible pour les personnes daltoniennes.",
@@ -56,8 +59,8 @@
           "AMÉLIORÉ: Les graphiques circulaires se positionnent maintenant l'un sous l'autre s'ils n'ont pas assez de place côte à côte lors du zoom, pour éviter tout chevauchement.",
           "AMÉLIORÉ: Les largeurs de colonnes maintenant mieux optimisées pour les niveaux de zoom plus élevés.",
           "AMÉLIORÉ: Le rembourrage des colonnes réduit pour éviter que le texte ne déborde de leurs conteneurs à des niveaux de zoom plus élevés.",
-          "AMÉLIORÉ: La plus petite taille de texte augmentée de 12px à 13.5px pour améliorer la lisibilité générale, ainsi que la deuxième plus petite à 14.5px pour maintenir une différence de taille significative."
-        ]
+          "AMÉLIORÉ: La plus petite taille de texte augmentée de 12px à 13.5px pour améliorer la lisibilité générale, ainsi que la deuxième plus petite à 14.5px pour maintenir une différence de taille significative.",
+          "DERRIÈRE_LES_SCÈNES: Il y aura bientôt (dans les 2 semaines) un nouveau post gratuit sur mon patreon qui passe en revue les leçons apprises et les choix faits lors de la mise en œuvre du mode daltonien, si vous êtes intéressé! Cela a été assez révélateur pour moi. Par exemple, il détaille comment, lorsque vous regardez le mode daltonien vert, le texte fuchsia (violet intense) qui semble assez illisible sans daltonisme, se traduit par une couleur bleue contrastée claire en cas de deutéranopie (daltonisme vert complet)."]
       },
       "details": { 
         "en": "After receiving feedback from the r/Colorblind community, it became clear that the previous single colorblind mode was flawed. With no pun intended, red/green colourblindness is not black and white. it's a spectrum, where the receptors for red or green could be anywhere from 0%(totally colourblind to them) to 100%(normal vision). I've added two modes instead of a single colourblind mode now, one for red colourblindness (protanopia/protanomaly) and another for green colorblindness (deuteranopia/deuteranomaly). Like I said, it is a spectrum, so it is quite possible that for some with red colorblindness they might prefer the green colorblind mode and vice versa, based on where on the spectrum they reside. Both modes now feature carefully adjusted background colors and text colors for optimal legibility. All tooltips throughout the application have been fully optimized for both modes, with each mode having its own distinct color schemes for warnings, titles, positive values, and negative values. The pie charts have been improved to reflow responsively when there isn't enough horizontal space while zooming, they now stack vertically to prevent overlap. Column width sizing has been optimized for higher zoom levels to maintain readability. Column padding has been reduced strategically to prevent text overflow from containers at higher zoom levels. Additionally, the minimum text sizes have been increased: the smallest text size went from 12px to 13.5px, and the second smallest to 14.5px, ensuring both improved general legibility and meaningful size differentiation between text hierarchies.",
@@ -86,7 +89,6 @@
           "I am aware that blue-yellow colourblindness (tritanopia) as well as total colourblindness is not yet optimally supported, but given its rarity (only 0.03% of the population) I have not created seperate version for it.",
           "However, from what I have read they should still be able to read and distinguish the text and I have made some additional efforts like + and - in front of positive and negative numbers... to create a sort of 'catch all' usability for any kind of colourblindness.", 
           "If there IS someone who regularly uses the calculator and suffers from tritanopia,  feel free to let me know and we can see if we can find a solution(proper colour scheme) together!",
-          "BEHIND_THE_SCENES: There's a new free post on my patreon that goes through the remaining work and the difficulties in finding compatible colour gradations, in particular when also considering contrast between text and background colour gradations as well. If you're interested, check it out!"
          ],
         "nl": [   
           "VERBETERD: Kleurenblindheidsmodus is nu volledig afgewerkt.", 
@@ -99,7 +101,6 @@
           "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt.",
           "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
           "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!",
-          "ACHTER DE SCHERMEN: Er is een nieuwe gratis post op mijn patreon die het resterende werk en de moeilijkheden bij het vinden van compatibele kleurgradaties doorloopt, met name wanneer ook rekening wordt gehouden met het contrast tussen tekst- en achtergrondkleurgradaties. Indien je geïnteresseerd bent, bekijk het dan zeker even!"
          ],
         "fr": [  
           "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.", 
@@ -112,7 +113,6 @@
           "Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total ne sont pas encore pris en charge de manière optimale, mais étant donné sa rareté (seulement 0,03% de la population), je n'ai pas créé de version séparée pour cela.",
           "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.", 
           "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et nous verrons si nous pouvons trouver une solution (schéma de couleurs approprié) ensemble!",
-          "DERRIÈRE LES SCÈNES: Il y a un nouveau post gratuit sur mon patreon qui passe en revue le travail restant et les difficultés à trouver des gradations de couleurs compatibles, en particulier lorsqu'on prend également en compte le contraste entre la couleur du texte et celle de l'arrière-plan. Si vous êtes intéressé, consultez-le!"
          ]
       },
       "details": { 
