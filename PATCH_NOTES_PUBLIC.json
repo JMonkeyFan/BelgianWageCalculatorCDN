@@ -1,12 +1,61 @@
 {
   "version": "1.3.1",
-  "lastUpdated": "2026-01-18",
+  "lastUpdated": "2026-01-21",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-01-21",
+      "version": "1.3.2",
+      "title": {
+        "en": "Bedrijfsvoorheffing UI overview",
+        "nl": "Bedrijfsvoorheffing UI overzicht",
+        "fr": "Aperçu de l'interface utilisateur de la précompte professionnel"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Bedrijfsvoorheffing for monthly calculations now shows the following breakdown(conditionally based on the entered situation):",
+          "Base reduction(basic tax-free allowance for everyone)",
+          "Dependents: additional tax-free allowance per dependent",
+          "Single parent bonus: additional tax-free allowance for single parents",
+          "Dependent under 3 years old: additional tax-free allowance for dependents under 3 years old",
+          "Fiscal work bonus(based on how much rsz workbonus is applicable to your monthly income",
+          "Marriage Quotient: additional tax-free allowance for married couplest through transferring part of their allowance to their spouse's taxable income", 
+          "Fixed marriage quotient calculation, resolved some variables that weren't properly indexed yet." 
+           ],
+        "nl": [    
+          "NIEUW: Bedrijfsvoorheffing voor maandelijkse berekeningen toont nu de volgende elementen(voorwaardelijk op basis van de ingevoerde situatie):",
+          "Basisvermindering(basis belastingvrije som voor iedereen)",
+          "Afhankelijken: aanvullende belastingvrije som per afhankelijke",
+          "Alleenstaande ouder bonus: aanvullende belastingvrije som voor alleenstaande ouders",
+          "Afhankelijke jonger dan 3 jaar: aanvullende belastingvrije som voor afhankelijken jonger dan 3 jaar",
+          "Fiscale werkbonus(op basis van hoeveel rsz werkbonus van toepassing is op je maandinkomen",
+          "Huwelijksquotiënt: aanvullende belastingvrije som voor gehuwde koppels door een deel van hun loon over te dragen naar het belastbaar inkomen van hun echtgenoot",
+          "Huwelijksquotiënt berekening verbeterd, enkele variabelen die nog niet correct geïndexeerd waren opgelost." 
+        
+        ],
+        "fr": [  
+          "NOUVEAU: Le précompte professionnel pour les calculs mensuels affiche désormais la répartition suivante (conditionnellement en fonction de la situation saisie):",
+          "Réduction de base (allocation de base non imposable pour tous)",
+          "Personnes à charge: allocation non imposable supplémentaire par personne à charge",
+          "Bonus pour parent isolé: allocation non imposable supplémentaire pour les parents isolés",
+          "Personne à charge de moins de 3 ans: allocation non imposable supplémentaire pour les personnes à charge de moins de 3 ans",
+          "Bonus fiscal pour le travail (basé sur le montant du bonus rsz applicable à votre revenu mensuel",
+          "Quotient matrimonial: allocation non imposable supplémentaire pour les couples mariés en transférant une partie de leur allocation à leur conjoint",
+          "Calcul du quotient matrimonial corrigé, résolution de certaines variables qui n'étaient pas encore correctement indexées."
+        
+        ]
+      },
+      "details": { 
+        "en": "The monthly bedrijfsvoorheffing (withholding tax) display has been significantly enhanced with a full detailed breakdown of all applicable tax reductions. Users can now see exactly how their withholding tax is calculated, including the base reduction that everyone receives (basic tax-free allowance), additional allowances for each dependent child, the single parent bonus for those raising children alone, extra allowances for dependents under 3 years old, the fiscal work bonus based on applicable RSZ work bonus amounts, and the marriage quotient benefit for married couples where one spouse transfers part of their tax-free allowance. This breakdown appears conditionally based on the user's specific situation - only relevant reductions are shown. Additionally, several variables in the marriage quotient calculation that weren't properly indexed to AJ2026 values have been corrected, ensuring accurate tax calculations.",
+        "nl": "De maandelijkse bedrijfsvoorheffing weergave is aanzienlijk verbeterd met een volledige gedetailleerde oplijsting van alle toepasselijke belastingverminderingen. Gebruikers kunnen nu precies zien hoe hun bedrijfsvoorheffing wordt berekend, inclusief de basisvermindering die iedereen ontvangt (basis belastingvrije som), aanvullende verminderingen voor elk afhankelijk kind, de alleenstaande ouder bonus voor wie alleen kinderen opvoedt, extra verminderingen voor afhankelijken jonger dan 3 jaar, de fiscale werkbonus gebaseerd op de toepasselijke RSZ werkbonus bedragen, en het huwelijksquotiënt voordeel voor gehuwde koppels waarbij één partner een deel van hun belastingvrije som overdraagt. Deze uitsplitsing verschijnt voorwaardelijk op basis van de specifieke situatie van de gebruiker - alleen relevante verminderingen worden getoond. Daarnaast zijn verschillende variabelen in de huwelijksquotiënt berekening die nog niet correct geïndexeerd waren naar AJ2026 waarden gecorrigeerd, wat zorgt voor nauwkeurige belastingberekeningen.",
+        "fr": "L'affichage du précompte professionnel mensuel a été considérablement amélioré avec une ventilation détaillée de toutes les réductions fiscales applicables. Les utilisateurs peuvent désormais voir exactement comment leur précompte professionnel est calculé, y compris la réduction de base que tout le monde reçoit (allocation de base non imposable), les allocations supplémentaires pour chaque enfant à charge, le bonus pour parent isolé pour ceux qui élèvent seuls des enfants, les allocations supplémentaires pour les personnes à charge de moins de 3 ans, le bonus fiscal pour le travail basé sur les montants de bonus RSZ applicables, et l'avantage du quotient matrimonial pour les couples mariés où un conjoint transfère une partie de son allocation non imposable. Cette ventilation apparaît conditionnellement en fonction de la situation spécifique de l'utilisateur - seules les réductions pertinentes sont affichées. De plus, plusieurs variables dans le calcul du quotient matrimonial qui n'étaient pas correctement indexées aux valeurs AJ2026 ont été corrigées, garantissant des calculs fiscaux précis."
+      },
+      "category": "new_feature"
+    },
         {
       "date": "2026-01-20",
       "version": "1.3.1",
@@ -88,7 +137,7 @@
           "If someone is colourblind and notices something that isn't yet optimized for colourblind mode, please do let me know so I can fix it!",
           "I am aware that blue-yellow colourblindness (tritanopia) as well as total colourblindness is not yet optimally supported, but given its rarity (only 0.03% of the population) I have not created seperate version for it.",
           "However, from what I have read they should still be able to read and distinguish the text and I have made some additional efforts like + and - in front of positive and negative numbers... to create a sort of 'catch all' usability for any kind of colourblindness.", 
-          "If there IS someone who regularly uses the calculator and suffers from tritanopia,  feel free to let me know and we can see if we can find a solution(proper colour scheme) together!",
+          "If there IS someone who regularly uses the calculator and suffers from tritanopia,  feel free to let me know and we can see if we can find a solution(proper colour scheme) together!"
          ],
         "nl": [   
           "VERBETERD: Kleurenblindheidsmodus is nu volledig afgewerkt.", 
@@ -100,7 +149,7 @@
           "Indien iemand kleurenblind is en iets opmerkt dat nog niet is geoptimaliseerd voor de kleurenblindheidsmodus, laat het me dan zeker weten zodat ik het kan oplossen!",
           "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt.",
           "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
-          "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!",
+          "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!"
          ],
         "fr": [  
           "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.", 
@@ -112,7 +161,7 @@
           "Si quelqu'un est daltonien et remarque quelque chose qui n'est pas encore optimisé pour le mode daltonien, faites-le moi savoir afin que je puisse le corriger!",
           "Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total ne sont pas encore pris en charge de manière optimale, mais étant donné sa rareté (seulement 0,03% de la population), je n'ai pas créé de version séparée pour cela.",
           "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.", 
-          "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et nous verrons si nous pouvons trouver une solution (schéma de couleurs approprié) ensemble!",
+          "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et nous verrons si nous pouvons trouver une solution (schéma de couleurs approprié) ensemble!"
          ]
       },
       "details": { 
