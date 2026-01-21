@@ -11,9 +11,9 @@
       "date": "2026-01-21",
       "version": "1.3.2",
       "title": {
-        "en": "Bedrijfsvoorheffing UI overview",
-        "nl": "Bedrijfsvoorheffing UI overzicht",
-        "fr": "Aperçu de l'interface utilisateur de la précompte professionnel"
+        "en": "Bedrijfsvoorheffing UI overview & free patreon article about colourblind mode",
+        "nl": "Bedrijfsvoorheffing UI overzicht & gratis Patreon-artikel over kleurenblindheidsmodus",
+        "fr": "Aperçu de l'interface utilisateur de la précompte professionnel & article Patreon gratuit sur le mode daltonien"
       },
       "highlights": {
         "en": [
@@ -24,7 +24,10 @@
           "Dependent under 3 years old: additional tax-free allowance for dependents under 3 years old",
           "Fiscal work bonus(based on how much rsz workbonus is applicable to your monthly income",
           "Marriage Quotient: additional tax-free allowance for married couplest through transferring part of their allowance to their spouse's taxable income", 
-          "Fixed marriage quotient calculation, resolved some variables that weren't properly indexed yet." 
+          "Fixed marriage quotient calculation, resolved some variables that weren't properly indexed yet.",
+          "BEHIND_THE_SCENES: I got to my promise to create that new free and detailed post on my Patreon regarding exactly what I discovered and learned while implementing the colourblind mode earlier than expected!",
+          "BEHIND_THE_SCENES: The format used was considered carefully, using both visual aides and clear explanations, so hopefully this can generate some awareness and understanding regarding how those with colourblindness experience the world.",
+          "BEHIND_THE_SCENES: If you're interested, you can find it here: https://www.patreon.com/posts/what-ive-learned-148728858"
            ],
         "nl": [    
           "NIEUW: Bedrijfsvoorheffing voor maandelijkse berekeningen toont nu de volgende elementen(voorwaardelijk op basis van de ingevoerde situatie):",
@@ -34,8 +37,10 @@
           "Afhankelijke jonger dan 3 jaar: aanvullende belastingvrije som voor afhankelijken jonger dan 3 jaar",
           "Fiscale werkbonus(op basis van hoeveel rsz werkbonus van toepassing is op je maandinkomen",
           "Huwelijksquotiënt: aanvullende belastingvrije som voor gehuwde koppels door een deel van hun loon over te dragen naar het belastbaar inkomen van hun echtgenoot",
-          "Huwelijksquotiënt berekening verbeterd, enkele variabelen die nog niet correct geïndexeerd waren opgelost." 
-        
+          "Huwelijksquotiënt berekening verbeterd, enkele variabelen die nog niet correct geïndexeerd waren opgelost.",
+          "ACHTER_DE_SCHERMEN: Ik ben mijn belofte om die nieuwe gratis en gedetailleerde post op mijn Patreon te maken over precies wat ik ontdekte en leerde tijdens het implementeren van de kleurenblindheidsmodus vroeger dan verwacht nagekomen!",
+          "ACHTER_DE_SCHERMEN: Het gebruikte formaat is zorgvuldig overwogen, met zowel visuele hulpmiddelen als duidelijke uitleg, dus hopelijk kan dit net zoals voor mij wat meer duidelijkheid geven over hoe mensen met kleurenblindheid de wereld eigenlijk ervaren.",
+          "ACHTER_DE_SCHERMEN: Indien je geïnteresseerd bent, kan je het hier vinden: https://www.patreon.com/posts/what-ive-learned-148728858"
         ],
         "fr": [  
           "NOUVEAU: Le précompte professionnel pour les calculs mensuels affiche désormais la répartition suivante (conditionnellement en fonction de la situation saisie):",
@@ -45,7 +50,10 @@
           "Personne à charge de moins de 3 ans: allocation non imposable supplémentaire pour les personnes à charge de moins de 3 ans",
           "Bonus fiscal pour le travail (basé sur le montant du bonus rsz applicable à votre revenu mensuel",
           "Quotient matrimonial: allocation non imposable supplémentaire pour les couples mariés en transférant une partie de leur allocation à leur conjoint",
-          "Calcul du quotient matrimonial corrigé, résolution de certaines variables qui n'étaient pas encore correctement indexées."
+          "Calcul du quotient matrimonial corrigé, résolution de certaines variables qui n'étaient pas encore correctement indexées.",
+          "DERRIÈRE_LES_SCÈNES: J'ai tenu ma promesse de créer ce nouveau post gratuit et détaillé sur mon Patreon concernant exactement ce que j'ai découvert et appris lors de la mise en œuvre du mode daltonien plus tôt que prévu!",
+          "DERRIÈRE_LES_SCÈNES: Le format utilisé a été soigneusement étudié, en utilisant à la fois des aides visuelles et des explications claires, j'espère donc que cela pourra générer une certaine sensibilisation et compréhension de la façon dont les personnes daltoniennes perçoivent le monde.",
+          "DERRIÈRE_LES_SCÈNES: Si vous êtes intéressé, vous pouvez le trouver ici: https://www.patreon.com/posts/what-ive-learned-148728858"
         
         ]
       },
