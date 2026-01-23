@@ -157,7 +157,7 @@
           "Indien iemand kleurenblind is en iets opmerkt dat nog niet is geoptimaliseerd voor de kleurenblindheidsmodus, laat het me dan zeker weten zodat ik het kan oplossen!",
           "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt.",
           "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
-          "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of we een oplossing (passend kleurenschema) kunnen vinden!"
+          "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of een gepaste oplossing gevonden kan worden(passend kleurenschema)!"
          ],
         "fr": [  
           "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.", 
@@ -169,7 +169,7 @@
           "Si quelqu'un est daltonien et remarque quelque chose qui n'est pas encore optimisé pour le mode daltonien, faites-le moi savoir afin que je puisse le corriger!",
           "Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total ne sont pas encore pris en charge de manière optimale, mais étant donné sa rareté (seulement 0,03% de la population), je n'ai pas créé de version séparée pour cela.",
           "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.", 
-          "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et nous verrons si nous pouvons trouver une solution (schéma de couleurs approprié) ensemble!"
+          "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et je serais heureux de vous aider à trouver une solution (schéma de couleurs approprié) ensemble!"
          ]
       },
       "details": { 
@@ -250,7 +250,7 @@
       },
       "details": { 
         "en": "Part one of colour-blind mode added! Hope it helps someone :) A button to toggle on or off has been added in clear view at the top of monthly calculations. All main UI calculation fields have been optimized for color-blind mode. Tooltips & net return/backgrounds for colour blindness will come in the near future. The original colourpalette is maintained as default. BEHIND THE SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!",
-        "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn geoptimaliseerd voor kleurenblindheidsmodus. Tooltips & netto rendement kleuren alsook achtergronden voor die voor kleurenblindheidsmodus geoptimaliseerd zijn komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
+        "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn geoptimaliseerd voor kleurenblindheidsmodus. Tooltips & netto rendement kleuren alsook achtergronden die geoptimaliseerd zijn voor kleurenblindheidsmodus komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
         "fr": "Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :) Un bouton pour basculer activé ou désactivé a été ajouté en vue claire en haut des calculs mensuels. Tous les principaux champs de calcul UI ont été optimisés pour le mode daltonien. Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir. La palette de couleurs originale est maintenue par défaut. DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
       },
       "category": "new_feature"
@@ -298,15 +298,15 @@
       "highlights": {
         "en": [
           "IMPROVED: Made it so the popup from the Buy Me A Coffee support option does not appear multiple times in one day, for example if the user decides to reload the page or visit again within the same day.",
-          "IMPROVED: Added a randomized delay before the Buy Me A Coffee popup appears, to reduce the chance of it appearing immediately on page load and disrupting user experience and thus to guarantee that users have been able to use the tool before asking for there support, since doing it beforehand when landing on the page wouldn't make much sense.."
+          "IMPROVED: Added a randomized delay before the Buy Me A Coffee popup appears, to reduce the chance of it appearing immediately on page load and disrupting user experience and thus to guarantee that users have been able to use the tool before asking for there support, since doing it beforehand when landing on the page wouldn't make much sense."
         ],
         "nl": [
           "VERBETERD: Het zo gemaakt dat de popup van de Buy Me A Coffee ondersteuningsoptie niet meerdere keren op één dag verschijnt, bijvoorbeeld als de gebruiker besluit de pagina te herladen of opnieuw te bezoeken binnen dezelfde dag.",
-          "VERBETERD: Een willekeurige vertraging toegevoegd voordat de Buy Me A Coffee popup verschijnt, om de kans te verkleinen dat deze onmiddellijk bij het laden van de pagina verschijnt en de gebruikerservaring verstoort en zo te garanderen dat gebruikers in staat zijn geweest om de tool te gebruiken voordat ze om hun steun wordt gevraagd, aangezien het doen ervan vooraf bij het landen op de pagina niet veel zin zou hebben.."
+          "VERBETERD: Een willekeurige vertraging toegevoegd voordat de Buy Me A Coffee popup verschijnt, om de kans te verkleinen dat deze onmiddellijk bij het laden van de pagina verschijnt en de gebruikerservaring verstoort en zo te garanderen dat gebruikers in staat zijn geweest om de tool te gebruiken voordat ze om hun steun wordt gevraagd, aangezien het doen ervan vooraf bij het landen op de pagina niet veel zin zou hebben."
         ],
         "fr": [
           "AMÉLIORÉ: Fait en sorte que la popup de l'option de soutien Buy Me A Coffee n'apparaisse pas plusieurs fois en une journée, par exemple si l'utilisateur décide de recharger la page ou de visiter à nouveau dans la même journée.",
-          "AMÉLIORÉ: Ajout d'un délai aléatoire avant l'apparition de la popup Buy Me A Coffee, pour réduire la probabilité qu'elle apparaisse immédiatement au chargement de la page et perturbe l'expérience utilisateur et ainsi garantir que les utilisateurs ont pu utiliser l'outil avant de demander leur soutien, car le faire avant en arrivant sur la page n'aurait pas beaucoup de sens.."
+          "AMÉLIORÉ: Ajout d'un délai aléatoire avant l'apparition de la popup Buy Me A Coffee, pour réduire la probabilité qu'elle apparaisse immédiatement au chargement de la page et perturbe l'expérience utilisateur et ainsi garantir que les utilisateurs ont pu utiliser l'outil avant de demander leur soutien, car le faire avant en arrivant sur la page n'aurait pas beaucoup de sens."
         ]
       },
       "details": {
@@ -355,15 +355,12 @@
       },
       "highlights": {
         "en": [
-          "FIXED: ",
           "FIXED: Monthly gross wage field now correctly persists after page reload, no longer shows incorrect values calculated from old hourly rates if wage was set through hourly and not through monthly."
         ],
         "nl": [
-          "OPGELOST: ",
           "OPGELOST: Maandelijks bruto loonveld blijft nu correct behouden na het herladen van de pagina, toont geen onjuiste waarden meer die zijn berekend op basis van oude uurloonen als het loon via uurloon en niet via maandelijks is ingesteld."
         ],
         "fr": [
-          "CORRIGÉ: ",
           "CORRIGÉ: Le champ du salaire brut mensuel persiste désormais correctement après le rechargement de la page, n'affiche plus de valeurs incorrectes calculées à partir d'anciens taux horaires si le salaire a été défini via le taux horaire et non via le mensuel."
         ]
       },
@@ -878,9 +875,9 @@
       "date": "2025-12-04",
       "version": "1.0.6",
       "title": {
-        "en": "",
-        "nl": "",
-        "fr": ""
+        "en": "Dynamic UI Coloring & Tooltip Improvements",
+        "nl": "Dynamische UI Kleuring & Tooltip Verbeteringen",
+        "fr": "Coloration UI Dynamique & Améliorations Info-bulles"
       },
       "highlights": {
         "en": [
