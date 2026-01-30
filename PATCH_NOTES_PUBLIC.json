@@ -1,6 +1,6 @@
 {
-  "version": "1.3.2",
-  "lastUpdated": "2026-01-22",
+  "version": "1.3.3",
+  "lastUpdated": "2026-01-31",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
@@ -8,7 +8,55 @@
   },
   "entries": [
     {
-      "date": "2026-01-22",
+      "date": "2026-01-31",
+      "version": "1.3.3",
+      "title": {
+        "en": "Personal update: Internship",
+        "nl": "Persoonlijke update: Stage",
+        "fr": "Mise à jour personnelle: Stage"
+      },
+      "highlights": {
+        "en": [
+          "Hey there!",
+          "Over the past three months this project has gone all the way from inception to its current feature-rich state.",
+          "The total amount of time and effort put in up to this point is a staggering 36 days of +- 7-8 hours of work per day with quite a few neat features added along the way!",
+          "Ofcourse, that amount of time investment will not be sustainable in the (near) future, as my internship to complete my bachelor is starting soon.",
+          "All indexation of formulas and values as well as pretty much all features and todos I had stored up are finished",
+          "So, I'll shift to a different model where updates will be less frequent, and will rely more on the community to report any bugs or issues they find as well as request any features that they would still like to see added.",
+          "The resolution to these issues will be batched together in these less frequent updates.",
+          "In the meantime any support is ofcourse still highly welcome to aid further development(like an arbeider mode), stay up to date with tax law, as well as to help cover ongoing and previous costs."
+        ],
+        "nl": [
+          "Hey daar!",
+          "De afgelopen drie maanden is dit project van conceptie tot de huidige feature-rijke staat ontwikkeld.",
+          "De totale hoeveelheid tijd en moeite die tot nu toe is geïnvesteerd is een stevige 36 dagen van +- 7-8 uur werk per dag met heel wat leuke functies toegevoegd onderweg!",
+          "Natuurlijk zal die hoeveelheid tijdsinvestering niet haalbaar zijn in de (nabije) toekomst, aangezien mijn stage voor mijn bachelor af te werken binnenkort begint.",
+          "Alle indexering van formules en waarden evenals vrijwel alle functies en taken die ik als todos had zijn afgewerkt",
+          "Dus zal ik overschakelen naar een ander model waarbij updates minder frequent zullen zijn, en meer zullen vertrouwen op jullie om eventuele bugs of problemen die je vindt te rapporteren alsook enige functies die je nog toegevoegd wilt zien.",
+          "De oplossing voor deze problemen zal dan worden gebundeld in deze minder frequente updates.",
+          "In de tussentijd is alle steun natuurlijk nog steeds zeer welkom om verdere ontwikkeling te ondersteunen (zoals een arbeidersmodus), up-to-date te blijven met de belastingswetten, evenals om lopende en eerdere kosten te helpen dekken."
+        ],
+        "fr": [
+          "Salut!",
+          "Au cours des trois derniers mois, ce projet est passé de la conception à son état actuel riche en fonctionnalités.",
+          "Le temps et les efforts totaux investis jusqu'à présent s'élèvent à un impressionnant 36 jours de travail de +- 7-8 heures par jour avec pas mal de fonctionnalités sympas ajoutées en cours de route!",
+          "Bien sûr, cette quantité d'investissement en temps ne sera pas durable dans un avenir (proche), car mon stage pour compléter mon baccalauréat commence bientôt.",
+          "Toute l'indexation des formules et des valeurs ainsi que pratiquement toutes les fonctionnalités et tâches que j'avais stockées sont terminées",
+          "Donc, je vais passer à un modèle différent où les mises à jour seront moins fréquentes, et dépendront davantage de la communauté pour signaler les bugs ou problèmes qu'ils trouvent ainsi que pour demander les fonctionnalités qu'ils aimeraient encore voir ajoutées.",
+          "La résolution de ces problèmes sera regroupée dans ces mises à jour moins fréquentes.",
+          "En attendant, tout soutien est bien sûr toujours très apprécié pour aider au développement futur (comme un mode ouvrier), rester à jour avec la législation fiscale, ainsi que pour aider à couvrir les coûts en cours et précédents."
+
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "update"
+    },
+    {
+      "date": "2026-01-25",
       "version": "1.3.2",
       "title": {
         "en": "Bedrijfsvoorheffing UI overview & free patreon article about colourblind mode",
