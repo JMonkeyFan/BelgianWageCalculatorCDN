@@ -1,6 +1,6 @@
 {
-  "version": "1.3.3",
-  "lastUpdated": "2026-01-31",
+  "version": "1.3.4",
+  "lastUpdated": "2026-02-10",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
@@ -8,8 +8,8 @@
   },
   "entries": [
     {
-      "date": "2026-01-31",
-      "version": "1.3.3",
+      "date": "2026-02-10",
+      "version": "1.3.4",
       "title": {
         "en": "Personal update: Internship",
         "nl": "Persoonlijke update: Stage",
@@ -54,6 +54,34 @@
         "fr": ""
       },
       "category": "update"
+    },
+    {
+      "date": "2026-02-06",
+      "version": "1.3.3",
+      "title": {
+        "en": "SEO improvements for discoverability on search engines",
+        "nl": "SEO-verbeteringen voor vindbaarheid in zoekmachines",
+        "fr": "Améliorations SEO pour la découvrabilité sur les moteurs de recherche"
+      },
+      "highlights": {
+        "en": [ 
+          "IMPROVEMENT: Now each language uses cannonical URLs and has its own index.html with language-specific meta tags for better SEO and discoverability on search engines.",
+          "NEW: Added dutch and french translations for the cookie banner, now that users can arrive on the page with the correct language from search engines"],
+        "nl": [ 
+          "VERBETERING: Nu gebruikt elke taal canonieke URL's en heeft zijn eigen index.html met taal-specifieke meta tags voor betere SEO en vindbaarheid in zoekmachines.",
+          "NIEUW: Toevoeging van Nederlandse en Franse vertalingen voor de cookie banner, nu gebruikers met de juiste taal op de pagina kunnen aankomen vanuit zoekmachines"
+        ],
+        "fr": [
+          "AMÉLIORATION: Désormais, chaque langue utilise des URL canoniques et dispose de son propre index.html avec des balises méta spécifiques à la langue pour une meilleure SEO et découvrabilité sur les moteurs de recherche.",
+          "NOUVEAU: Ajout de traductions néerlandaises et françaises pour la bannière de cookies, maintenant que les utilisateurs peuvent arriver sur la page avec la langue correcte depuis les moteurs de recherche"
+        ]
+      },
+      "details": {
+        "en": "These SEO improvements ensure that the site is more easily discoverable by users searching in Dutch or French, considering the site is doing well for English search terms, but poorly for Dutch and French. By using canonical URLs and language-specific meta tags, search engines can better index the content and serve the appropriate language version to users based on their search queries and location. ",
+        "nl": "Deze SEO-verbeteringen zorgen ervoor dat de site gemakkelijker vindbaar is voor gebruikers die in het Nederlands of Frans zoeken, aangezien de site goed presteert voor Engelse zoektermen, maar slecht voor Nederlandse en Franse. Door gebruik te maken van canonieke URL's en taal-specifieke meta tags, kunnen zoekmachines de inhoud beter indexeren en de juiste taalversie aan gebruikers serveren op basis van hun zoekopdrachten en locatie.",
+        "fr": "Ces améliorations SEO garantissent que le site est plus facilement découvrable par les utilisateurs recherchant en néerlandais ou en français, étant donné que le site fonctionne bien pour les termes de recherche en anglais, mais mal pour le néerlandais et le français. En utilisant des URL canoniques et des balises méta spécifiques à la langue, les moteurs de recherche peuvent mieux indexer le contenu et servir la version linguistique appropriée aux utilisateurs en fonction de leurs requêtes de recherche et de leur localisation."
+      },
+      "category": "Improvement"
     },
     {
       "date": "2026-01-25",

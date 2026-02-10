@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- English (default) -->
   <url>
     <loc>https://belgian-wage-calculator.vercel.app/</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-BE" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://belgian-wage-calculator.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://belgian-wage-calculator.vercel.app/fr" />
   </url>
+
+  <!-- Dutch (Nederlands) -->
+  <url>
+    <loc>https://belgian-wage-calculator.vercel.app/nl</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-BE" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://belgian-wage-calculator.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://belgian-wage-calculator.vercel.app/fr" />
+  </url>
+
+  <!-- French (Francais) -->
+  <url>
+    <loc>https://belgian-wage-calculator.vercel.app/fr</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-BE" href="https://belgian-wage-calculator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://belgian-wage-calculator.vercel.app/nl" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://belgian-wage-calculator.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://belgian-wage-calculator.vercel.app/fr" />
+  </url>
+
 </urlset>
