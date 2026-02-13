@@ -1,6 +1,6 @@
 {
-  "version": "1.3.4",
-  "lastUpdated": "2026-02-10",
+  "version": "1.3.6",
+  "lastUpdated": "2026-02-14",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
@@ -8,8 +8,8 @@
   },
   "entries": [
     {
-      "date": "2026-02-10",
-      "version": "1.3.4",
+      "date": "2026-02-14",
+      "version": "1.3.6",
       "title": {
         "en": "Personal update: Internship",
         "nl": "Persoonlijke update: Stage",
@@ -54,6 +54,60 @@
         "fr": ""
       },
       "category": "update"
+    },
+    {
+      "date": "2026-02-13",
+      "version": "1.3.5",
+      "title": {
+        "en": "Bike allowance fix",
+        "nl": "Fietsvergoeding fix",
+        "fr": "Correction de l'allocation vélo"
+      },
+      "highlights": {
+        "en": [ 
+          "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total when pro rating for part-time workers. "
+        ],
+        "nl": [  
+          "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor het maandelijkse nettototaal bij prorateren voor deeltijdse werknemers. "
+        ],
+        "fr": [ 
+          "AMÉLIORATION: Correction du fait que l'allocation vélo était calculée incorrectement pour son total net mensuel lors du prorata pour les travailleurs à temps partiel. "
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "bugfix"
+    },
+    {
+      "date": "2026-02-08",
+      "version": "1.3.4",
+      "title": {
+        "en": "French translation small fixes + cookie banner fix for mobile",
+        "nl": "Kleine aanpassingen voor de Franse vertalingen + cookie banner fix voor mobiel",
+        "fr": "Petites corrections pour la traduction française + correction de la bannière de cookies pour mobile"
+      },
+      "highlights": {
+        "en": [ 
+          "IMPROVEMENT: Fixed some missing french translations, corrected some, ",
+          "IMPROVEMENT: Fixed the cookie banner not being scrollable and thus blocking the cookie buttons"],
+        "nl": [ 
+          "VERBETERING: Enkele ontbrekende Franse vertalingen toegevoegd, enkele gecorrigeerd",
+          "VERBETERING: Opgelost dat de cookie banner niet scrollbaar was en daardoor de cookie knoppen geblokkeerd werden"
+        ],
+        "fr": [
+          "AMÉLIORATION: Correction de certaines traductions françaises manquantes, certaines corrigées",
+          "AMÉLIORATION: Correction de la bannière de cookies qui n'était pas défilable et bloquait ainsi les boutons de cookies"
+        ]
+      },
+      "details": {
+        "en": "Some minor bugfixes for the French translation, as well as a fix for the cookie banner on mobile where it wasn't scrollable and thus blocked the cookie buttons.",
+        "nl": "Enkele kleine bugfixes voor de Franse vertaling, evenals een oplossing voor de cookie banner op mobiel waar deze niet scrollbaar was en daardoor de cookie knoppen blokkeerde.",
+        "fr": "Quelques corrections mineures pour la traduction française, ainsi qu'une correction pour la bannière de cookies sur mobile où elle n'était pas défilable et bloquait ainsi les boutons de cookies."
+      },
+      "category": "Improvement"
     },
     {
       "date": "2026-02-06",
