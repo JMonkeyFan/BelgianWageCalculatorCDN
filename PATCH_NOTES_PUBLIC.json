@@ -65,13 +65,19 @@
       },
       "highlights": {
         "en": [ 
-          "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total when pro rating for part-time workers. "
+          "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total when pro rating for part-time workers. ",
+          "FIX: Minimum wage calculation is fixed for GGMMI geral minimum wage, I mistakenly had it only consider the main wage, while for GGMMI minimum wage 13th month and double vacation pay are considered too. ",
+          "For sectoral minimum wages based on Paritair comités it DOES work like that, where the actual monthly wage must exceed the amount."
         ],
         "nl": [  
-          "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor het maandelijkse nettototaal bij prorateren voor deeltijdse werknemers. "
+          "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor het maandelijkse nettototaal bij prorateren voor deeltijdse werknemers. ",
+          "FIX: De berekening van het minimumloon is gefixt voor het GGMMI algemene minimumloon, ik had per ongeluk alleen rekening gehouden met het hoofdloon, terwijl voor het GGMMI minimumloon ook de 13e maand en dubbele vakantiegeld worden meegeteld.",
+          "Voor sectorale minimumlonen op basis van Paritair comités werkt het wel zoals initieel geïmplementeerd, waar het daadwerkelijke maandloon het bedrag moet overschrijden."
         ],
         "fr": [ 
-          "AMÉLIORATION: Correction du fait que l'allocation vélo était calculée incorrectement pour son total net mensuel lors du prorata pour les travailleurs à temps partiel. "
+          "AMÉLIORATION: Correction du fait que l'allocation vélo était calculée incorrectement pour son total net mensuel lors du prorata pour les travailleurs à temps partiel. ",
+          "CORRECTION: Le calcul du salaire minimum est corrigé pour le GGMMI salaire minimum général, j'avais par erreur pris en compte uniquement le salaire principal, alors que pour le salaire minimum GGMMI, le 13e mois et la double indemnité de vacances sont également pris en compte.",
+          "Pour les salaires minimum sectoriels basés sur les comités paritaires, cela fonctionne comme prévu, où le salaire mensuel réel doit dépasser le montant."
         ]
       },
       "details": {
