@@ -1,12 +1,56 @@
 {
-  "version": "1.3.6",
-  "lastUpdated": "2026-02-14",
+  "version": "1.3.7",
+  "lastUpdated": "2026-02-24",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-02-24",
+      "version": "1.3.7",
+      "title": {
+        "en": "Flexijob income added",
+        "nl": "Flexijobinkomen toegevoegd",
+        "fr": "Revenu flexijob ajouté"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Flexijob income calculation added in a new 'Secondary income' section in the settings ui",
+          "NEW: Flexijob/secondary income monthly impact section added to the calculations UI in the monthly and yearly sections.",
+          "Configure it in settings under 'Secondary Income': enter your hourly rate, hours per week, and weeks per year.",
+          "Flexijob income is gross = net for the employee: the employer pays a flat 28% special contribution instead of standard social security charges - no withholding is deducted from your pay.",
+          "Flexijob impact for the employer is not shown, considering in the context of the calculator, it'd be a different employer paying the costs.",
+          "The calculator warns if your hourly rate falls below the GGMMI flexijob minimum wage and flags if your total annual flexijob income exceeds the €18,592 tax-free ceiling.",
+          "Check your sector's minimum wage by the way. For pc 200 3 years experience class c, 15.02/h would be the minimum and 22.54 the maximum."
+        ],
+        "nl": [
+           "NIEUW: Flexijob inkomen berekening toegevoegd in een nieuwe sectie 'Secundair inkomen' in de instellingen ui",
+            "NIEUW: Flexijob/secundair inkomen maandelijkse impact sectie toegevoegd aan de berekeningen UI in de maandelijkse en jaarlijkse secties.",
+            "Configureer het in de instellingen onder 'Secundair Inkomen': voer je uurloon, uren per week en weken per jaar in.",
+            "Flexijob inkomen is bruto = netto voor de werknemer: de werkgever betaalt 28% speciale bijdrage in plaats van standaard sociale zekerheidsbijdragen - er wordt geen inhouding op uw loon afgetrokken.",
+            "De impact van flexijob voor de werkgever wordt niet weergegeven, aangezien het in de context van de calculator een andere werkgever dan de hoofdwerkgever zou zijn die de kosten betaalt.",
+            "De calculator waarschuwt als je uurloon onder het GGMMI flexijob minimumloon valt en geeft aan als je totale jaarlijkse flexijob inkomen boven het belastingvrije plafond van €18.592 uitkomt.", 
+            "Check het minimumloon van je sector trouwens. Voor pc 200 3 jaren ervaring klasse c zou 15.02/h het minimum zijn en 22.54 het maximum,"
+          ],
+        "fr": [
+           "NOUVEAU: Calcul de revenu flexijob ajouté dans une nouvelle section 'Revenu secondaire' dans l'interface des paramètres",
+            "NOUVEAU: Section d'impact mensuel du flexijob/revenu secondaire ajoutée à l'interface de calcul dans les sections mensuelle et annuelle.",
+            "Configurez-le dans les paramètres sous 'Revenu Secondaire': entrez votre taux horaire, vos heures par semaine et vos semaines par an.",
+            "Le revenu flexijob est brut = net pour l'employé: l'employeur paie une contribution spéciale forfaitaire de 28% au lieu des charges sociales standard - aucune retenue n'est déduite de votre salaire.",
+            "L'impact du flexijob pour l'employeur n'est pas affiché, considérant que dans le contexte du calculateur, ce serait un employeur différent que celui de votre emploi principal qui paierait les coûts.",
+            "Le calculateur avertit si votre taux horaire est inférieur au salaire minimum flexijob GGMMI et signale si votre revenu annuel total de flexijob dépasse le plafond non imposable de 18 592 €.",
+            "Vérifiez le salaire minimum de votre secteur d'activité d'ailleurs. Pour le pc 200 avec 3 ans d'expérience classe c, 15.02/h serait le minimum et 22.54 le maximum."  
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Feature"
+    },
     {
       "date": "2026-02-14",
       "version": "1.3.6",
@@ -1446,5 +1490,122 @@
     "en": "All calculations based on Belgian federal tax year 2025 regulations. Updated as of December 14th, 2025. Many features were in development and iteratively improved(including after going live). These release dates show when they went first went live, not when development was completed.",
     "nl": "Alle berekeningen gebaseerd op Belgische federale belastingjaar 2025 regelgeving. Bijgewerkt per 14 december 2025. Release datums markeren implementatie mijlpalen, niet ontwikkelings start/eind datums. Veel functies waren al eerder in ontwikkeling en zijn(ook daarna nog) iteratief verbeterd. Deze datums tonen wanneer ze voor het eerst live gingen, niet wanneer het werk afgerond was.",
     "fr": "Tous les calculs basés sur les règlements fiscaux fédéraux belges de l'année 2025. Mis à jour au 14 décembre 2025. Les dates de version marquent les jalons de déploiement, pas les dates de début/fin de développement. Beaucoup de fonctionnalités ont été lancées avant et améliorées de manière itérative après, mentionnées ici pour la première fois et ont souvent été travaillées sur plusieurs jours."
-  }
+  },
+
+    "shelvedFeatures": [{
+      "date": "2026-02-21",
+      "version": "1.3.8",
+      "title": {
+        "en": "Copyright Income (Auteursrechten) support",
+        "nl": "Auteursrechten ondersteuning",
+        "fr": "Prise en charge des droits d'auteur"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Added full support for copyright income (Auteursrechten/droits d'auteur): a Belgian tax optimization where part of your salary is paid as intellectual property royalties, taxed at 15% roerende voorheffing (flat final tax) instead of progressive BV rates.",
+          "Belgian copyright income is subject to a 15% final withholding tax (roerende voorheffing): this is a liberatory flat tax and is NOT included in the year-end progressive tax settlement.",
+          "NEW: Copyright income now appears in the employer vs. employee column, the extra net per month breakdown, and the year-end settlement panel with a clear note that it is excluded from progressive recalculation.",
+          "IMPROVEMENT: The extra net per month list now sorts all items from highest to lowest net value, making the most impactful benefits immediately visible.",
+          "IMPROVEMENT: Disabled salary input fields now show a clear tooltip explaining that copyright income is active, with a message to disable copyright income if manual entry is needed."
+        ],
+        "nl": [
+          "NIEUW: Volledige ondersteuning voor auteursrechteninkomsten toegevoegd: een Belgische belastingoptimalisatie waarbij een deel van je loon wordt uitbetaald als intellectuele eigendomsvergoedingen, belast aan 15% roerende voorheffing (eindbelasting) in plaats van progressieve BV-tarieven.",
+          "Auteursrechteninkomsten in Belgi\u00eb zijn onderworpen aan 15% roerende voorheffing: dit is een bevrijdende eindbelasting en wordt NIET meegenomen in de progressive eindafrekening.",
+          "NIEUW: Auteursrechten verschijnen nu in de werkgever vs. werknemer kolom, de extra netto per maand overzicht, en het eindafrekening paneel met een duidelijke vermelding dat het uitgesloten is van progressieve herberekening.",
+          "VERBETERING: De lijst met extra netto per maand sorteert nu alle items van hoogste naar laagste netto waarde, zodat de meest impactvolle voordelen direct zichtbaar zijn.",
+          "VERBETERING: Geblokkeerde loonvelden tonen nu een duidelijke tooltip die aangeeft dat auteursrechten actief zijn, met een instructie om auteursrechten uit te schakelen als handmatige invoer gewenst is."
+        ],
+        "fr": [
+          "NOUVEAU: Prise en charge compl\u00e8te des revenus de droits d'auteur ajout\u00e9e: une optimisation fiscale belge o\u00f9 une partie de votre salaire est pay\u00e9e sous forme de redevances de propri\u00e9t\u00e9 intellectuelle, tax\u00e9e \u00e0 15% de pr\u00e9compte mobilier (taxe finale) plut\u00f4t qu'aux taux progressifs du pr\u00e9compte professionnel.",
+          "Les revenus de droits d'auteur en Belgique sont soumis \u00e0 un pr\u00e9compte mobilier de 15%: il s'agit d'un imp\u00f4t lib\u00e9ratoire final qui n'est PAS inclus dans le d\u00e9compte progressif de fin d'ann\u00e9e.",
+          "NOUVEAU: Les droits d'auteur apparaissent maintenant dans la colonne employeur vs employ\u00e9, le r\u00e9capitulatif du net mensuel suppl\u00e9mentaire, et le panneau de d\u00e9compte annuel avec une note claire indiquant qu'ils sont exclus de la recalcul progressive.",
+          "AM\u00c9LIORATION: La liste du net mensuel suppl\u00e9mentaire trie maintenant tous les \u00e9l\u00e9ments du plus haut au plus bas net, rendant les avantages les plus importants imm\u00e9diatement visibles.",
+          "AM\u00c9LIORATION: Les champs de saisie de salaire d\u00e9sactiv\u00e9s affichent maintenant une info-bulle claire expliquant que les droits d'auteur sont actifs, avec une invite \u00e0 d\u00e9sactiver les droits d'auteur si une saisie manuelle est n\u00e9cessaire."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Feature"
+    },
+    {
+      "date": "2026-02-15",
+      "version": "1.3.7",
+      "title": {
+        "en": "Flexijobs, student job, Bike allowance fix",
+        "nl": "Flexijobs, studentenjob, fietsvergoeding fix",
+        "fr": "Flexijobs, job étudiant, correction de l'allocation vélo"
+      },
+      "highlights": {
+        "en": [ 
+          "NEW: Added support for student jobs found in the settings menu under 'secondary income'.",
+          "NEW: When working both studentjobs and regular jobs through the year(e.G if you finish your degree and start your main job, the eindafrekening will shows the amount you'll need to pay extra on your eindafrekening",
+          "This is because studentjobs are taxed more favorably BUT still count as regular income for the tax brackets, so when combined with your regular job, its withholding tax will have been too low during the year.",
+          "NEW: Added support for flexijobs, also found in the settings menu under 'secondary income'.",
+          "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total"
+        ],
+        "nl": [ 
+          "NIEUW: Toevoeging van ondersteuning voor studentenjobs gevonden in het instellingenmenu onder 'secundair inkomen'.",
+          "NIEUW: Wanneer je zowel studentenjobs als reguliere jobs door het jaar heen hebt (bijvoorbeeld als je je diploma afrondt en begint met je hoofdjob), zal de eindafrekening nu het bedrag tonen dat je extra moet betalen op je eindafrekening.",
+          "Dit komt omdat studentenjobs gunstiger worden belast MAAR nog steeds meetellen als regulier inkomen voor de belastingschijven, dus wanneer gecombineerd met je reguliere job, zal de bedrijfsvoorheffing te laag zijn geweest gedurende het jaar.",
+          "NIEUW: Toevoeging van ondersteuning voor flexijobs, ook te vinden in het instellingenmenu onder 'secundair inkomen'.",
+          "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor zijn totale netto maandbedrag"
+        ],
+        "fr": [  
+          "NOUVEAU: Ajout de la prise en charge des jobs étudiants trouvés dans le menu des paramètres sous 'revenu secondaire'.",
+          "NOUVEAU: Lorsque vous travaillez à la fois des jobs étudiants et des emplois réguliers tout au long de l'année (par exemple, si vous terminez votre diplôme et commencez votre emploi principal), le eindafrekening affichera maintenant le montant que vous devrez payer en plus sur votre eindafrekening.",
+          "Cela est dû au fait que les jobs étudiants sont imposés de manière plus favorable MAIS comptent toujours comme un revenu régulier pour les tranches d'imposition, donc lorsqu'ils sont combinés avec votre emploi régulier, leur précompte professionnel aura été trop bas pendant l'année.",
+          "NOUVEAU: Ajout de la prise en charge des flexijobs, également trouvés dans le menu des paramètres sous 'revenu secondaire'.",
+          "AMÉLIORATION: Correction du fait que l'allocation vélo était calculée incorrectement pour son total net mensuel"
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Improvement"
+    },
+    {
+      "date": "2026-02-22",
+      "version": "1.3.8",
+      "title": {
+        "en": "Student job income: contingent tracking & year-end tax simulation",
+        "nl": "Studentenjob inkomen: contingent bijhouding & eindejaarsafrekening simulatie",
+        "fr": "Revenu job étudiant: suivi du contingent & simulation décompte de fin d'année"
+      },
+      "highlights": {
+        "en": [
+          "Internship: Week one went great",
+          "NEW: Student job income can now be configured in the settings under 'Secondary Income'. Enter your hourly rate, hours per week, weeks worked, and any hours already used at other employers.",
+          "The calculator tracks your 650 annual student contingent in real time: hours within quota are taxed at the favorable 8.13% solidarity contribution instead of full social security charges.",
+          "Hours above the 650h quota automatically revert to normal social security rates - a hard tax cliff the calculator models precisely so you know exactly where you stand.",
+          "Combine student job income with your regular salary to simulate the full year picture: if you worked as a student early in the year and then started a main job, the year-end settlement panel will show whether you can expect to owe additional tax on your combined income.",
+          "This is especially useful for students finishing their degree mid-year: student income counts toward the same progressive tax brackets as regular salary, so the withholding tax during your student period will often have been too low once your main job income is added."
+        ],
+        "nl": [
+          "NIEUW: Studentenjobinkomen is nu configureerbaar in de instellingen onder 'Secundair inkomen'. Voer je uurloon, uren per week, weken gewerkt,  en reeds gebruikte uren bij andere werkgevers in.",
+          "De rekenmachine volgt je jaarlijks contingent van 650 uur in realtime: uren binnen het contingent worden belast aan het voordelige soliditeitsbijdrage-tarief van 8,13% in plaats van volledige sociale zekerheidsinhoudingen.",
+          "Uren boven de 650 uur vervallen automatisch naar de normale RSZ-tarieven - een harde belastingklip die de rekenmachine precies modelleert zodat je exact weet waar je staat.",
+          "Combineer studentenjobinkomen met je hoofdjob om het volledige jaarpicture te simuleren: als je vroeg in het jaar als student werkte en daarna met een hoofdjob begon, toont het eindafrekening-paneel of je extra belasting verschuldigd kunt zijn op je gecombineerd inkomen.",
+          "Dit is vooral nuttig voor studenten die halverwege het jaar afstuderen: studentenjobinkomen telt mee naar dezelfde progressieve belastingschijven als regulier salaris, dus de bedrijfsvoorheffing tijdens je studentenperiode zal vaak te laag zijn geweest zodra je hoofdjobinkomen wordt meegerekend."
+        ],
+        "fr": [
+          "NOUVEAU: Le revenu de job étudiant est maintenant configurable dans les paramètres sous 'Revenu secondaire'. Saisissez votre taux horaire, heures par semaine, semaines travaillées et heures déjà utilisées chez d'autres employeurs.",
+          "La calculatrice suit votre contingent annuel de 650h en temps réel: les heures dans le quota sont taxées au taux de cotisation de solidarité avantageux de 8,13% au lieu des charges sociales complètes.",
+          "Les heures au-delà de 650h reviennent automatiquement aux taux ONSS normaux - une falaise fiscale dure que la calculatrice modélise précisément afin que vous sachiez exactement où vous en êtes.",
+          "Combinez le revenu de job étudiant avec votre salaire régulier pour simuler l'image complète de l'année: si vous avez travaillé comme étudiant en début d'année puis commencé un emploi principal, le panneau de décompte de fin d'année indiquera si vous pouvez vous attendre à devoir des impôts supplémentaires sur votre revenu combiné.",
+          "Ceci est particulièrement utile pour les étudiants qui terminent leur diplôme en milieu d'année: le revenu de job étudiant compte dans les mêmes tranches d'imposition progressives que le salaire régulier, donc le précompte professionnel durant votre période étudiante aura souvent été trop bas une fois que votre revenu d'emploi principal est ajouté."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Feature"
+    }
+  ]
 }
