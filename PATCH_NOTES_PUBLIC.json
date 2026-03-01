@@ -1,12 +1,68 @@
 {
-  "version": "1.3.8",
-  "lastUpdated": "2026-02-25",
+  "version": "1.3.9",
+  "lastUpdated": "2026-02-28",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-02-28",
+      "version": "1.3.9",
+      "title": {
+        "en": "Bike allowance display and configuration fixes, mobility budget interaction fixed & mobility budget min & max indexed for 2026 based on community feedback",
+        "nl": "Fietstoeslag weergave en configuratiefixes, mobiliteitsbudget interactie opgelost & mobiliteitsbudget min & max geïndexeerd voor 2026 op basis van feedback van de gemeenschap",
+        "fr": "Corrections d'affichage et de configuration de l'indemnité vélo, interaction avec le budget mobilité corrigée & min & max du budget mobilité indexés pour 2026 en fonction des retours de la communauté"
+      },
+      "highlights": {
+        "en": [
+          "FIX: Net return percentage on the bike allowance card is now accurate when the allowance is part of a Mobility Budget.",
+          "FIX: Bike allowance rate input minimum is now \u20ac0.01/km \u2014 the previous UI incorrectly enforced a floor of \u20ac1.00/km.",
+          "FIX: Double counting of bike allowance within the mobility budget is now prevented \u2014 whether the bike is absorbed or paid separately, costs are tracked correctly without overlap.",
+          "FIX: When bike allowance is absorbed into the mobility budget, any amount exceeding the remaining available budget (pillar 1 + pillar 2 balance) is now correctly discarded.",
+          "FIX: Mobility budget pillar 2 and pillar 3 benefits no longer generate employer social security (RSZ) or payroll tax costs \u2014 only the pillar 1 equivalent is subject to employer contributions, in line with the legal framework.",
+          "NEW: Taxable bike allowance excess above the \u20ac0.37/km tax-free threshold is now displayed seperately in the special items / year-end column.",
+          "NEW: Settings interface now includes a checkbox to configure bike allowance as seperate from mobility budget only IF the bike allowance was a perk of the employee for 3 months before they gained mobility budget as well.",
+          "NEW: 'Active Beforehand' separate mode for bike allowance \u2014 when the bike arrangement predates the mobility budget by 3+ months, the allowance is paid separately on top of the mobility budget instead of being absorbed into it.",
+          "NEW: The special items column and extra-net display now show a dedicated entry when bike allowance is absorbed into the mobility budget, making the impact visible at a glance.",
+          "NEW: Employer-view pie chart updated \u2014 now correctly shows the full cost of the bike allowance including any taxable portion above the exempt threshold.",
+          "UPDATE (2026): Government-indexed values updated \u2014 bike allowance yearly cap raised to \u20ac3,690, mobility budget minimum raised to \u20ac3,233/year, mobility budget maximum raised to \u20ac17,244/year."
+        ],
+        "nl": [
+          "FIX: Het percentage netto rendement op de fietsvergoeding kaart is nu accuraat wanneer de vergoeding deel uitmaakt van een Mobiliteitsbudget.",
+          "FIX: De minimum invoer voor het fietsvergoedingstarief is nu \u20ac0.01/km.",
+          "FIX: Dubbele telling van de fietsvergoeding binnen het mobiliteitsbudget wordt nu voorkomen \u2014 of de fiets nu wordt geabsorbeerd of apart wordt betaald, de kosten worden correct bijgehouden zonder overlap.",
+          "FIX: Wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, wordt elk bedrag dat het resterende beschikbare budget (pilaar 1 + pilaar 2 saldo) overschrijdt nu correct genegeerd.",
+          "FIX: Mobiliteitsbudget pilaar 2 en pilaar 3 voordelen genereren niet langer werkgeverssocialezekerheidskosten (RSZ) of loonbelasting \u2014 alleen het pilaar 1 equivalent is onderhevig aan werkgeversbijdragen, in lijn met het wettelijke kader.",
+          "NEW: Belaste fietsvergoeding boven de \u20ac0.37/km belastingvrije drempel wordt nu apart weergegeven in de speciale items / eindejaarskolom.",
+          "NEW: De instellingen bevatten nu een checkbox om de fietsvergoeding als apart van het mobiliteitsbudget te configureren, alleen ALS de fietsvergoeding een voordeel was van de werknemer gedurende 3 maanden voordat ze ook een mobiliteitsbudget kregen.",
+          "NEW: 'Active Beforehand' aparte modus voor fietsvergoeding \u2014 wanneer de fietsregeling 3+ maanden voorafgaat aan het mobiliteitsbudget, wordt de vergoeding apart betaald bovenop het mobiliteitsbudget in plaats van erin te worden opgenomen.",
+          "NEW: De speciale items kolom en extra-netto weergave tonen nu een aparte vermelding wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, waardoor de impact in één oogopslag zichtbaar is.",
+          "NEW: De taartdiagram in werkgeversweergave is bijgewerkt \u2014 toont nu correct de volledige kosten van de fietsvergoeding inclusief elk belastbaar deel boven de vrijgestelde drempel.",
+          "UPDATE (2026): Overheidsgeïndexeerde waarden bijgewerkt \u2014 fietsvergoeding jaarlijkse limiet verhoogd naar \u20ac3,690, mobiliteitsbudget minimum verhoogd naar \u20ac3,233/jaar, mobiliteitsbudget maximum verhoogd naar \u20ac17,244/jaar."
+        ],
+        "fr": [
+          "CORRECTION: Le pourcentage de rendement net sur la carte d'allocation vélo est désormais précis lorsque l'allocation fait partie d'un Budget Mobilité.",
+          "CORRECTION: Le minimum d'entrée pour le taux d'allocation vélo est maintenant de \u20ac0.01/km \u2014 l'interface précédente appliquait à tort un minimum de \u20ac1.00/km.",
+          "CORRECTION: La double comptabilisation de l'allocation vélo dans le budget mobilité est désormais évitée \u2014 que le vélo soit absorbé ou payé séparément, les coûts sont suivis correctement sans chevauchement.",
+          "CORRECTION: Lorsque l'allocation vélo est absorbée dans le budget mobilité, tout montant dépassant le budget disponible restant (pilier 1 + solde du pilier 2) est désormais correctement ignoré \u2014 aucun revenu ou coût fictif n'est généré.",
+          "CORRECTION: Les avantages du budget mobilité pilier 2 et pilier 3 ne génèrent plus de coûts de sécurité sociale employeur (RSZ) ou de taxe sur les salaires \u2014 seul l'équivalent du pilier 1 est soumis aux contributions patronales, conformément au cadre légal.",
+          "NOUVEAU: L'excédent d'allocation vélo imposable au-dessus du seuil d'exonération de \u20ac0.37/km est désormais affiché séparément dans la colonne des éléments spéciaux / fin d'année.",
+          "NOUVEAU: L'interface des paramètres comprend désormais une case à cocher pour configurer l'allocation vélo comme séparée du budget mobilité uniquement SI l'allocation vélo était un avantage de l'employé pendant 3 mois avant qu'il n'obtienne également un budget mobilité.",
+          "NOUVEAU: Mode séparé 'Active Beforehand' pour l'allocation vélo \u2014 lorsque l'arrangement vélo précède le budget mobilité de plus de 3 mois, l'allocation est payée séparément en plus du budget mobilité au lieu d'être absorbée dedans.",
+          "NOUVEAU: La colonne des éléments spéciaux et l'affichage extra-netto montrent désormais une entrée dédiée lorsque l'allocation vélo est absorbée dans le budget mobilité, rendant l'impact visible en un coup d'œil.",
+          "NOUVEAU: Le graphique en secteurs dans la vue employeur est mis à jour \u2014 montre désormais correctement le coût total de l'allocation vélo, y compris toute partie imposable au-dessus du seuil d'exemption.",
+          "MISE À JOUR (2026): Valeurs indexées par le gouvernement mises à jour \u2014 plafond annuel de l'allocation vélo porté à \u20ac3,690, minimum du budget mobilité porté à \u20ac3,233/an, maximum du budget mobilité porté à \u20ac17,244/an."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Bug Fix & Enhancement"
+    },
     {
       "date": "2026-02-25",
       "version": "1.3.8",
@@ -17,17 +73,17 @@
       },
       "highlights": {
         "en": [
-          "FIX: Cookie banner overflow on small/compact screens (MacBooks with menu bars, short viewports) — the banner now correctly detects when it doesn't fit and activates fallback modes.",
+          "FIX: Cookie banner overflow on small/compact screens (MacBooks with menu bars, short viewports) - the banner now correctly detects when it doesn't fit and activates fallback modes.",
           "Fallback cascade: first switches to compact layout with smaller padding and icon, then progressively hides non-essential text, and as a final resort enables internal scrolling",
           "Fixed a race condition where the internal scroll fallback was activating too eagerly (before the compact layout had finished hiding content)"
         ],
         "nl": [
-          "FIX: Cookiebanner overflow op kleine/compacte schermen (MacBooks met menubalk, korte vensters) — de balk detecteert nu correct wanneer ze niet past en activeert terugvalmodi.",
+          "FIX: Cookiebanner overflow op kleine/compacte schermen (MacBooks met menubalk, korte vensters) - de balk detecteert nu correct wanneer ze niet past en activeert terugvalmodi.",
           "Terugvalcascade: schakelt eerst over naar compacte weergave met kleinere padding en icoon, verbergt daarna niet-essentiële tekst, en als laatste redmiddel wordt interne scroll ingeschakeld",
           "Race condition opgelost waarbij de interne scrollfallback te vroeg activeerde (vóór de compacte weergave klaar was met inhoud verbergen)"
         ],
         "fr": [
-          "CORRECTION: Débordement de la bannière de cookies sur les petits écrans compacts (MacBooks avec barre de menu, fenêtres courtes) — la bannière détecte maintenant correctement quand elle ne tient pas et active des modes de repli.",
+          "CORRECTION: Débordement de la bannière de cookies sur les petits écrans compacts (MacBooks avec barre de menu, fenêtres courtes) - la bannière détecte maintenant correctement quand elle ne tient pas et active des modes de repli.",
           "Cascade de repli: passe d'abord en mise en page compacte avec moins de rembourrage et une icône plus petite, masque ensuite le texte non essentiel, et en dernier recours active le défilement interne",
           "Correction d'une condition de course où le repli de défilement interne s'activait trop tôt (avant que la mise en page compacte ait fini de masquer le contenu)"
         ]
