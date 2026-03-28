@@ -1,12 +1,102 @@
 {
-  "version": "1.3.9",
-  "lastUpdated": "2026-02-28",
+  "version": "1.4.1",
+  "lastUpdated": "2026-03-28",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-03-28",
+      "version": "1.4.1",
+      "title": {
+        "en": "Minimum wage check fix + a personal update",
+        "nl": "Minimumloon controle fix + een persoonlijke update",
+        "fr": "Correction du controle du salaire minimum + une mise a jour personnelle"
+      },
+      "highlights": {
+        "en": [
+          "UPDATE: It's been a while! The internship, so far, is going great. Amazing boss, and interesting problems to figure out. ",
+          "FIX: The minimum wage (GGMMI) compliance check was incorrectly including double vacation pay in the effective compensation calculation.",
+          "Per CAO nr. 43, vacation pay (both single and double) is explicitly excluded from the GMMI check. ",
+          "Only your base salary and premiums like the 13th month count towards the minimum wage threshold. ",
+          "This has been corrected. Thanks to the redditor who pointed it out.",
+          "COMING SOON: Copyright income (auteursrechten/droits d'auteur) support is coming sometime soon. Stay tuned!"
+        ],
+        "nl": [ 
+          "UPDATE: Het is een tijdje geleden! De stage gaat tot nu toe geweldig. Geweldige baas, en interessante problemen om uit te zoeken.",
+          "FIX: De minimumloon (GGMMI) controle omvatte ten onrechte het dubbele vakantiegeld in de berekening van de effectieve vergoeding.",
+          "Per CAO nr. 43 is vakantiegeld (zowel enkel als dubbel) expliciet uitgesloten van de GMMI controle.",
+          "Alleen basissalaris en premies zoals de 13e maand tellen mee voor de minimumloon drempel.",
+          "Dit is nu gecorrigeerd. Bedankt aan de redditor die het heeft aangegeven.",
+          "COMING SOON: Ondersteuning voor auteursrechteninkomen (copyrights/droits d'auteur) komt binnenkort. Blijf op de hoogte!"
+          ],
+        "fr": [
+          "MISE À JOUR: Ça fait un moment! Le stage se passe très bien jusqu'à présent. Patron incroyable, et des problèmes intéressants à résoudre.",
+          "CORRECTION: Le contrôle de conformité au salaire minimum (GGMMI) incluait à tort l'indemnité de vacances double dans le calcul de la rémunération effective.",
+          "Selon la CAO n° 43, les indemnités de vacances (simple et double) sont explicitement exclues du contrôle GMMI.",
+          "Seuls votre salaire de base et les primes comme le 13e mois comptent pour le seuil du salaire minimum.",
+          "Cela a été corrigé. Merci au redditor qui l'a signalé.",
+          "COMING SOON: Le support pour les revenus de droits d'auteur (auteursrechten/droits d'auteur) arrive bientôt. Restez à l'écoute!"
+           
+
+         ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Bug Fix & Update"
+    },
+    {
+      "date": "2026-03-03",
+      "version": "1.4.0",
+      "title": {
+        "en": "Group Insurance (Groepsverzekering) simulation",
+        "nl": "Groepsverzekering simulatie",
+        "fr": "Simulation de l'assurance groupe (Groepsverzekering)"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Full group insurance simulation \u2014 configure your employer's monthly premium and optional employee contribution to see the complete financial impact on your salary.",
+          "NEW: Employer cost breakdown showing the special social security contribution (8.86%) and insurance tax (4.4%) on top of the base premium.",
+          "NEW: Employee tax recovery (belastingvermindering) \u2014 if you contribute to your group insurance, see exactly how much tax benefit you receive (30% of your annual contribution, adjusted for your municipal tax rate).",
+          "NEW: Year-end settlement now includes the group insurance tax recovery as a positive adjustment, showing the real net benefit.",
+          "NEW: Employer comparison view updated with group insurance costs in the pie chart and detailed breakdown.",
+          "NEW: Support for pension, hospitalization, disability, and mixed plan types (displayed on the special items card).",
+          "NOTE: Group insurance does not affect your RSZ contribution, payroll tax base, 13th month bonus base, or vacation bonus base \u2014 these remain unchanged as per Belgian law.",
+          "INFO: Long-term aspects (payout taxation at retirement, 80% rule, Wijninckx contribution, WAP guaranteed return) are explained in tooltips for reference but are NOT simulated \u2014 the calculator focuses on your within-year salary impact only."
+        ],
+        "nl": [
+          "NEW: Volledige groepsverzekering simulatie \u2014 configureer de maandelijkse werkgeverspremie en optionele werknemersbijdrage om de volledige financi\u00eble impact op uw loon te zien.",
+          "NEW: Werkgeverskostenoverzicht met de bijzondere socialezekerheidsbijdrage (8,86%) en verzekeringstaks (4,4%) bovenop de basispremie.",
+          "NEW: Belastingvermindering voor werknemers \u2014 als u bijdraagt aan uw groepsverzekering, ziet u precies hoeveel belastingvoordeel u ontvangt (30% van uw jaarlijkse bijdrage, aangepast aan uw gemeentebelasting).",
+          "NEW: De eindafrekening bevat nu de belastingvermindering voor groepsverzekering als een positieve aanpassing, wat het werkelijke nettovoordeel toont.",
+          "NEW: Het werkgeversvergelijkingsoverzicht is bijgewerkt met groepsverzekeringkosten in de taartdiagram en gedetailleerd overzicht.",
+          "NEW: Ondersteuning voor pensioen-, hospitalisatie-, invaliditeits- en gemengde plantypes (weergegeven op de speciale items kaart).",
+          "OPMERKING: Groepsverzekering heeft geen invloed op uw RSZ-bijdrage, bedrijfsvoorheffingsbasis, dertiende maand basis of vakantiegeldbasis \u2014 deze blijven ongewijzigd volgens de Belgische wetgeving.",
+          "INFO: Langetermijnaspecten (uitkeringsbelasting bij pensionering, 80%-regel, Wijninckx-bijdrage, WAP gegarandeerd rendement) worden uitgelegd in tooltips ter referentie maar worden NIET gesimuleerd \u2014 de calculator richt zich alleen op de impact binnen het jaar."
+        ],
+        "fr": [
+          "NOUVEAU: Simulation compl\u00e8te de l'assurance groupe \u2014 configurez la prime mensuelle de l'employeur et la contribution optionnelle de l'employ\u00e9 pour voir l'impact financier complet sur votre salaire.",
+          "NOUVEAU: D\u00e9tail des co\u00fbts employeur montrant la cotisation sp\u00e9ciale de s\u00e9curit\u00e9 sociale (8,86%) et la taxe d'assurance (4,4%) en plus de la prime de base.",
+          "NOUVEAU: R\u00e9duction d'imp\u00f4t pour les employ\u00e9s \u2014 si vous contribuez \u00e0 votre assurance groupe, voyez exactement combien d'avantage fiscal vous recevez (30% de votre contribution annuelle, ajust\u00e9 selon votre taux de taxe communale).",
+          "NOUVEAU: Le d\u00e9compte de fin d'ann\u00e9e inclut d\u00e9sormais la r\u00e9duction d'imp\u00f4t de l'assurance groupe comme ajustement positif, montrant le b\u00e9n\u00e9fice net r\u00e9el.",
+          "NOUVEAU: La vue de comparaison employeur est mise \u00e0 jour avec les co\u00fbts d'assurance groupe dans le graphique en secteurs et le d\u00e9tail.",
+          "NOUVEAU: Prise en charge des types de plan pension, hospitalisation, invalidit\u00e9 et mixte (affich\u00e9s sur la carte des \u00e9l\u00e9ments sp\u00e9ciaux).",
+          "REMARQUE: L'assurance groupe n'affecte pas votre cotisation ONSS, la base du pr\u00e9compte professionnel, la base du 13\u00e8me mois ou la base du p\u00e9cule de vacances \u2014 ceux-ci restent inchang\u00e9s conform\u00e9ment \u00e0 la l\u00e9gislation belge.",
+          "INFO: Les aspects \u00e0 long terme (taxation du capital au d\u00e9part \u00e0 la retraite, r\u00e8gle des 80%, contribution Wijninckx, rendement garanti WAP) sont expliqu\u00e9s dans les infobulles \u00e0 titre de r\u00e9f\u00e9rence mais ne sont PAS simul\u00e9s \u2014 le calculateur se concentre uniquement sur l'impact salarial dans l'ann\u00e9e."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
     {
       "date": "2026-02-28",
       "version": "1.3.9",
