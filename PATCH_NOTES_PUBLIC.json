@@ -1,12 +1,77 @@
 {
-  "version": "1.4.1",
-  "lastUpdated": "2026-03-28",
+  "version": "1.5.0",
+  "lastUpdated": "2026-05-22",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-05-22",
+      "version": "1.5.0",
+      "title": {
+        "en": "Copyright income (auteursrechten) - full release",
+        "nl": "Auteursrechten - volledige release",
+        "fr": "Droits d'auteur (auteursrechten) - sortie complète"
+      },
+      "highlights": {
+        "en": [
+          "UPDATE: Good news on the personal front: the internship went really well, so my Bachelor's degree is essentially done! though it'll still be a few more weeks before I actually receive it.",
+          "Not only that, but I also have some great news on the wage calculator front! I have been working on this update for quite some time now behind the scenes... Copyright income :)",
+          "A note on timing: there has been some official confirmation (not yet permanent, but promising) around the copyright income regime, which made this feel like the right moment to release it, especially since my rate of updates has slowed down a bit since the internship was taking up more of my time ;)",
+          "Important: Considering it is not fully settled, this is my current interpretation, and the final rules are still subject to change. If more clarity arrives, I'll update the calculator.",
+          "If in the meantime you have any additional insights or corrections regarding any of the aspects of copyright income, notice any issues with the implementation, or anything else, feel free to contact me through the contact form and I'll see what I can do!",          
+          "NEW: Copyright income simulation (Section 1: linked to your salary). Enter your theoretical gross package and set a copyright percentage to see exactly how much of your income qualifies for the flat 15% roerende voorheffing instead of the usual progressive income tax.",
+          "NEW: The calculator fully respects the annual(indexed) ceiling of €77,220. Income above the ceiling is taxed progressively. A tip, by the way: If your total copyright income is higher than the limit for > 4 years in a row, you'll lose access to the 15% or lower regime until your average for the last 4 years drops below it again.",
+          "NEW: Kunstenaarsattest (gewoon or higher) option: For copyright income streams WITH gewoon or higher kunstenaarsattest the withholding reductions still exist, at 7.5% for the first tier of copyright income, and 11.25% for the second tier and 15% after that up to the limit yearly.",
+          "NEW: RSZ plichtig toggle for copyright income. These two options (kunstenaarsattest and RSZ plichtig) are mutually exclusive and the calculator enforces that(Income streams that are rsz plichtig like software and development can't qualify for kunstenaarsattest, or at least not for that copyright income stream)",
+          "NEW: IF RSZ plichtig for that copyright income stream it IS considered for your theoretical gross that your 13Th month is calculated on, otherwise it is not included for your 13Th month calculation. I'm quite sure about this, but I'm still looking into it, as well as wether it counts for your (double) vacation pay calculation as well",
+          "NEW: Full breakdown card in the Special Items column: monthly and annual royalty (gross), roerende voorheffing withheld, RSZ deduction (if applicable), net monthly and annual royalty, ceiling usage, employer RSZ saving, effective tax rate, and when above ceiling the progressive tax breakdown on the excess.",
+          "NEW: Unrelated copyright income (Section 2: third-party royalties, not tied to your salary). For freelancers, natural persons and creators receiving royalties from separate sources. Annual gross input, same kunstenaarsattest options same ceiling logic, with combined ceiling tracking against your full combined copyright income.",
+          "INFO: The roerende voorheffing (7.5-15%) is a liberatory final tax meaning it is not re-included in the year-end progressive settlement.",
+          "INFO: Above-ceiling income IS included in the year-end settlement as regular taxable income at progressive rates."
+        ],
+        "nl": [
+          "UPDATE: Goed nieuws op persoonlijk vlak: de stage is heel goed verlopen, dus mijn bachelordiploma is behaald! al duurt het nog een paar weken voor ik het officieel ontvang.",
+          "Daarbovenop heb ik ook geweldig nieuws over de calculator! Ik heb al een tijdje aan deze update gewerkt... Copyright inkomen :)",
+          "Wat de timing betreft: er is recent officiële bevestiging gekomen (nog niet definitief, maar veelbelovend) rond het stelsel voor auteursrechtvergoedingen voor software en developers dus dit leek het perfecte moment!",
+          "Belangrijk: Aangezien dit nog niet volledig is vastgelegd, is dit mijn huidige interpretatie en kunnen de definitieve regels nog wijzigen. Als er meer duidelijkheid komt, pas ik de calculator aan.",
+          "Als je in de tussentijd aanvullende inzichten of correcties hebt over auteursrechtinkomen, problemen opmerkt met de implementatie, of iets anders wilt melden: neem dan gerust contact op via het contactformulier en ik kijk wat ik voor je kan doen!",
+          "NIEUW: Simulatie van auteursrechtinkomen (Sectie 1: gekoppeld aan je loon). Je kan je theoretische bruto invoeren(Gewoon bruto + auteursrechten bruto) en een percentage auteursrechten tot 30%",
+          "NIEUW: De calculator respecteert het jaarlijks (geïndexeerd) plafond van €77.220. Inkomen boven het plafond wordt progressief belast. Een tip trouwens: als je totale auteursrechtinkomen meer dan 4 jaar op rij het plafond overschrijdt, verlies je de toegang tot het 15%-stelsel of lager totdat je gemiddelde over de laatste 4 jaar er opnieuw onder valt.",
+          "NIEUW: Optie kunstenaarsattest (gewoon of hoger): voor auteursrechtstromen mét een gewoon of hoger kunstenaarsattest gelden verminderingen op de roerende voorheffing: 7,5% voor de eerste schijf, 11,25% voor de tweede schijf en 15% daarna, tot het jaarlijkse plafond.",
+          "NIEUW: Checkbox RSZ-plichtig voor auteursrechtinkomen. Deze twee opties (kunstenaarsattest en RSZ-plichtig) zijn onderling exclusief en de calculator dwingt dit af (auteursrechtstromen die RSZ-plichtig zijn, zoals software en ontwikkeling, komen niet in aanmerking voor een kunstenaarsattest: althans niet voor die specifieke stroom).",
+          "NIEUW: Als een auteursrechtstroom RSZ-plichtig is, telt ze wél mee in je theoretisch bruto voor de berekening van de 13e maand EN dubbel vakantiegeld; anders niet.",
+          "NIEUW: Volledige detailkaart in de kolom Speciale Items: maandelijkse en jaarlijkse royalty (bruto), ingehouden roerende voorheffing, RSZ-aftrek (indien van toepassing), netto maandelijkse en jaarlijkse royalty, plafondgebruik, RSZ-besparing werkgever, effectief belastingtarief - en bij overschrijding van het plafond de progressieve belastingopsplitsing op het surplus.",
+          "NIEUW: Niet-loongerelateerd auteursrechtinkomen (Sectie 2: royalties van derden, niet verbonden aan je loon). Voor freelancers, natuurlijke personen en makers die royalties ontvangen uit afzonderlijke bronnen. Jaarlijkse bruto-invoer, dezelfde kunstenaarsattest-opties, dezelfde plafondlogica - met gecombineerde plafondopvolging over je volledige gecombineerde auteursrechtinkomen.",
+          "INFO: De roerende voorheffing (7,5-15%) is een bevrijdende eindbelasting: ze wordt niet opnieuw meegenomen in de progressieve jaarafrekening.",
+          "INFO: Inkomen boven het plafond wordt wél opgenomen in de jaarafrekening als gewoon belastbaar inkomen, aan progressieve tarieven."
+        ],
+        "fr": [
+          "MISE À JOUR : Bonne nouvelle sur le plan personnel : le stage s'est très bien passé ! Le bachelor est obtenu, même s'il faudra encore quelques semaines avant que je reçoive officiellement le diplôme !",
+          "Et par ailleurs, j'ai également d'excellentes nouvelles du côté du calculateur ! Je travaille sur cette mise à jour depuis un bon moment déjà, et c'est vraiment satisfaisant de pouvoir enfin la publier.",
+          "À propos du timing : il y a eu récemment une confirmation officielle (pas encore définitive, mais prometteuse) autour du régime des revenus de droits d'auteur, ce qui m'a donné l'impression que c'était le bon moment pour publier cette mise à jour - d'autant plus que mon rythme de mises à jour avait quelque peu ralenti depuis que le stage prenait plus de mon temps ;)",
+          "Important : Étant donné que ce n'est pas encore totalement établi, il s'agit de mon interprétation actuelle et les règles définitives sont susceptibles de changer. Si des précisions arrivent, je mettrai le calculateur à jour.",
+          "Si, entre-temps, vous avez des informations complémentaires ou des corrections concernant les revenus de droits d'auteur, si vous remarquez des problèmes avec l'implémentation, ou quoi que ce soit d'autre - n'hésitez pas à me contacter via le formulaire de contact et je verrai ce que je peux faire !",
+          "NOUVEAU : Simulation de revenus de droits d'auteur (Section 1 : liée à votre salaire). Saisissez votre package brut théorique et définissez un pourcentage de droits d'auteur pour voir exactement quelle part de vos revenus bénéficie du précompte mobilier libératoire de 15% au lieu de l'impôt progressif habituel.",
+          "NOUVEAU : Le calculateur respecte intégralement le plafond annuel (indexé) de 77 220 €. Les revenus dépassant ce plafond sont imposés progressivement. Un conseil au passage : si vos revenus totaux de droits d'auteur dépassent le plafond plus de 4 années consécutives, vous perdrez l'accès au régime à 15% ou moins jusqu'à ce que votre moyenne sur les 4 dernières années repasse en dessous.",
+          "NOUVEAU : Option attestation d'artiste (gewoon ou supérieure) : pour les flux de revenus de droits d'auteur disposant d'une attestation d'artiste gewoon ou supérieure, des réductions de précompte s'appliquent : 7,5% pour la première tranche, 11,25% pour la deuxième tranche et 15% au-delà, jusqu'au plafond annuel.",
+          "NOUVEAU : Option assujettissement à l'ONSS pour les droits d'auteur. Ces deux options (attestation d'artiste et assujettissement à l'ONSS) sont mutuellement exclusives et le calculateur l'impose (les flux de revenus assujettis à l'ONSS, comme les logiciels et le développement, ne peuvent pas bénéficier de l'attestation d'artiste - du moins pas pour ce flux de droits d'auteur).",
+          "NOUVEAU : Si un flux de droits d'auteur est assujetti à l'ONSS, il EST pris en compte dans votre brut théorique pour le calcul du 13e mois ; sinon, il n'est pas inclus. J'en suis assez certain, mais j'approfondis encore la question - ainsi que celle de savoir si cela compte également pour le calcul du (double) pécule de vacances.",
+          "NOUVEAU : Fiche de détail complète dans la colonne Éléments spéciaux : redevances mensuelles et annuelles (brutes), précompte mobilier retenu, déduction ONSS (le cas échéant), redevances nettes mensuelles et annuelles, utilisation du plafond, économie ONSS employeur, taux d'imposition effectif - et en cas de dépassement du plafond, la ventilation de l'impôt progressif sur l'excédent.",
+          "NOUVEAU : Revenus de droits d'auteur non liés au salaire (Section 2 : redevances de tiers, non liées à votre salaire). Pour les indépendants, les personnes physiques et les créateurs percevant des redevances de sources distinctes. Saisie brute annuelle, mêmes options d'attestation d'artiste, même logique de plafond - avec suivi combiné du plafond sur l'ensemble de vos revenus de droits d'auteur.",
+          "INFO : Le précompte mobilier (7,5-15%) est un impôt libératoire définitif, ce qui signifie qu'il n'est pas réintégré dans la régularisation annuelle progressive.",
+          "INFO : Les revenus au-dessus du plafond SONT inclus dans la régularisation annuelle comme revenus imposables ordinaires, aux taux progressifs."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
     {
       "date": "2026-03-28",
       "version": "1.4.1",
@@ -24,14 +89,14 @@
           "This has been corrected. Thanks to the redditor who pointed it out.",
           "COMING SOON: Copyright income (auteursrechten/droits d'auteur) support is coming sometime soon. Stay tuned!"
         ],
-        "nl": [ 
+        "nl": [
           "UPDATE: Het is een tijdje geleden! De stage gaat tot nu toe geweldig. Geweldige baas, en interessante problemen om uit te zoeken.",
           "FIX: De minimumloon (GGMMI) controle omvatte ten onrechte het dubbele vakantiegeld in de berekening van de effectieve vergoeding.",
           "Per CAO nr. 43 is vakantiegeld (zowel enkel als dubbel) expliciet uitgesloten van de GMMI controle.",
           "Alleen basissalaris en premies zoals de 13e maand tellen mee voor de minimumloon drempel.",
           "Dit is nu gecorrigeerd. Bedankt aan de redditor die het heeft aangegeven.",
           "COMING SOON: Ondersteuning voor auteursrechteninkomen (copyrights/droits d'auteur) komt binnenkort. Blijf op de hoogte!"
-          ],
+        ],
         "fr": [
           "MISE À JOUR: Ça fait un moment! Le stage se passe très bien jusqu'à présent. Patron incroyable, et des problèmes intéressants à résoudre.",
           "CORRECTION: Le contrôle de conformité au salaire minimum (GGMMI) incluait à tort l'indemnité de vacances double dans le calcul de la rémunération effective.",
@@ -39,9 +104,7 @@
           "Seuls votre salaire de base et les primes comme le 13e mois comptent pour le seuil du salaire minimum.",
           "Cela a été corrigé. Merci au redditor qui l'a signalé.",
           "COMING SOON: Le support pour les revenus de droits d'auteur (auteursrechten/droits d'auteur) arrive bientôt. Restez à l'écoute!"
-           
-
-         ]
+        ]
       },
       "details": {
         "en": "",
@@ -60,34 +123,34 @@
       },
       "highlights": {
         "en": [
-          "NEW: Full group insurance simulation \u2014 configure your employer's monthly premium and optional employee contribution to see the complete financial impact on your salary.",
+          "NEW: Full group insurance simulation — configure your employer's monthly premium and optional employee contribution to see the complete financial impact on your salary.",
           "NEW: Employer cost breakdown showing the special social security contribution (8.86%) and insurance tax (4.4%) on top of the base premium.",
-          "NEW: Employee tax recovery (belastingvermindering) \u2014 if you contribute to your group insurance, see exactly how much tax benefit you receive (30% of your annual contribution, adjusted for your municipal tax rate).",
+          "NEW: Employee tax recovery (belastingvermindering) — if you contribute to your group insurance, see exactly how much tax benefit you receive (30% of your annual contribution, adjusted for your municipal tax rate).",
           "NEW: Year-end settlement now includes the group insurance tax recovery as a positive adjustment, showing the real net benefit.",
           "NEW: Employer comparison view updated with group insurance costs in the pie chart and detailed breakdown.",
           "NEW: Support for pension, hospitalization, disability, and mixed plan types (displayed on the special items card).",
-          "NOTE: Group insurance does not affect your RSZ contribution, payroll tax base, 13th month bonus base, or vacation bonus base \u2014 these remain unchanged as per Belgian law.",
-          "INFO: Long-term aspects (payout taxation at retirement, 80% rule, Wijninckx contribution, WAP guaranteed return) are explained in tooltips for reference but are NOT simulated \u2014 the calculator focuses on your within-year salary impact only."
+          "NOTE: Group insurance does not affect your RSZ contribution, payroll tax base, 13th month bonus base, or vacation bonus base — these remain unchanged as per Belgian law.",
+          "INFO: Long-term aspects (payout taxation at retirement, 80% rule, Wijninckx contribution, WAP guaranteed return) are explained in tooltips for reference but are NOT simulated — the calculator focuses on your within-year salary impact only."
         ],
         "nl": [
-          "NEW: Volledige groepsverzekering simulatie \u2014 configureer de maandelijkse werkgeverspremie en optionele werknemersbijdrage om de volledige financi\u00eble impact op uw loon te zien.",
+          "NEW: Volledige groepsverzekering simulatie — configureer de maandelijkse werkgeverspremie en optionele werknemersbijdrage om de volledige financiële impact op uw loon te zien.",
           "NEW: Werkgeverskostenoverzicht met de bijzondere socialezekerheidsbijdrage (8,86%) en verzekeringstaks (4,4%) bovenop de basispremie.",
-          "NEW: Belastingvermindering voor werknemers \u2014 als u bijdraagt aan uw groepsverzekering, ziet u precies hoeveel belastingvoordeel u ontvangt (30% van uw jaarlijkse bijdrage, aangepast aan uw gemeentebelasting).",
+          "NEW: Belastingvermindering voor werknemers — als u bijdraagt aan uw groepsverzekering, ziet u precies hoeveel belastingvoordeel u ontvangt (30% van uw jaarlijkse bijdrage, aangepast aan uw gemeentebelasting).",
           "NEW: De eindafrekening bevat nu de belastingvermindering voor groepsverzekering als een positieve aanpassing, wat het werkelijke nettovoordeel toont.",
           "NEW: Het werkgeversvergelijkingsoverzicht is bijgewerkt met groepsverzekeringkosten in de taartdiagram en gedetailleerd overzicht.",
           "NEW: Ondersteuning voor pensioen-, hospitalisatie-, invaliditeits- en gemengde plantypes (weergegeven op de speciale items kaart).",
-          "OPMERKING: Groepsverzekering heeft geen invloed op uw RSZ-bijdrage, bedrijfsvoorheffingsbasis, dertiende maand basis of vakantiegeldbasis \u2014 deze blijven ongewijzigd volgens de Belgische wetgeving.",
-          "INFO: Langetermijnaspecten (uitkeringsbelasting bij pensionering, 80%-regel, Wijninckx-bijdrage, WAP gegarandeerd rendement) worden uitgelegd in tooltips ter referentie maar worden NIET gesimuleerd \u2014 de calculator richt zich alleen op de impact binnen het jaar."
+          "OPMERKING: Groepsverzekering heeft geen invloed op uw RSZ-bijdrage, bedrijfsvoorheffingsbasis, dertiende maand basis of vakantiegeldbasis — deze blijven ongewijzigd volgens de Belgische wetgeving.",
+          "INFO: Langetermijnaspecten (uitkeringsbelasting bij pensionering, 80%-regel, Wijninckx-bijdrage, WAP gegarandeerd rendement) worden uitgelegd in tooltips ter referentie maar worden NIET gesimuleerd — de calculator richt zich alleen op de impact binnen het jaar."
         ],
         "fr": [
-          "NOUVEAU: Simulation compl\u00e8te de l'assurance groupe \u2014 configurez la prime mensuelle de l'employeur et la contribution optionnelle de l'employ\u00e9 pour voir l'impact financier complet sur votre salaire.",
-          "NOUVEAU: D\u00e9tail des co\u00fbts employeur montrant la cotisation sp\u00e9ciale de s\u00e9curit\u00e9 sociale (8,86%) et la taxe d'assurance (4,4%) en plus de la prime de base.",
-          "NOUVEAU: R\u00e9duction d'imp\u00f4t pour les employ\u00e9s \u2014 si vous contribuez \u00e0 votre assurance groupe, voyez exactement combien d'avantage fiscal vous recevez (30% de votre contribution annuelle, ajust\u00e9 selon votre taux de taxe communale).",
-          "NOUVEAU: Le d\u00e9compte de fin d'ann\u00e9e inclut d\u00e9sormais la r\u00e9duction d'imp\u00f4t de l'assurance groupe comme ajustement positif, montrant le b\u00e9n\u00e9fice net r\u00e9el.",
-          "NOUVEAU: La vue de comparaison employeur est mise \u00e0 jour avec les co\u00fbts d'assurance groupe dans le graphique en secteurs et le d\u00e9tail.",
-          "NOUVEAU: Prise en charge des types de plan pension, hospitalisation, invalidit\u00e9 et mixte (affich\u00e9s sur la carte des \u00e9l\u00e9ments sp\u00e9ciaux).",
-          "REMARQUE: L'assurance groupe n'affecte pas votre cotisation ONSS, la base du pr\u00e9compte professionnel, la base du 13\u00e8me mois ou la base du p\u00e9cule de vacances \u2014 ceux-ci restent inchang\u00e9s conform\u00e9ment \u00e0 la l\u00e9gislation belge.",
-          "INFO: Les aspects \u00e0 long terme (taxation du capital au d\u00e9part \u00e0 la retraite, r\u00e8gle des 80%, contribution Wijninckx, rendement garanti WAP) sont expliqu\u00e9s dans les infobulles \u00e0 titre de r\u00e9f\u00e9rence mais ne sont PAS simul\u00e9s \u2014 le calculateur se concentre uniquement sur l'impact salarial dans l'ann\u00e9e."
+          "NOUVEAU: Simulation complète de l'assurance groupe — configurez la prime mensuelle de l'employeur et la contribution optionnelle de l'employé pour voir l'impact financier complet sur votre salaire.",
+          "NOUVEAU: Détail des coûts employeur montrant la cotisation spéciale de sécurité sociale (8,86%) et la taxe d'assurance (4,4%) en plus de la prime de base.",
+          "NOUVEAU: Réduction d'impôt pour les employés — si vous contribuez à votre assurance groupe, voyez exactement combien d'avantage fiscal vous recevez (30% de votre contribution annuelle, ajusté selon votre taux de taxe communale).",
+          "NOUVEAU: Le décompte de fin d'année inclut désormais la réduction d'impôt de l'assurance groupe comme ajustement positif, montrant le bénéfice net réel.",
+          "NOUVEAU: La vue de comparaison employeur est mise à jour avec les coûts d'assurance groupe dans le graphique en secteurs et le détail.",
+          "NOUVEAU: Prise en charge des types de plan pension, hospitalisation, invalidité et mixte (affichés sur la carte des éléments spéciaux).",
+          "REMARQUE: L'assurance groupe n'affecte pas votre cotisation ONSS, la base du précompte professionnel, la base du 13ème mois ou la base du pécule de vacances — ceux-ci restent inchangés conformément à la législation belge.",
+          "INFO: Les aspects à long terme (taxation du capital au départ à la retraite, règle des 80%, contribution Wijninckx, rendement garanti WAP) sont expliqués dans les infobulles à titre de référence mais ne sont PAS simulés — le calculateur se concentre uniquement sur l'impact salarial dans l'année."
         ]
       },
       "details": {
@@ -108,42 +171,42 @@
       "highlights": {
         "en": [
           "FIX: Net return percentage on the bike allowance card is now accurate when the allowance is part of a Mobility Budget.",
-          "FIX: Bike allowance rate input minimum is now \u20ac0.01/km \u2014 the previous UI incorrectly enforced a floor of \u20ac1.00/km.",
-          "FIX: Double counting of bike allowance within the mobility budget is now prevented \u2014 whether the bike is absorbed or paid separately, costs are tracked correctly without overlap.",
+          "FIX: Bike allowance rate input minimum is now €0.01/km — the previous UI incorrectly enforced a floor of €1.00/km.",
+          "FIX: Double counting of bike allowance within the mobility budget is now prevented — whether the bike is absorbed or paid separately, costs are tracked correctly without overlap.",
           "FIX: When bike allowance is absorbed into the mobility budget, any amount exceeding the remaining available budget (pillar 1 + pillar 2 balance) is now correctly discarded.",
-          "FIX: Mobility budget pillar 2 and pillar 3 benefits no longer generate employer social security (RSZ) or payroll tax costs \u2014 only the pillar 1 equivalent is subject to employer contributions, in line with the legal framework.",
-          "NEW: Taxable bike allowance excess above the \u20ac0.37/km tax-free threshold is now displayed seperately in the special items / year-end column.",
+          "FIX: Mobility budget pillar 2 and pillar 3 benefits no longer generate employer social security (RSZ) or payroll tax costs — only the pillar 1 equivalent is subject to employer contributions, in line with the legal framework.",
+          "NEW: Taxable bike allowance excess above the €0.37/km tax-free threshold is now displayed seperately in the special items / year-end column.",
           "NEW: Settings interface now includes a checkbox to configure bike allowance as seperate from mobility budget only IF the bike allowance was a perk of the employee for 3 months before they gained mobility budget as well.",
-          "NEW: 'Active Beforehand' separate mode for bike allowance \u2014 when the bike arrangement predates the mobility budget by 3+ months, the allowance is paid separately on top of the mobility budget instead of being absorbed into it.",
+          "NEW: 'Active Beforehand' separate mode for bike allowance — when the bike arrangement predates the mobility budget by 3+ months, the allowance is paid separately on top of the mobility budget instead of being absorbed into it.",
           "NEW: The special items column and extra-net display now show a dedicated entry when bike allowance is absorbed into the mobility budget, making the impact visible at a glance.",
-          "NEW: Employer-view pie chart updated \u2014 now correctly shows the full cost of the bike allowance including any taxable portion above the exempt threshold.",
-          "UPDATE (2026): Government-indexed values updated \u2014 bike allowance yearly cap raised to \u20ac3,690, mobility budget minimum raised to \u20ac3,233/year, mobility budget maximum raised to \u20ac17,244/year."
+          "NEW: Employer-view pie chart updated — now correctly shows the full cost of the bike allowance including any taxable portion above the exempt threshold.",
+          "UPDATE (2026): Government-indexed values updated — bike allowance yearly cap raised to €3,690, mobility budget minimum raised to €3,233/year, mobility budget maximum raised to €17,244/year."
         ],
         "nl": [
           "FIX: Het percentage netto rendement op de fietsvergoeding kaart is nu accuraat wanneer de vergoeding deel uitmaakt van een Mobiliteitsbudget.",
-          "FIX: De minimum invoer voor het fietsvergoedingstarief is nu \u20ac0.01/km.",
-          "FIX: Dubbele telling van de fietsvergoeding binnen het mobiliteitsbudget wordt nu voorkomen \u2014 of de fiets nu wordt geabsorbeerd of apart wordt betaald, de kosten worden correct bijgehouden zonder overlap.",
+          "FIX: De minimum invoer voor het fietsvergoedingstarief is nu €0.01/km.",
+          "FIX: Dubbele telling van de fietsvergoeding binnen het mobiliteitsbudget wordt nu voorkomen — of de fiets nu wordt geabsorbeerd of apart wordt betaald, de kosten worden correct bijgehouden zonder overlap.",
           "FIX: Wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, wordt elk bedrag dat het resterende beschikbare budget (pilaar 1 + pilaar 2 saldo) overschrijdt nu correct genegeerd.",
-          "FIX: Mobiliteitsbudget pilaar 2 en pilaar 3 voordelen genereren niet langer werkgeverssocialezekerheidskosten (RSZ) of loonbelasting \u2014 alleen het pilaar 1 equivalent is onderhevig aan werkgeversbijdragen, in lijn met het wettelijke kader.",
-          "NEW: Belaste fietsvergoeding boven de \u20ac0.37/km belastingvrije drempel wordt nu apart weergegeven in de speciale items / eindejaarskolom.",
+          "FIX: Mobiliteitsbudget pilaar 2 en pilaar 3 voordelen genereren niet langer werkgeverssocialezekerheidskosten (RSZ) of loonbelasting — alleen het pilaar 1 equivalent is onderhevig aan werkgeversbijdragen, in lijn met het wettelijke kader.",
+          "NEW: Belaste fietsvergoeding boven de €0.37/km belastingvrije drempel wordt nu apart weergegeven in de speciale items / eindejaarskolom.",
           "NEW: De instellingen bevatten nu een checkbox om de fietsvergoeding als apart van het mobiliteitsbudget te configureren, alleen ALS de fietsvergoeding een voordeel was van de werknemer gedurende 3 maanden voordat ze ook een mobiliteitsbudget kregen.",
-          "NEW: 'Active Beforehand' aparte modus voor fietsvergoeding \u2014 wanneer de fietsregeling 3+ maanden voorafgaat aan het mobiliteitsbudget, wordt de vergoeding apart betaald bovenop het mobiliteitsbudget in plaats van erin te worden opgenomen.",
+          "NEW: 'Active Beforehand' aparte modus voor fietsvergoeding — wanneer de fietsregeling 3+ maanden voorafgaat aan het mobiliteitsbudget, wordt de vergoeding apart betaald bovenop het mobiliteitsbudget in plaats van erin te worden opgenomen.",
           "NEW: De speciale items kolom en extra-netto weergave tonen nu een aparte vermelding wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, waardoor de impact in één oogopslag zichtbaar is.",
-          "NEW: De taartdiagram in werkgeversweergave is bijgewerkt \u2014 toont nu correct de volledige kosten van de fietsvergoeding inclusief elk belastbaar deel boven de vrijgestelde drempel.",
-          "UPDATE (2026): Overheidsgeïndexeerde waarden bijgewerkt \u2014 fietsvergoeding jaarlijkse limiet verhoogd naar \u20ac3,690, mobiliteitsbudget minimum verhoogd naar \u20ac3,233/jaar, mobiliteitsbudget maximum verhoogd naar \u20ac17,244/jaar."
+          "NEW: De taartdiagram in werkgeversweergave is bijgewerkt — toont nu correct de volledige kosten van de fietsvergoeding inclusief elk belastbaar deel boven de vrijgestelde drempel.",
+          "UPDATE (2026): Overheidsgeïndexeerde waarden bijgewerkt — fietsvergoeding jaarlijkse limiet verhoogd naar €3,690, mobiliteitsbudget minimum verhoogd naar €3,233/jaar, mobiliteitsbudget maximum verhoogd naar €17,244/jaar."
         ],
         "fr": [
           "CORRECTION: Le pourcentage de rendement net sur la carte d'allocation vélo est désormais précis lorsque l'allocation fait partie d'un Budget Mobilité.",
-          "CORRECTION: Le minimum d'entrée pour le taux d'allocation vélo est maintenant de \u20ac0.01/km \u2014 l'interface précédente appliquait à tort un minimum de \u20ac1.00/km.",
-          "CORRECTION: La double comptabilisation de l'allocation vélo dans le budget mobilité est désormais évitée \u2014 que le vélo soit absorbé ou payé séparément, les coûts sont suivis correctement sans chevauchement.",
-          "CORRECTION: Lorsque l'allocation vélo est absorbée dans le budget mobilité, tout montant dépassant le budget disponible restant (pilier 1 + solde du pilier 2) est désormais correctement ignoré \u2014 aucun revenu ou coût fictif n'est généré.",
-          "CORRECTION: Les avantages du budget mobilité pilier 2 et pilier 3 ne génèrent plus de coûts de sécurité sociale employeur (RSZ) ou de taxe sur les salaires \u2014 seul l'équivalent du pilier 1 est soumis aux contributions patronales, conformément au cadre légal.",
-          "NOUVEAU: L'excédent d'allocation vélo imposable au-dessus du seuil d'exonération de \u20ac0.37/km est désormais affiché séparément dans la colonne des éléments spéciaux / fin d'année.",
+          "CORRECTION: Le minimum d'entrée pour le taux d'allocation vélo est maintenant de €0.01/km — l'interface précédente appliquait à tort un minimum de €1.00/km.",
+          "CORRECTION: La double comptabilisation de l'allocation vélo dans le budget mobilité est désormais évitée — que le vélo soit absorbé ou payé séparément, les coûts sont suivis correctement sans chevauchement.",
+          "CORRECTION: Lorsque l'allocation vélo est absorbée dans le budget mobilité, tout montant dépassant le budget disponible restant (pilier 1 + solde du pilier 2) est désormais correctement ignoré — aucun revenu ou coût fictif n'est généré.",
+          "CORRECTION: Les avantages du budget mobilité pilier 2 et pilier 3 ne génèrent plus de coûts de sécurité sociale employeur (RSZ) ou de taxe sur les salaires — seul l'équivalent du pilier 1 est soumis aux contributions patronales, conformément au cadre légal.",
+          "NOUVEAU: L'excédent d'allocation vélo imposable au-dessus du seuil d'exonération de €0.37/km est désormais affiché séparément dans la colonne des éléments spéciaux / fin d'année.",
           "NOUVEAU: L'interface des paramètres comprend désormais une case à cocher pour configurer l'allocation vélo comme séparée du budget mobilité uniquement SI l'allocation vélo était un avantage de l'employé pendant 3 mois avant qu'il n'obtienne également un budget mobilité.",
-          "NOUVEAU: Mode séparé 'Active Beforehand' pour l'allocation vélo \u2014 lorsque l'arrangement vélo précède le budget mobilité de plus de 3 mois, l'allocation est payée séparément en plus du budget mobilité au lieu d'être absorbée dedans.",
+          "NOUVEAU: Mode séparé 'Active Beforehand' pour l'allocation vélo — lorsque l'arrangement vélo précède le budget mobilité de plus de 3 mois, l'allocation est payée séparément en plus du budget mobilité au lieu d'être absorbée dedans.",
           "NOUVEAU: La colonne des éléments spéciaux et l'affichage extra-netto montrent désormais une entrée dédiée lorsque l'allocation vélo est absorbée dans le budget mobilité, rendant l'impact visible en un coup d'œil.",
-          "NOUVEAU: Le graphique en secteurs dans la vue employeur est mis à jour \u2014 montre désormais correctement le coût total de l'allocation vélo, y compris toute partie imposable au-dessus du seuil d'exemption.",
-          "MISE À JOUR (2026): Valeurs indexées par le gouvernement mises à jour \u2014 plafond annuel de l'allocation vélo porté à \u20ac3,690, minimum du budget mobilité porté à \u20ac3,233/an, maximum du budget mobilité porté à \u20ac17,244/an."
+          "NOUVEAU: Le graphique en secteurs dans la vue employeur est mis à jour — montre désormais correctement le coût total de l'allocation vélo, y compris toute partie imposable au-dessus du seuil d'exemption.",
+          "MISE À JOUR (2026): Valeurs indexées par le gouvernement mises à jour — plafond annuel de l'allocation vélo porté à €3,690, minimum du budget mobilité porté à €3,233/an, maximum du budget mobilité porté à €17,244/an."
         ]
       },
       "details": {
@@ -204,22 +267,22 @@
           "Check your sector's minimum wage by the way. For pc 200 3 years experience class c, 15.02/h would be the minimum and 22.54 the maximum."
         ],
         "nl": [
-           "NIEUW: Flexijob inkomen berekening toegevoegd in een nieuwe sectie 'Secundair inkomen' in de instellingen ui",
-            "NIEUW: Flexijob/secundair inkomen maandelijkse impact sectie toegevoegd aan de berekeningen UI in de maandelijkse en jaarlijkse secties.",
-            "Configureer het in de instellingen onder 'Secundair Inkomen': voer je uurloon, uren per week en weken per jaar in.",
-            "Flexijob inkomen is bruto = netto voor de werknemer: de werkgever betaalt 28% speciale bijdrage in plaats van standaard sociale zekerheidsbijdragen - er wordt geen inhouding op uw loon afgetrokken.",
-            "De impact van flexijob voor de werkgever wordt niet weergegeven, aangezien het in de context van de calculator een andere werkgever dan de hoofdwerkgever zou zijn die de kosten betaalt.",
-            "De calculator waarschuwt als je uurloon onder het GGMMI flexijob minimumloon valt en geeft aan als je totale jaarlijkse flexijob inkomen boven het belastingvrije plafond van €18.592 uitkomt.", 
-            "Check het minimumloon van je sector trouwens. Voor pc 200 3 jaren ervaring klasse c zou 15.02/h het minimum zijn en 22.54 het maximum,"
-          ],
+          "NIEUW: Flexijob inkomen berekening toegevoegd in een nieuwe sectie 'Secundair inkomen' in de instellingen ui",
+          "NIEUW: Flexijob/secundair inkomen maandelijkse impact sectie toegevoegd aan de berekeningen UI in de maandelijkse en jaarlijkse secties.",
+          "Configureer het in de instellingen onder 'Secundair Inkomen': voer je uurloon, uren per week en weken per jaar in.",
+          "Flexijob inkomen is bruto = netto voor de werknemer: de werkgever betaalt 28% speciale bijdrage in plaats van standaard sociale zekerheidsbijdragen - er wordt geen inhouding op uw loon afgetrokken.",
+          "De impact van flexijob voor de werkgever wordt niet weergegeven, aangezien het in de context van de calculator een andere werkgever dan de hoofdwerkgever zou zijn die de kosten betaalt.",
+          "De calculator waarschuwt als je uurloon onder het GGMMI flexijob minimumloon valt en geeft aan als je totale jaarlijkse flexijob inkomen boven het belastingvrije plafond van €18.592 uitkomt.",
+          "Check het minimumloon van je sector trouwens. Voor pc 200 3 jaren ervaring klasse c zou 15.02/h het minimum zijn en 22.54 het maximum,"
+        ],
         "fr": [
-           "NOUVEAU: Calcul de revenu flexijob ajouté dans une nouvelle section 'Revenu secondaire' dans l'interface des paramètres",
-            "NOUVEAU: Section d'impact mensuel du flexijob/revenu secondaire ajoutée à l'interface de calcul dans les sections mensuelle et annuelle.",
-            "Configurez-le dans les paramètres sous 'Revenu Secondaire': entrez votre taux horaire, vos heures par semaine et vos semaines par an.",
-            "Le revenu flexijob est brut = net pour l'employé: l'employeur paie une contribution spéciale forfaitaire de 28% au lieu des charges sociales standard - aucune retenue n'est déduite de votre salaire.",
-            "L'impact du flexijob pour l'employeur n'est pas affiché, considérant que dans le contexte du calculateur, ce serait un employeur différent que celui de votre emploi principal qui paierait les coûts.",
-            "Le calculateur avertit si votre taux horaire est inférieur au salaire minimum flexijob GGMMI et signale si votre revenu annuel total de flexijob dépasse le plafond non imposable de 18 592 €.",
-            "Vérifiez le salaire minimum de votre secteur d'activité d'ailleurs. Pour le pc 200 avec 3 ans d'expérience classe c, 15.02/h serait le minimum et 22.54 le maximum."  
+          "NOUVEAU: Calcul de revenu flexijob ajouté dans une nouvelle section 'Revenu secondaire' dans l'interface des paramètres",
+          "NOUVEAU: Section d'impact mensuel du flexijob/revenu secondaire ajoutée à l'interface de calcul dans les sections mensuelle et annuelle.",
+          "Configurez-le dans les paramètres sous 'Revenu Secondaire': entrez votre taux horaire, vos heures par semaine et vos semaines par an.",
+          "Le revenu flexijob est brut = net pour l'employé: l'employeur paie une contribution spéciale forfaitaire de 28% au lieu des charges sociales standard - aucune retenue n'est déduite de votre salaire.",
+          "L'impact du flexijob pour l'employeur n'est pas affiché, considérant que dans le contexte du calculateur, ce serait un employeur différent que celui de votre emploi principal qui paierait les coûts.",
+          "Le calculateur avertit si votre taux horaire est inférieur au salaire minimum flexijob GGMMI et signale si votre revenu annuel total de flexijob dépasse le plafond non imposable de 18 592 €.",
+          "Vérifiez le salaire minimum de votre secteur d'activité d'ailleurs. Pour le pc 200 avec 3 ans d'expérience classe c, 15.02/h serait le minimum et 22.54 le maximum."
         ]
       },
       "details": {
@@ -267,7 +330,6 @@
           "Donc, je vais passer à un modèle différent où les mises à jour seront moins fréquentes, et dépendront davantage de la communauté pour signaler les bugs ou problèmes qu'ils trouvent ainsi que pour demander les fonctionnalités qu'ils aimeraient encore voir ajoutées.",
           "La résolution de ces problèmes sera regroupée dans ces mises à jour moins fréquentes.",
           "En attendant, tout soutien est bien sûr toujours très apprécié pour aider au développement futur (comme un mode ouvrier), rester à jour avec la législation fiscale, ainsi que pour aider à couvrir les coûts en cours et précédents."
-
         ]
       },
       "details": {
@@ -286,17 +348,17 @@
         "fr": "Correction de l'allocation vélo"
       },
       "highlights": {
-        "en": [ 
+        "en": [
           "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total when pro rating for part-time workers. ",
           "FIX: Minimum wage calculation is fixed for GGMMI geral minimum wage, I mistakenly had it only consider the main wage, while for GGMMI minimum wage 13th month and double vacation pay are considered too. ",
           "For sectoral minimum wages based on Paritair comités it DOES work like that, where the actual monthly wage must exceed the amount."
         ],
-        "nl": [  
+        "nl": [
           "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor het maandelijkse nettototaal bij prorateren voor deeltijdse werknemers. ",
           "FIX: De berekening van het minimumloon is gefixt voor het GGMMI algemene minimumloon, ik had per ongeluk alleen rekening gehouden met het hoofdloon, terwijl voor het GGMMI minimumloon ook de 13e maand en dubbele vakantiegeld worden meegeteld.",
           "Voor sectorale minimumlonen op basis van Paritair comités werkt het wel zoals initieel geïmplementeerd, waar het daadwerkelijke maandloon het bedrag moet overschrijden."
         ],
-        "fr": [ 
+        "fr": [
           "AMÉLIORATION: Correction du fait que l'allocation vélo était calculée incorrectement pour son total net mensuel lors du prorata pour les travailleurs à temps partiel. ",
           "CORRECTION: Le calcul du salaire minimum est corrigé pour le GGMMI salaire minimum général, j'avais par erreur pris en compte uniquement le salaire principal, alors que pour le salaire minimum GGMMI, le 13e mois et la double indemnité de vacances sont également pris en compte.",
           "Pour les salaires minimum sectoriels basés sur les comités paritaires, cela fonctionne comme prévu, où le salaire mensuel réel doit dépasser le montant."
@@ -318,10 +380,11 @@
         "fr": "Petites corrections pour la traduction française + correction de la bannière de cookies pour mobile"
       },
       "highlights": {
-        "en": [ 
+        "en": [
           "IMPROVEMENT: Fixed some missing french translations, corrected some, ",
-          "IMPROVEMENT: Fixed the cookie banner not being scrollable and thus blocking the cookie buttons"],
-        "nl": [ 
+          "IMPROVEMENT: Fixed the cookie banner not being scrollable and thus blocking the cookie buttons"
+        ],
+        "nl": [
           "VERBETERING: Enkele ontbrekende Franse vertalingen toegevoegd, enkele gecorrigeerd",
           "VERBETERING: Opgelost dat de cookie banner niet scrollbaar was en daardoor de cookie knoppen geblokkeerd werden"
         ],
@@ -346,10 +409,11 @@
         "fr": "Améliorations SEO pour la découvrabilité sur les moteurs de recherche"
       },
       "highlights": {
-        "en": [ 
+        "en": [
           "IMPROVEMENT: Now each language uses cannonical URLs and has its own index.html with language-specific meta tags for better SEO and discoverability on search engines.",
-          "NEW: Added dutch and french translations for the cookie banner, now that users can arrive on the page with the correct language from search engines"],
-        "nl": [ 
+          "NEW: Added dutch and french translations for the cookie banner, now that users can arrive on the page with the correct language from search engines"
+        ],
+        "nl": [
           "VERBETERING: Nu gebruikt elke taal canonieke URL's en heeft zijn eigen index.html met taal-specifieke meta tags voor betere SEO en vindbaarheid in zoekmachines.",
           "NIEUW: Toevoeging van Nederlandse en Franse vertalingen voor de cookie banner, nu gebruikers met de juiste taal op de pagina kunnen aankomen vanuit zoekmachines"
         ],
@@ -381,13 +445,13 @@
           "Single parent bonus: additional tax-free allowance for single parents",
           "Dependent under 3 years old: additional tax-free allowance for dependents under 3 years old",
           "Fiscal work bonus(based on how much rsz workbonus is applicable to your monthly income",
-          "Marriage Quotient: additional tax-free allowance for married couplest through transferring part of their allowance to their spouse's taxable income", 
+          "Marriage Quotient: additional tax-free allowance for married couplest through transferring part of their allowance to their spouse's taxable income",
           "Fixed marriage quotient calculation, resolved some variables that weren't properly indexed yet.",
           "BEHIND_THE_SCENES: I got to my promise to create that new free and detailed post on my Patreon regarding exactly what I discovered and learned while implementing the colourblind mode earlier than expected!",
           "BEHIND_THE_SCENES: The format used was considered carefully, using both visual aides and clear explanations, so hopefully this can generate some awareness and understanding regarding how those with colourblindness experience the world.",
           "BEHIND_THE_SCENES: If you're interested, you can find it here: https://www.patreon.com/posts/what-ive-learned-148728858"
-           ],
-        "nl": [    
+        ],
+        "nl": [
           "NIEUW: Bedrijfsvoorheffing voor maandelijkse berekeningen toont nu de volgende elementen(voorwaardelijk op basis van de ingevoerde situatie):",
           "Basisvermindering(basis belastingvrije som voor iedereen)",
           "Afhankelijken: aanvullende belastingvrije som per afhankelijke",
@@ -400,7 +464,7 @@
           "ACHTER_DE_SCHERMEN: Het gebruikte formaat is zorgvuldig overwogen, met zowel visuele hulpmiddelen als duidelijke uitleg, dus hopelijk kan dit net zoals voor mij wat meer duidelijkheid geven over hoe mensen met kleurenblindheid de wereld eigenlijk ervaren.",
           "ACHTER_DE_SCHERMEN: Indien je geïnteresseerd bent, kan je het hier vinden: https://www.patreon.com/posts/what-ive-learned-148728858"
         ],
-        "fr": [  
+        "fr": [
           "NOUVEAU: Le précompte professionnel pour les calculs mensuels affiche désormais la répartition suivante (conditionnellement en fonction de la situation saisie):",
           "Réduction de base (allocation de base non imposable pour tous)",
           "Personnes à charge: allocation non imposable supplémentaire par personne à charge",
@@ -412,17 +476,16 @@
           "DERRIÈRE_LES_SCÈNES: J'ai tenu ma promesse de créer ce nouveau post gratuit et détaillé sur mon Patreon concernant exactement ce que j'ai découvert et appris lors de la mise en œuvre du mode daltonien plus tôt que prévu!",
           "DERRIÈRE_LES_SCÈNES: Le format utilisé a été soigneusement étudié, en utilisant à la fois des aides visuelles et des explications claires, j'espère donc que cela pourra générer une certaine sensibilisation et compréhension de la façon dont les personnes daltoniennes perçoivent le monde.",
           "DERRIÈRE_LES_SCÈNES: Si vous êtes intéressé, vous pouvez le trouver ici: https://www.patreon.com/posts/what-ive-learned-148728858"
-        
         ]
       },
-      "details": { 
+      "details": {
         "en": "The monthly bedrijfsvoorheffing (withholding tax) display has been significantly enhanced with a full detailed breakdown of all applicable tax reductions. Users can now see exactly how their withholding tax is calculated, including the base reduction that everyone receives (basic tax-free allowance), additional allowances for each dependent child, the single parent bonus for those raising children alone, extra allowances for dependents under 3 years old, the fiscal work bonus based on applicable RSZ work bonus amounts, and the marriage quotient benefit for married couples where one spouse transfers part of their tax-free allowance. This breakdown appears conditionally based on the user's specific situation - only relevant reductions are shown. Additionally, several variables in the marriage quotient calculation that weren't properly indexed to AJ2026 values have been corrected, ensuring accurate tax calculations.",
         "nl": "De maandelijkse bedrijfsvoorheffing weergave is aanzienlijk verbeterd met een volledige gedetailleerde oplijsting van alle toepasselijke belastingverminderingen. Gebruikers kunnen nu precies zien hoe hun bedrijfsvoorheffing wordt berekend, inclusief de basisvermindering die iedereen ontvangt (basis belastingvrije som), aanvullende verminderingen voor elk afhankelijk kind, de alleenstaande ouder bonus voor wie alleen kinderen opvoedt, extra verminderingen voor afhankelijken jonger dan 3 jaar, de fiscale werkbonus gebaseerd op de toepasselijke RSZ werkbonus bedragen, en het huwelijksquotiënt voordeel voor gehuwde koppels waarbij één partner een deel van hun belastingvrije som overdraagt. Deze uitsplitsing verschijnt voorwaardelijk op basis van de specifieke situatie van de gebruiker - alleen relevante verminderingen worden getoond. Daarnaast zijn verschillende variabelen in de huwelijksquotiënt berekening die nog niet correct geïndexeerd waren naar AJ2026 waarden gecorrigeerd, wat zorgt voor nauwkeurige belastingberekeningen.",
         "fr": "L'affichage du précompte professionnel mensuel a été considérablement amélioré avec une ventilation détaillée de toutes les réductions fiscales applicables. Les utilisateurs peuvent désormais voir exactement comment leur précompte professionnel est calculé, y compris la réduction de base que tout le monde reçoit (allocation de base non imposable), les allocations supplémentaires pour chaque enfant à charge, le bonus pour parent isolé pour ceux qui élèvent seuls des enfants, les allocations supplémentaires pour les personnes à charge de moins de 3 ans, le bonus fiscal pour le travail basé sur les montants de bonus RSZ applicables, et l'avantage du quotient matrimonial pour les couples mariés où un conjoint transfère une partie de son allocation non imposable. Cette ventilation apparaît conditionnellement en fonction de la situation spécifique de l'utilisateur - seules les réductions pertinentes sont affichées. De plus, plusieurs variables dans le calcul du quotient matrimonial qui n'étaient pas correctement indexées aux valeurs AJ2026 ont été corrigées, garantissant des calculs fiscaux précis."
       },
       "category": "new_feature"
     },
-        {
+    {
       "date": "2026-01-20",
       "version": "1.3.1",
       "title": {
@@ -445,9 +508,8 @@
           "IMPROVEd: Column padding reduced, to prevent text from overflowing from their containers at higher zoom levels.",
           "IMPROVED: Smallest text size increased from 12px to 13.5px to improve general legiblity, as well as the second smallest to 14.5px to to still have a meaningful size difference.",
           "BEHIND_THE_SCENES: There will soon(next 2 weeks) be a new free post on my patreon that goes through the lessons learned and choices made while implementing colourblind mode, if you're interested! It was quite eye opening to me. For example, it goes into detail about how when you look at the green colourblind mode that the fuchsia(intense purple) which seems quite unreadable without colorblindness results in a clear contrasting blueish color with deuteranopia(fully green colorblind)"
-
         ],
-        "nl": [ 
+        "nl": [
           "FEEDBACK: Na het vragen van feedback van r/Colorblind, kreeg ik een compleet nieuw perspectief op wat ik dacht dat leesbaar was voor mensen met kleurenblindheid.",
           "FEEDBACK: Op basis van deze informatie concludeerde ik dat het gemakkelijker zou zijn om een apart kleurenschema te maken voor zowel groen- als roodkleurenblindheid in plaats van te proberen beide samen te doen.",
           "FEEDBACK: Er is echter een heel spectrum  van groen- en roodkleurenblindheid wat betreft hoeveel, of zelfs OF ze rood of groen kunnen zien.",
@@ -462,7 +524,7 @@
           "VERBETERD: Kleinste tekstgrootte verhoogd van 12px naar 13.5px om algemene leesbaarheid te verbeteren, evenals de op één na kleinste naar 14.5px om nog steeds een betekenisvol grootteverschil te hebben.",
           "ACHTER_DE_SCHERMEN: Er zal binnenkort (binnen 2 weken) een nieuwe gratis post op mijn patreon uitgebracht worden die de geleerde lessen en gemaakte keuzes bij het implementeren van de kleurenblindheidsmodus doorloopt, indien je geïnteresseerd bent! Het was voor mij behoorlijk verhelderend. Het gaat bijvoorbeeld in detail over hoe wanneer je naar de groenkleurenblinde modus kijkt, de fuchsia tekst (intens paars) die zonder kleurenblindheid nogal onleesbaar lijkt, resulteert in een duidelijk contrasterende blauwe kleur indien je deuteranopie hebt. (volledig groene kleurenblind)."
         ],
-        "fr": [  
+        "fr": [
           "RETOUR: Après avoir demandé des retours de r/Colorblind, j'ai obtenu une toute nouvelle perspective sur ce que je pensais être lisible pour les personnes daltoniennes.",
           "RETOUR: Sur base de ces informations, j'ai conclu qu'il serait plus facile de créer un schéma de couleurs séparé pour le daltonisme vert et rouge plutôt que d'essayer de faire les deux ensemble.",
           "RETOUR: Il existe cependant tout un spectre de daltonisme vert et rouge en termes de combien exactement, ou même S'ils peuvent voir le rouge ou le vert.",
@@ -475,9 +537,10 @@
           "AMÉLIORÉ: Les largeurs de colonnes maintenant mieux optimisées pour les niveaux de zoom plus élevés.",
           "AMÉLIORÉ: Le rembourrage des colonnes réduit pour éviter que le texte ne déborde de leurs conteneurs à des niveaux de zoom plus élevés.",
           "AMÉLIORÉ: La plus petite taille de texte augmentée de 12px à 13.5px pour améliorer la lisibilité générale, ainsi que la deuxième plus petite à 14.5px pour maintenir une différence de taille significative.",
-          "DERRIÈRE_LES_SCÈNES: Il y aura bientôt (dans les 2 semaines) un nouveau post gratuit sur mon patreon qui passe en revue les leçons apprises et les choix faits lors de la mise en œuvre du mode daltonien, si vous êtes intéressé! Cela a été assez révélateur pour moi. Par exemple, il détaille comment, lorsque vous regardez le mode daltonien vert, le texte fuchsia (violet intense) qui semble assez illisible sans daltonisme, se traduit par une couleur bleue contrastée claire en cas de deutéranopie (daltonisme vert complet)."]
+          "DERRIÈRE_LES_SCÈNES: Il y aura bientôt (dans les 2 semaines) un nouveau post gratuit sur mon patreon qui passe en revue les leçons apprises et les choix faits lors de la mise en œuvre du mode daltonien, si vous êtes intéressé! Cela a été assez révélateur pour moi. Par exemple, il détaille comment, lorsque vous regardez le mode daltonien vert, le texte fuchsia (violet intense) qui semble assez illisible sans daltonisme, se traduit par une couleur bleue contrastée claire en cas de deutéranopie (daltonisme vert complet)."
+        ]
       },
-      "details": { 
+      "details": {
         "en": "After receiving feedback from the r/Colorblind community, it became clear that the previous single colorblind mode was flawed. With no pun intended, red/green colourblindness is not black and white. it's a spectrum, where the receptors for red or green could be anywhere from 0%(totally colourblind to them) to 100%(normal vision). I've added two modes instead of a single colourblind mode now, one for red colourblindness (protanopia/protanomaly) and another for green colorblindness (deuteranopia/deuteranomaly). Like I said, it is a spectrum, so it is quite possible that for some with red colorblindness they might prefer the green colorblind mode and vice versa, based on where on the spectrum they reside. Both modes now feature carefully adjusted background colors and text colors for optimal legibility. All tooltips throughout the application have been fully optimized for both modes, with each mode having its own distinct color schemes for warnings, titles, positive values, and negative values. The pie charts have been improved to reflow responsively when there isn't enough horizontal space while zooming, they now stack vertically to prevent overlap. Column width sizing has been optimized for higher zoom levels to maintain readability. Column padding has been reduced strategically to prevent text overflow from containers at higher zoom levels. Additionally, the minimum text sizes have been increased: the smallest text size went from 12px to 13.5px, and the second smallest to 14.5px, ensuring both improved general legibility and meaningful size differentiation between text hierarchies.",
         "nl": "Na het ontvangen van feedback van de r/Colorblind gemeenschap, werd het duidelijk dat de vorige enkele kleurenblindheidsmodus gebrekkig was. Zonder woordspeling bedoeld, rood/groen kleurenblindheid is niet zwart-wit. Het is een spectrum, waarbij de receptoren voor rood of groen zich overal kunnen bevinden van 0% (volledig kleurenblind) tot 100% (normaal zicht). Ik heb nu twee modi toegevoegd in plaats van een enkele kleurenblindheidsmodus, één voor roodkleurenblindheid (protanopie/protanomalie) en een andere voor groenkleurenblindheid (deuteranopie/deuteranomalie). Zoals gezegd, het is een spectrum, dus het is best mogelijk dat voor sommigen met roodkleurenblindheid zij de groenkleurenblinde modus prefereren en omgekeerd, afhankelijk van waar op het spectrum zij zich bevinden. Beide modi beschikken nu over zorgvuldig aangepaste achtergrondkleuren en tekstkleuren voor optimale leesbaarheid. Alle tooltips doorheen de applicatie zijn volledig geoptimaliseerd voor beide modi, waarbij elke modus zijn eigen onderscheidende kleurenschema's heeft voor waarschuwingen, titels, positieve waarden en negatieve waarden. De taartdiagrammen zijn verbeterd om responsief te herschikken wanneer er niet genoeg horizontale ruimte is tijdens het zoomen. Deze stapelen zich nu verticaal om overlap te voorkomen. De kolombreedtes zijn geoptimaliseerd voor hogere zoomniveaus om de leesbaarheid te behouden. De kolomopvulling is strategisch verminderd om tekstoverloop uit containers bij hogere zoomniveaus te voorkomen voor alle kolommen. Daarnaast zijn de minimale tekstgroottes verhoogd: de kleinste tekstgrootte ging van 12px naar 13.5px, en de op één na kleinste naar 14.5px, wat zowel voor een verbeterde algemene leesbaarheid zorgt alsook grootteverschil tussen de twee tailwind text groottes. ",
         "fr": "Après avoir reçu des retours de la communauté r/Colorblind, il est devenu clair que le mode daltonien unique précédent était défectueux. Sans jeu de mots, le daltonisme rouge/vert n'est pas noir ou blanc. C'est un spectre, où les récepteurs pour le rouge ou le vert peuvent se situer n'importe où entre 0% (totalement daltonien) et 100% (vision normale). J'ai maintenant ajouté deux modes au lieu d'un seul mode daltonien, un pour le daltonisme rouge (protanopie/protanomalie) et un autre pour le daltonisme vert (deutéranopie/deutéranomalie). Comme je l'ai dit, c'est un spectre, il est donc tout à fait possible que pour certaines personnes atteintes de daltonisme rouge, elles préfèrent le mode daltonien vert et vice versa, selon où elles se situent sur le spectre. Les deux modes disposent maintenant de couleurs d'arrière-plan et de texte soigneusement ajustées pour une lisibilité optimale. Toutes les info-bulles de l'application ont été entièrement optimisées pour les deux modes, chaque mode ayant ses propres schémas de couleurs distincts pour les avertissements, titres, valeurs positives et valeurs négatives. Les graphiques circulaires ont été améliorés pour se réorganiser de manière réactive lorsqu'il n'y a pas assez d'espace horizontal lors du zoom, ils s'empilent maintenant verticalement pour éviter tout chevauchement. Les largeurs de colonnes ont été optimisées pour les niveaux de zoom plus élevés afin de maintenir la lisibilité. Le rembourrage des colonnes a été réduit de manière stratégique pour empêcher le débordement du texte hors de leurs conteneurs à des niveaux de zoom plus élevés. De plus, les tailles de texte minimales ont été augmentées: la plus petite taille de texte est passée de 12px à 13.5px, et la deuxième plus petite à 14.5px, assurant à la fois une meilleure lisibilité générale et une différenciation significative de la taille entre les hiérarchies de texte."
@@ -494,7 +557,7 @@
       },
       "highlights": {
         "en": [
-          "IMPROVED: Colourblind mode is now fully finished.", 
+          "IMPROVED: Colourblind mode is now fully finished.",
           "All piecharts are now optimized for colourblind mode.",
           "All tooltips have been adjusted for colourblind mode.",
           "Net return percentage gradations have been adjusted for colourblind mode.",
@@ -502,11 +565,11 @@
           "Some other minor UI elements have been adjusted for colourblind mode.",
           "If someone is colourblind and notices something that isn't yet optimized for colourblind mode, please do let me know so I can fix it!",
           "I am aware that blue-yellow colourblindness (tritanopia) as well as total colourblindness is not yet optimally supported, but given its rarity (only 0.03% of the population) I have not created seperate version for it.",
-          "However, from what I have read they should still be able to read and distinguish the text and I have made some additional efforts like + and - in front of positive and negative numbers... to create a sort of 'catch all' usability for any kind of colourblindness.", 
+          "However, from what I have read they should still be able to read and distinguish the text and I have made some additional efforts like + and - in front of positive and negative numbers... to create a sort of 'catch all' usability for any kind of colourblindness.",
           "If there IS someone who regularly uses the calculator and suffers from tritanopia,  feel free to let me know and we can see if we can find a solution(proper colour scheme) together!"
-         ],
-        "nl": [   
-          "VERBETERD: Kleurenblindheidsmodus is nu volledig afgewerkt.", 
+        ],
+        "nl": [
+          "VERBETERD: Kleurenblindheidsmodus is nu volledig afgewerkt.",
           "Alle taartdiagrammen zijn nu geoptimaliseerd voor kleurenblindheidsmodus.",
           "Alle tooltips zijn aangepast voor kleurenblindheidsmodus.",
           "Nettorendement percentage gradaties zijn aangepast voor kleurenblindheidsmodus.",
@@ -514,11 +577,11 @@
           "Enkele andere kleine UI-elementen zijn aangepast voor kleurenblindheidsmodus.",
           "Indien iemand kleurenblind is en iets opmerkt dat nog niet is geoptimaliseerd voor de kleurenblindheidsmodus, laat het me dan zeker weten zodat ik het kan oplossen!",
           "Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid nog niet optimaal wordt ondersteund, maar gezien de zeldzaamheid ervan (slechts 0,03% van de bevolking) heb ik geen aparte versie daarvoor gemaakt.",
-          "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.", 
+          "Uit wat ik heb gelezen zouden ze echter nog steeds in staat moeten zijn om de tekst te lezen en te onderscheiden en ik heb enkele extra inspanningen geleverd zoals + en - voor positieve en negatieve getallen... om een soort 'catch all' bruikbaarheid te creëren voor elk soort kleurenblindheid.",
           "Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie, voel je vrij om het me te laten weten en we kunnen samen kijken of een gepaste oplossing gevonden kan worden(passend kleurenschema)!"
-         ],
-        "fr": [  
-          "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.", 
+        ],
+        "fr": [
+          "AMÉLIORÉ: Le mode daltonien est maintenant entièrement terminé.",
           "Tous les graphiques en secteurs sont désormais optimisés pour le mode daltonien.",
           "Toutes les info-bulles ont été ajustées pour le mode daltonien.",
           "Les gradations de pourcentage de rendement net ont été ajustées pour le mode daltonien.",
@@ -526,11 +589,11 @@
           "Certains autres éléments mineurs de l'interface utilisateur ont été ajustés pour le mode daltonien.",
           "Si quelqu'un est daltonien et remarque quelque chose qui n'est pas encore optimisé pour le mode daltonien, faites-le moi savoir afin que je puisse le corriger!",
           "Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total ne sont pas encore pris en charge de manière optimale, mais étant donné sa rareté (seulement 0,03% de la population), je n'ai pas créé de version séparée pour cela.",
-          "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.", 
+          "Cependant, d'après ce que j'ai lu, ils devraient toujours être capables de lire et de distinguer le texte et j'ai fait des efforts supplémentaires comme + et - devant les nombres positifs et négatifs... pour créer une sorte d'utilisabilité 'catch all' pour tout type de daltonisme.",
           "S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie, n'hésitez pas à me le faire savoir et je serais heureux de vous aider à trouver une solution (schéma de couleurs approprié) ensemble!"
-         ]
+        ]
       },
-      "details": { 
+      "details": {
         "en": "Colorblind mode has reached full completion! This comprehensive accessibility feature now covers every visual element of the calculator. All piecharts have been completely redesigned with colorblind-friendly color schemes that maintain clear visual distinction between segments. Every single tooltip throughout the application has been adjusted to use accessible color combinations that work for red-green colorblindness (the most common form, affecting approximately 8% of men and 0.5% of women). Net return percentage gradations and effective return percentage color gradations have been meticulously calibrated to ensure clear differentiation across all value ranges while maintaining proper contrast ratios between text and background colors(keep in mind, I am not colorblind myself, so I did the best I could with information at hand, including an extension called 'Lets get colorblind'). Additional UI elements including buttons, indicators, and visual feedback elements have been optimized as well. While the primary focus has been on deuteranopia and protanopia (red-green colorblindness), Already available and some added universal design principles such as adding plus (+) and minus (-) symbols in front of positive and negative numbers to create a sort of 'catch-all' usability for any kind of colorblindness. I am aware that blue-yellow colorblindness (tritanopia) as well as total colorblindness (achromatopsia) are not yet optimally supported, but given their extreme rarity (only 0.03% of the population combined), I have not created a separate version specifically for these conditions at this time. However, from what I have researched, individuals with these conditions should still be able to read and distinguish the information thanks to the additional non-color visual cues. If there IS someone who regularly uses the calculator and suffers from tritanopia or total colorblindness, please feel free to reach out and we can work together to find a suitable color scheme solution! For those interested in the technical challenges involved, there's a new free post on my Patreon that details the challenges and complexities of finding compatible color gradations and proper contrast, particularly when balancing the contrast requirements between text and background color gradations.",
         "nl": "De kleurenblindheidsmodus is volledig afgewerkt! Deze uitgebreide toegankelijkheidsfunctie dekt nu elk visueel element van de calculator. Alle taartdiagrammen hebben nu alternatieve kleurenblindvriendelijke kleurenschema's die duidelijk visueel onderscheid en contrast tussen segmenten behouden. Elke tooltip doorheen de applicatie is aangepast om toegankelijke kleurencombinaties te gebruiken die werken voor rood-groen kleurenblindheid (de meest voorkomende vorm, die ongeveer 8% van de mannen en 0,5% van de vrouwen treft). Nettorendement percentage gradaties en effectief rendement percentage kleurgradaties zijn zorgvuldig gekalibreerd om duidelijke differentiatie over alle waardebereiken te garanderen terwijl juiste contrastverhoudingen tussen tekst en achtergrondkleuren behouden blijven(Zelf ben ik niet kleurenblind, dus heb ik het beste gedaan dat ik kon met de beschikbare informatie, inclusief gebruik van een extensie genaamd 'Lets get colorblind') . Bijkomende UI-elementen inclusief knoppen, indicatoren en visuele feedback-elementen zijn ook geoptimaliseerd. Hoewel de primaire focus gericht was op deuteranopie en protanopie (rood-groen kleurenblindheid), heb ik ook universele ontwerpprincipes geïmplementeerd zoals het toevoegen van plus (+) en min (-) symbolen voor positieve en negatieve getallen om een soort 'catch-all' bruikbaarheid voor elk soort kleurenblindheid te creëren. Ik ben me ervan bewust dat blauw-geel kleurenblindheid (tritanopie) alsook volledige kleurenblindheid (achromatopsie) nog niet optimaal worden ondersteund, maar gezien hun extreme zeldzaamheid (0,03% van de bevolking samen) heb ik op dit moment geen aparte versie specifiek voor deze aandoeningen gemaakt. Uit wat ik onderzocht heb zouden individuen met deze aandoeningen echter nog steeds in staat moeten zijn om de informatie te lezen en te onderscheiden dankzij de bijkomende niet-kleur visuele aanwijzingen en contrast. Als er IEMAND is die de calculator regelmatig gebruikt en lijdt aan tritanopie of volledige kleurenblindheid, voel je vrij om contact op te nemen en we kunnen samenwerken om een geschikte kleurenschema-oplossing te vinden! Voor diegenen die geïnteresseerd zijn in de technische uitdagingen die hierbij komen kijken, is er een nieuwe gratis post op mijn Patreon die het voltooide werk en de moeilijkheden en complexiteit bij het vinden van compatibele kleurgradaties beschrijft, zoals bij het balanceren van de contrastvereisten tussen tekst- en achtergrondkleurgradaties.",
         "fr": "Le mode daltonien a atteint son achèvement complet ! Cette fonctionnalité d'accessibilité complète couvre désormais chaque élément visuel de la calculatrice. Tous les graphiques en secteurs ont été entièrement repensés avec des schémas de couleurs adaptés aux daltoniens qui maintiennent une distinction visuelle claire entre les segments. Chaque info-bulle de l'application a été ajustée pour utiliser des combinaisons de couleurs accessibles qui fonctionnent pour le daltonisme rouge-vert (la forme la plus courante, affectant environ 8% des hommes et 0,5% des femmes). Les gradations de pourcentage de rendement net et les gradations de couleur du pourcentage de rendement effectif ont été méticuleusement calibrées pour assurer une différenciation claire sur toutes les plages de valeurs tout en maintenant des ratios de contraste appropriés entre les couleurs du texte et de l'arrière-plan( gardez à l'esprit que je ne suis pas daltonien moi-même, j'ai donc fait de mon mieux avec les informations à ma disposition, y compris une extension appelée 'Lets get colorblind'). Des éléments supplémentaires de l'interface utilisateur, y compris les boutons, les indicateurs et les éléments de retour visuel, ont également été optimisés. Bien que l'accent principal ait été mis sur la deutéranopie et la protanopie (daltonisme rouge-vert), j'ai également mis en œuvre des principes de conception universels tels que l'ajout de symboles plus (+) et moins (-) devant les nombres positifs et négatifs pour créer une sorte d'utilisabilité 'catch-all' pour tout type de daltonisme. Je suis conscient que le daltonisme bleu-jaune (tritanopie) ainsi que le daltonisme total (achromatopsie) ne sont pas encore pris en charge de manière optimale, mais étant donné leur extrême rareté (seulement 0,03% de la population combinée), je n'ai pas créé de version séparée spécifiquement pour ces conditions à ce jour. Cependant, d'après mes recherches, les personnes atteintes de ces conditions devraient toujours être capables de lire et de distinguer les informations grâce aux indices visuels supplémentaires non liés à la couleur. S'il y a QUELQU'UN qui utilise régulièrement la calculatrice et souffre de tritanopie ou de daltonisme total, n'hésitez pas à me contacter et nous pouvons travailler ensemble"
@@ -547,25 +610,25 @@
       },
       "highlights": {
         "en": [
-          "IMPROVEMENT: Before this, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.", 
+          "IMPROVEMENT: Before this, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.",
           "Net percentage gradations and effective return gradations properly updated for colourblind mode.",
           "Remaining todo for full colourblind support: All of the tooltips and the piecharts",
           "BEHIND_THE_SCENES: There's still a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!"
         ],
-        "nl": [   
-          "VERBETERING: Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat het elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen.", 
+        "nl": [
+          "VERBETERING: Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat het elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen.",
           "Nettopercentage gradaties en effectieve rendement gradaties correct bijgewerkt voor kleurenblindheidsmodus.",
           "Resterende todo voor volledige kleurenblindheidsondersteuning: Alle tooltips en taartdiagrammen",
           "ACHTER DE SCHERMEN: Er is nog steeds een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
         ],
-        "fr": [   
-          "AMÉLIORATION: Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels.", 
+        "fr": [
+          "AMÉLIORATION: Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels.",
           "Les gradations de pourcentage net et les gradations de rendement effectif ont été correctement mises à jour pour le mode daltonien.",
           "Todo restant pour un support daltonien complet: Toutes les info-bulles et les graphiques en secteurs",
           "DERRIÈRE LES SCÈNES: Il y a toujours un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
         ]
       },
-      "details": { 
+      "details": {
         "en": "So far, only the text fields had been adjusted to be included in the colourblind mode, now it includes each of the colours possible for the middle row backgrounds as well as the monthly calculations backgrounds.This way the gradations and net percentages are more easily distinguishable for those with colourblindness. Also included the gradations for the net return and effective return percentages for colourblind mode",
         "nl": "Tot nu toe waren enkel de tekstvelden aangepast voor de kleurenblindheidsmodus, nu omvat de kleurenblindheidsmodus elk van de mogelijke kleuren voor de achtergronden van de middelste rij evenals de achtergronden van de maandelijkse berekeningen. Op deze manier zijn de gradaties en nettopercentages beter te onderscheiden voor mensen met kleurenblindheid. Ook de gradaties voor het netto rendement en het effectieve rendement percentages voor kleurenblindheidsmodus zijn nu aangepast",
         "fr": "Jusqu'à présent, seuls les champs de texte avaient été ajustés pour être inclus dans le mode daltonien, maintenant cela inclut chacune des couleurs possibles pour les arrière-plans de la rangée du milieu ainsi que les arrière-plans des calculs mensuels. De cette façon, les gradations et les pourcentages nets sont plus facilement distinguables pour les personnes atteintes de daltonisme. Les gradations pour le rendement net et les pourcentages de rendement effectif pour le mode daltonien ont également été incluses"
@@ -582,23 +645,23 @@
       },
       "highlights": {
         "en": [
-          "NEW: Part one of colourblind mode added! Hope it helps someone :)", 
+          "NEW: Part one of colourblind mode added! Hope it helps someone :)",
           "Button to toggle on or off added in clear view at the top of monthly calculations",
           "All main UI calculation fields optimized for color-blind mode",
           "Tooltips & net return/backgrounds for colour blindness will come in the near future.",
           "Maintained the original colourpalette as default.",
           "BEHIND_THE_SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!"
         ],
-        "nl": [   
-          "NIEUW: Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :)", 
+        "nl": [
+          "NIEUW: Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :)",
           "Knop om modus te wisselen toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen",
           "Alle hoofd UI berekeningsvelden geoptimaliseerd voor kleurenblindheidsmodus.",
           "Tooltips & netto rendement + achtergronden voor kleurenblindheid komen in de nabije toekomst.",
           "Het originele kleurenpalet is behouden als de standaard modus.",
           "ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!"
         ],
-        "fr": [    
-          "NOUVEAU: Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :)", 
+        "fr": [
+          "NOUVEAU: Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :)",
           "Bouton pour basculer activé ou désactivé ajouté en vue claire en haut des calculs mensuels",
           "Tous les principaux champs de calcul UI optimisés pour le mode daltonien",
           "Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir.",
@@ -606,7 +669,7 @@
           "DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
         ]
       },
-      "details": { 
+      "details": {
         "en": "Part one of colour-blind mode added! Hope it helps someone :) A button to toggle on or off has been added in clear view at the top of monthly calculations. All main UI calculation fields have been optimized for color-blind mode. Tooltips & net return/backgrounds for colour blindness will come in the near future. The original colourpalette is maintained as default. BEHIND THE SCENES: There's a free post on my patreon showing what work remains behind the scene to fully implement colourblind mode, like backgrounds and tooltips, if you're interested!",
         "nl": "Deel één van kleurenblindheidsmodus toegevoegd! Ik hoop dat het iemand helpt :) Een knop om modus te wisselen is toegevoegd in duidelijk zicht bovenaan maandelijkse berekeningen. Alle hoofd UI berekeningsvelden zijn geoptimaliseerd voor kleurenblindheidsmodus. Tooltips & netto rendement kleuren alsook achtergronden die geoptimaliseerd zijn voor kleurenblindheidsmodus komen in de nabije toekomst. Het originele kleurenpalet is behouden als de standaard modus. ACHTER DE SCHERMEN: Er is een gratis post op mijn patreon die toont welk werk er nog achter de schermen resteert om de kleurenblindheidsmodus volledig te implementeren, zoals achtergronden en tooltips indien je geïnteresseerd bent!",
         "fr": "Partie un du mode daltonien ajouté! J'espère que cela aidera quelqu'un :) Un bouton pour basculer activé ou désactivé a été ajouté en vue claire en haut des calculs mensuels. Tous les principaux champs de calcul UI ont été optimisés pour le mode daltonien. Les info-bulles et les rendements nets / arrière-plans pour le daltonisme arriveront dans un proche avenir. La palette de couleurs originale est maintenue par défaut. DERRIÈRE LES SCÈNES: Il y a un post gratuit sur mon patreon montrant le travail qui reste en coulisses pour implémenter pleinement le mode daltonien, comme les arrière-plans et les info-bulles, si vous êtes intéressé!"
@@ -627,7 +690,7 @@
           "Improved page load: Support button now appears only after accepting cookies, for a cleaner first visit experience.",
           "If you notice any issues, please be sure to report them via the bug report option in the contactform."
         ],
-        "nl": [ 
+        "nl": [
           "Enkele verouderde code aspecten die niet langer relevant zijn verwijderd.",
           "Verbeterde paginalaadtijd: Ondersteuningsknop verschijnt nu pas na het accepteren van cookies, voor een betere eerste bezoekservaring.",
           "Indien je enig probleem opmerkt, gelieve dit zeker te rapporteren via de bug report optie in de contact sectie."
@@ -1669,8 +1732,8 @@
     "nl": "Alle berekeningen gebaseerd op Belgische federale belastingjaar 2025 regelgeving. Bijgewerkt per 14 december 2025. Release datums markeren implementatie mijlpalen, niet ontwikkelings start/eind datums. Veel functies waren al eerder in ontwikkeling en zijn(ook daarna nog) iteratief verbeterd. Deze datums tonen wanneer ze voor het eerst live gingen, niet wanneer het werk afgerond was.",
     "fr": "Tous les calculs basés sur les règlements fiscaux fédéraux belges de l'année 2025. Mis à jour au 14 décembre 2025. Les dates de version marquent les jalons de déploiement, pas les dates de début/fin de développement. Beaucoup de fonctionnalités ont été lancées avant et améliorées de manière itérative après, mentionnées ici pour la première fois et ont souvent été travaillées sur plusieurs jours."
   },
-
-    "shelvedFeatures": [{
+  "shelvedFeatures": [
+    {
       "date": "2026-02-21",
       "version": "1.3.8",
       "title": {
@@ -1688,17 +1751,17 @@
         ],
         "nl": [
           "NIEUW: Volledige ondersteuning voor auteursrechteninkomsten toegevoegd: een Belgische belastingoptimalisatie waarbij een deel van je loon wordt uitbetaald als intellectuele eigendomsvergoedingen, belast aan 15% roerende voorheffing (eindbelasting) in plaats van progressieve BV-tarieven.",
-          "Auteursrechteninkomsten in Belgi\u00eb zijn onderworpen aan 15% roerende voorheffing: dit is een bevrijdende eindbelasting en wordt NIET meegenomen in de progressive eindafrekening.",
+          "Auteursrechteninkomsten in België zijn onderworpen aan 15% roerende voorheffing: dit is een bevrijdende eindbelasting en wordt NIET meegenomen in de progressive eindafrekening.",
           "NIEUW: Auteursrechten verschijnen nu in de werkgever vs. werknemer kolom, de extra netto per maand overzicht, en het eindafrekening paneel met een duidelijke vermelding dat het uitgesloten is van progressieve herberekening.",
           "VERBETERING: De lijst met extra netto per maand sorteert nu alle items van hoogste naar laagste netto waarde, zodat de meest impactvolle voordelen direct zichtbaar zijn.",
           "VERBETERING: Geblokkeerde loonvelden tonen nu een duidelijke tooltip die aangeeft dat auteursrechten actief zijn, met een instructie om auteursrechten uit te schakelen als handmatige invoer gewenst is."
         ],
         "fr": [
-          "NOUVEAU: Prise en charge compl\u00e8te des revenus de droits d'auteur ajout\u00e9e: une optimisation fiscale belge o\u00f9 une partie de votre salaire est pay\u00e9e sous forme de redevances de propri\u00e9t\u00e9 intellectuelle, tax\u00e9e \u00e0 15% de pr\u00e9compte mobilier (taxe finale) plut\u00f4t qu'aux taux progressifs du pr\u00e9compte professionnel.",
-          "Les revenus de droits d'auteur en Belgique sont soumis \u00e0 un pr\u00e9compte mobilier de 15%: il s'agit d'un imp\u00f4t lib\u00e9ratoire final qui n'est PAS inclus dans le d\u00e9compte progressif de fin d'ann\u00e9e.",
-          "NOUVEAU: Les droits d'auteur apparaissent maintenant dans la colonne employeur vs employ\u00e9, le r\u00e9capitulatif du net mensuel suppl\u00e9mentaire, et le panneau de d\u00e9compte annuel avec une note claire indiquant qu'ils sont exclus de la recalcul progressive.",
-          "AM\u00c9LIORATION: La liste du net mensuel suppl\u00e9mentaire trie maintenant tous les \u00e9l\u00e9ments du plus haut au plus bas net, rendant les avantages les plus importants imm\u00e9diatement visibles.",
-          "AM\u00c9LIORATION: Les champs de saisie de salaire d\u00e9sactiv\u00e9s affichent maintenant une info-bulle claire expliquant que les droits d'auteur sont actifs, avec une invite \u00e0 d\u00e9sactiver les droits d'auteur si une saisie manuelle est n\u00e9cessaire."
+          "NOUVEAU: Prise en charge complète des revenus de droits d'auteur ajoutée: une optimisation fiscale belge où une partie de votre salaire est payée sous forme de redevances de propriété intellectuelle, taxée à 15% de précompte mobilier (taxe finale) plutôt qu'aux taux progressifs du précompte professionnel.",
+          "Les revenus de droits d'auteur en Belgique sont soumis à un précompte mobilier de 15%: il s'agit d'un impôt libératoire final qui n'est PAS inclus dans le décompte progressif de fin d'année.",
+          "NOUVEAU: Les droits d'auteur apparaissent maintenant dans la colonne employeur vs employé, le récapitulatif du net mensuel supplémentaire, et le panneau de décompte annuel avec une note claire indiquant qu'ils sont exclus de la recalcul progressive.",
+          "AMÉLIORATION: La liste du net mensuel supplémentaire trie maintenant tous les éléments du plus haut au plus bas net, rendant les avantages les plus importants immédiatement visibles.",
+          "AMÉLIORATION: Les champs de saisie de salaire désactivés affichent maintenant une info-bulle claire expliquant que les droits d'auteur sont actifs, avec une invite à désactiver les droits d'auteur si une saisie manuelle est nécessaire."
         ]
       },
       "details": {
@@ -1717,21 +1780,21 @@
         "fr": "Flexijobs, job étudiant, correction de l'allocation vélo"
       },
       "highlights": {
-        "en": [ 
+        "en": [
           "NEW: Added support for student jobs found in the settings menu under 'secondary income'.",
           "NEW: When working both studentjobs and regular jobs through the year(e.G if you finish your degree and start your main job, the eindafrekening will shows the amount you'll need to pay extra on your eindafrekening",
           "This is because studentjobs are taxed more favorably BUT still count as regular income for the tax brackets, so when combined with your regular job, its withholding tax will have been too low during the year.",
           "NEW: Added support for flexijobs, also found in the settings menu under 'secondary income'.",
           "IMPROVEMENT: Fixed the bike allowance being calculated incorrectly for its monthly net total"
         ],
-        "nl": [ 
+        "nl": [
           "NIEUW: Toevoeging van ondersteuning voor studentenjobs gevonden in het instellingenmenu onder 'secundair inkomen'.",
           "NIEUW: Wanneer je zowel studentenjobs als reguliere jobs door het jaar heen hebt (bijvoorbeeld als je je diploma afrondt en begint met je hoofdjob), zal de eindafrekening nu het bedrag tonen dat je extra moet betalen op je eindafrekening.",
           "Dit komt omdat studentenjobs gunstiger worden belast MAAR nog steeds meetellen als regulier inkomen voor de belastingschijven, dus wanneer gecombineerd met je reguliere job, zal de bedrijfsvoorheffing te laag zijn geweest gedurende het jaar.",
           "NIEUW: Toevoeging van ondersteuning voor flexijobs, ook te vinden in het instellingenmenu onder 'secundair inkomen'.",
           "VERBETERING: Opgelost dat de fietsvergoeding verkeerd werd berekend voor zijn totale netto maandbedrag"
         ],
-        "fr": [  
+        "fr": [
           "NOUVEAU: Ajout de la prise en charge des jobs étudiants trouvés dans le menu des paramètres sous 'revenu secondaire'.",
           "NOUVEAU: Lorsque vous travaillez à la fois des jobs étudiants et des emplois réguliers tout au long de l'année (par exemple, si vous terminez votre diplôme et commencez votre emploi principal), le eindafrekening affichera maintenant le montant que vous devrez payer en plus sur votre eindafrekening.",
           "Cela est dû au fait que les jobs étudiants sont imposés de manière plus favorable MAIS comptent toujours comme un revenu régulier pour les tranches d'imposition, donc lorsqu'ils sont combinés avec votre emploi régulier, leur précompte professionnel aura été trop bas pendant l'année.",
