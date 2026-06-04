@@ -1,12 +1,53 @@
 {
-  "version": "1.5.0",
-  "lastUpdated": "2026-05-22",
+  "version": "1.5.1",
+  "lastUpdated": "2026-06-04",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+     {
+      "date": "2026-06-04",
+      "version": "1.5.1",
+      "title": {
+        "en": "Student job income including consideration of any main job another part of the year/year-end tax simulation",
+        "nl": "Inkomen uit studentenjob inclusief rekening houden met eventuele hoofdjob een deel van het jaar/jaarafrekening simulatie",
+        "fr": "Revenu de job étudiant incluant la prise en compte d'un éventuel emploi principal une partie de l'année/simulation de la régularisation annuelle"
+      },
+      "highlights": {
+        "en": [
+          "NEW: What better time of the year than summer to release student jobs as a feature?",
+          "You can now enter your hours per week, amount of weeks, a straight amount of hours, hourly rate, and hours already used to get an accurate reflection of your situation.",
+          "If you also happen to work as a student and then get your degree and start working during the same year, or just stop partway through the year, you can also enter all details for your main job.",
+          "This allows the calculator to show you exactly what both combined will result in end of year, because due to the beneficial treatment of student jobs, if you earn enough afterwards during the same year, you might end up owing up to a few thousand in extra taxes at end of year",
+          "This way you can at least be aware of it!",
+          "Have a lovely summer, everyone!"
+          ],
+        "nl": [
+          "NIEUW: Wat is een beter moment van het jaar dan de zomer om studentenjobs als nieuwe feature uit te brengen?",
+          "U kunt nu uw uren per week, aantal weken, een vast aantal uren, uurloon en reeds gebruikte uren invoeren om een nauwkeurige weergave van uw situatie te krijgen.",
+          "Ook, indien u als student werkt en vervolgens uw diploma behaalt en gaat werken gedurende hetzelfde jaar, of gewoon halverwege het jaar stopt, kunt u ook alle gegevens van uw hoofdjob invoeren.",
+          "Dit stelt de calculator in staat om precies te laten zien wat beide gecombineerd aan het einde van het jaar zullen opleveren, omdat door de gunstige behandeling van studentenjobs, als u daarna voldoende verdient tijdens hetzelfde jaar, u aan het einde van het jaar mogelijk enkele duizenden extra belastingen verschuldigd bent.",
+          "Op deze manier kunt u er in ieder geval van op de hoogte zijn!",
+          "Fijne zomer allemaal!"
+          ],
+        "fr": [
+          "NOUVEAU: Quel meilleur moment de l'année que l'été pour sortir les jobs étudiants en tant que fonctionnalité?",
+          "Vous pouvez désormais entrer vos heures par semaine, le nombre de semaines, un montant fixe d'heures, votre taux horaire, et les heures déjà utilisées pour obtenir une réflexion précise de votre situation.",
+          "Si vous travaillez également en tant qu'étudiant et que vous obtenez ensuite votre diplôme et commencez à travailler pendant la même année, ou que vous arrêtez simplement en cours d'année, vous pouvez également entrer tous les détails de votre emploi principal.",
+          "Cela permet au calculateur de vous montrer exactement ce que les deux combinés donneront à la fin de l'année, car en raison du traitement avantageux des jobs étudiants, si vous gagnez suffisamment par la suite pendant la même année, vous pourriez finir par devoir jusqu'à quelques milliers d'euros en taxes supplémentaires à la fin de l'année.",
+          "De cette façon, vous pouvez au moins en être conscient !",
+          "Passez un excellent été à tous !"
+          ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
     {
       "date": "2026-05-22",
       "version": "1.5.0",
