@@ -15,8 +15,6 @@ on:
 jobs:
   dispatch-to-main-repo:
     runs-on: ubuntu-latest
-    env:
-      MAIN_REPO_PAT: ${{ secrets.MAIN_REPO_PAT }}
     
     steps:
       - name: Checkout CDN repository
@@ -32,10 +30,9 @@ jobs:
           echo "📝 Changed files: $CHANGED_FILES"
       
       - name: Dispatch to main repository
-        if: ${{ env.MAIN_REPO_PAT != '' }}
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ env.MAIN_REPO_PAT }}
+          token: ${{ secrets.MAIN_REPO_PAT }}
           repository: JMonkeyFan/BelgianWageCalculator2025
           event-type: cdn-content-updated
           client-payload: |
@@ -45,13 +42,8 @@ jobs:
               "commit_message": "${{ github.event.head_commit.message }}",
               "pusher": "${{ github.event.pusher.name }}"
             }
-
-      - name: Skip dispatch when token is unavailable
-        if: ${{ env.MAIN_REPO_PAT == '' }}
-        run: echo "::warning::MAIN_REPO_PAT is not configured; skipping repository dispatch to JMonkeyFan/BelgianWageCalculator2025."
       
       - name: Confirmation
-        if: ${{ env.MAIN_REPO_PAT != '' }}
         run: |
           echo "✅ Dispatched 'cdn-content-updated' event to main repository"
           echo "🎯 Main repo will auto-increment DATA_VERSION and redeploy"
