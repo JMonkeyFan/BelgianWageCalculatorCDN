@@ -1,12 +1,53 @@
 {
-  "version": "1.5.1",
-  "lastUpdated": "2026-06-04",
+  "version": "1.5.2",
+  "lastUpdated": "2026-07-03",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-07-03",
+      "version": "1.5.2",
+      "title": {
+        "en": "Representation allowance + copyright RSZ fix",
+        "nl": "Representatievergoeding + RSZ-correctie voor auteursrechten",
+        "fr": "Frais de représentation + correction ONSS pour les droits d'auteur"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Representation allowance. If your role genuinely involves external representation (client entertainment, business gifts, receptions), your employer can pay you a net expense allowance on top of your salary.",
+          "It is 100% net: no RSZ and no withholding tax",
+          "There is no legal maximum. The RSZ publishes no standard amount, but in practice 25 to 50 euro per month is generally accepted, and fiscal rulings go up to around 125 euro per month for senior representative roles. The input is capped at 125 euro per month.",
+          "Keep in mind: your employer must be able to justify the policy in writing (work regulations, service note) if the RSZ comes knocking, and it cannot cover costs that are already reimbursed elsewhere. Check the hover tooltip for the full requirements.",
+          "FIX: Copyright income with 'RSZ liable' active was not subtracting the RSZ share from the copyright net amount. The copyright card now shows net = gross within ceiling - RSZ share - roerende voorheffing, the same way third-party copyright income is handled.",
+          "UI: The net allowances (telework, internet, PC, representation) now have their own 'Net allowances' section at the bottom of the settings panel, just above the familial status dropdown."
+        ],
+        "nl": [
+          "NIEUW: Representatievergoeding. Als je functie werkelijk externe representatie inhoudt (klantenontvangst, relatiegeschenken, recepties), kan je werkgever je een netto onkostenvergoeding bovenop je loon betalen.",
+          "Ze is 100% netto: geen RSZ en geen bedrijfsvoorheffing",
+          "Er is geen wettelijk maximum. De RSZ publiceert geen standaardbedrag, maar in de praktijk wordt 25 tot 50 euro per maand doorgaans aanvaard, en fiscale rulings gaan tot ongeveer 125 euro per maand voor hogere representatieve functies. De invoer is begrensd op 125 euro per maand.",
+          "Let op: je werkgever moet het beleid schriftelijk kunnen verantwoorden (arbeidsreglement, dienstnota) als de RSZ komt controleren, en ze mag geen kosten dekken die al elders vergoed worden. Bekijk de hover-tooltip voor alle vereisten.",
+          "FIX: Bij auteursrechten met 'RSZ-plichtig' actief werd het RSZ-aandeel niet afgetrokken van het netto auteursrechtenbedrag.De auteursrechtenkaart toont nu netto = bruto binnen plafond - RSZ-aandeel - roerende voorheffing, op dezelfde manier als auteursrechten van derden.",
+          "UI: De netto vergoedingen (telewerk, internet, PC, representatie) hebben nu hun eigen sectie 'Netto vergoedingen' onderaan het instellingenpaneel, net boven de dropdown voor de gezinssituatie."
+        ],
+        "fr": [
+          "NOUVEAU: Frais de représentation. Si votre fonction implique réellement de la représentation externe (réception de clients, cadeaux d'affaires, réceptions), votre employeur peut vous verser une indemnité nette en plus de votre salaire.",
+          "Elle est 100% nette: pas d'ONSS ni de précompte professionnel",
+          "Il n'y a pas de maximum légal. L'ONSS ne publie aucun montant standard, mais en pratique 25 à 50 euros par mois est généralement accepté, et les rulings fiscaux vont jusqu'à environ 125 euros par mois pour les fonctions représentatives supérieures. La saisie est plafonnée à 125 euros par mois.",
+          "Attention: votre employeur doit pouvoir justifier sa politique par écrit (règlement de travail, note de service) en cas de contrôle ONSS, et elle ne peut pas couvrir des frais déjà remboursés par ailleurs. Consultez l'infobulle pour toutes les conditions.",
+          "CORRECTION: Pour les droits d'auteur avec « assujetti ONSS » actif, la part ONSS n'était pas déduite du montant net des droits d'auteur. La carte des droits d'auteur affiche maintenant net = brut sous plafond - part ONSS - précompte mobilier, de la même manière que les droits d'auteur de tiers.",
+          "UI: Les indemnités nettes (télétravail, internet, PC, représentation) ont maintenant leur propre section « Indemnités nettes » en bas du panneau des paramètres, juste au-dessus du menu déroulant de la situation familiale."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature & Bug Fix"
+    },
      {
       "date": "2026-06-04",
       "version": "1.5.1",
