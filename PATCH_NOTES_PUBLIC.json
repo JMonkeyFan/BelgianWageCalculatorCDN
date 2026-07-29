@@ -1,12 +1,32 @@
 {
-  "version": "1.5.2",
-  "lastUpdated": "2026-07-03",
+  "version": "1.5.3",
+  "lastUpdated": "2026-07-29",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-07-29",
+      "version": "1.5.3",
+      "title": {
+        "en": "Sport & culture vouchers fix",
+        "nl": "Sport- & cultuurcheques fix",
+        "fr": "Correction chèques sport & culture"
+      },
+      "highlights": {
+        "en": [
+          "FIX: Sport & culture vouchers maximum corrected from €400 to €100/year."
+        ],
+        "nl": [
+          "FIX: Maximum sport- & cultuurcheques gecorrigeerd van €400 naar €100/jaar."
+        ],
+        "fr": [
+          "CORRECTION: Maximum chèques sport & culture corrigé de 400€ à 100€/an."
+        ]
+      }
+    },
     {
       "date": "2026-07-03",
       "version": "1.5.2",
