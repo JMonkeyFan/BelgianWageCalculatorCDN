@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "lastUpdated": "2026-07-31",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
@@ -7,6 +7,47 @@
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-07-31",
+      "version": "1.6.1",
+      "title": {
+        "en": "Interactive tutorial and keyboard navigation",
+        "nl": "Interactieve rondleiding en toetsenbordnavigatie",
+        "fr": "Tutoriel interactif et navigation au clavier"
+      },
+      "highlights": {
+        "en": [
+          "NEW: Built-in tutorial that walks you through every section of the calculator step by step. First-time visitors are offered the tutorial automatically after accepting cookies.",
+          "The tutorial adapts to your screen size: desktop, tablet and mobile each get their own version with layout-appropriate guidance.",
+          "Navigate with arrow keys (left/right), press Escape to exit at any time. The tutorial prompt buttons also respond to Enter and Escape.",
+          "Restart the tutorial anytime via the ? button in the top-left corner of the header.",
+          "On mobile, the tutorial scrolls each section into view and opens collapsible panels automatically so you always see what is being explained.",
+          "The share modal and settings panel are highlighted with a brief blinking animation before they open, so you can see where they live."
+        ],
+        "nl": [
+          "NIEUW: Ingebouwde rondleiding die je stap voor stap door elk onderdeel van de calculator begeleidt. Nieuwe bezoekers krijgen de rondleiding automatisch aangeboden na het accepteren van cookies.",
+          "De rondleiding past zich aan je schermformaat aan: desktop, tablet en mobiel krijgen elk hun eigen versie met aangepaste uitleg.",
+          "Navigeer met de pijltjestoetsen (links/rechts), druk op Escape om op elk moment te stoppen. De knoppen van het rondleidingsvenster reageren ook op Enter en Escape.",
+          "Herstart de rondleiding op elk moment via de ?-knop linksboven in de menubalk.",
+          "Op mobiel scrollt de rondleiding automatisch naar elk onderdeel en opent inklapbare panelen zodat je altijd ziet wat er wordt uitgelegd.",
+          "Het deelvenster en het instellingenpaneel worden kort gemarkeerd met een knipperanimatie voor ze openen, zodat je weet waar ze zich bevinden."
+        ],
+        "fr": [
+          "NOUVEAU : Tutoriel intégré qui vous guide pas à pas à travers chaque section du calculateur. Les nouveaux visiteurs se voient proposer le tutoriel automatiquement après avoir accepté les cookies.",
+          "Le tutoriel s'adapte à votre taille d'écran : ordinateur, tablette et mobile ont chacun leur propre version avec des explications adaptées à la disposition.",
+          "Naviguez avec les touches fléchées (gauche/droite), appuyez sur Échap pour quitter à tout moment. Les boutons de la fenêtre du tutoriel répondent aussi à Entrée et Échap.",
+          "Relancez le tutoriel à tout moment via le bouton ? en haut à gauche de la barre de menu.",
+          "Sur mobile, le tutoriel fait défiler automatiquement jusqu'à chaque section et ouvre les panneaux repliables pour que vous voyiez toujours ce qui est expliqué.",
+          "La fenêtre de partage et le panneau des paramètres sont brièvement mis en évidence par une animation clignotante avant de s'ouvrir, pour que vous sachiez où ils se trouvent."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
     {
       "date": "2026-07-31",
       "version": "1.6.0",
