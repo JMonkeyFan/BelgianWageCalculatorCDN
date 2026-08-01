@@ -1,12 +1,47 @@
 {
-  "version": "1.6.1",
-  "lastUpdated": "2026-07-31",
+  "version": "1.6.2",
+  "lastUpdated": "2026-08-01",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-08-01",
+      "version": "1.6.2",
+      "title": {
+        "en": "Fix: Year-end settlement now included in your totals and efficiency percentages",
+        "nl": "Fix: Eindafrekening nu inbegrepen in je totalen en rendementspercentages",
+        "fr": "Correction: Le décompte de fin d'année est désormais inclus dans vos totaux et pourcentages de rendement"
+      },
+      "highlights": {
+        "en": [
+          "The employee total in the employer comparison now shows your net per year INCLUDING the year-end tax settlement, with the settlement amount shown separately underneath. Raising your gross across a bonus withholding bracket no longer looks like losing money: the higher withholding on your vacation pay and 13th month is recovered at the settlement, and the total now proves it.",
+          "The Net Return and Effective Return percentages also include the settlement, so they match what you get when you divide the displayed figures yourself.",
+          "Effective Return now shows two decimals (for example 39.81% instead of 40.0%) for exact verification.",
+          "Fix for part-year workers: the withholding bracket on double vacation pay is now determined on your full-year equivalent income, consistent with the 13th month. Working fewer than 12 months previously placed you in too low a bracket during the year."
+        ],
+        "nl": [
+          "Het werknemerstotaal in de werkgeversvergelijking toont nu je netto per jaar INCLUSIEF de eindafrekening, met het afrekeningsbedrag er apart onder. Je brutoloon verhogen over een voorheffingsschijf heen lijkt niet langer geld te verliezen: de hogere voorheffing op je vakantiegeld en 13de maand krijg je terug bij de eindafrekening, en het totaal toont dat nu ook.",
+          "De percentages Netto Rendement en Effectief Rendement omvatten nu ook de eindafrekening, zodat ze kloppen met wat je zelf uitkomt als je de getoonde bedragen deelt.",
+          "Effectief Rendement toont nu twee decimalen (bijvoorbeeld 39,81% in plaats van 40,0%) voor exacte controle.",
+          "Fix voor wie geen volledig jaar werkt: de voorheffingsschijf op dubbel vakantiegeld wordt nu bepaald op je omgerekend jaarinkomen, consistent met de 13de maand. Minder dan 12 maanden werken plaatste je voorheen in een te lage schijf tijdens het jaar."
+        ],
+        "fr": [
+          "Le total employé dans la comparaison employeur affiche désormais votre net par an Y COMPRIS le décompte fiscal de fin d'année, avec le montant du décompte indiqué séparément en dessous. Augmenter votre brut au-delà d'une tranche de précompte ne ressemble plus à une perte d'argent : le précompte plus élevé sur votre pécule de vacances et 13e mois est récupéré au décompte, et le total le prouve désormais.",
+          "Les pourcentages Rendement Net et Rendement Effectif incluent aussi le décompte, ils correspondent donc à ce que vous obtenez en divisant vous-même les montants affichés.",
+          "Le Rendement Effectif affiche désormais deux décimales (par exemple 39,81 % au lieu de 40,0 %) pour une vérification exacte.",
+          "Correction pour les travailleurs à année incomplète : la tranche de précompte sur le double pécule de vacances est désormais déterminée sur votre revenu annuel équivalent, comme pour le 13e mois. Travailler moins de 12 mois vous plaçait auparavant dans une tranche trop basse pendant l'année."
+        ]
+      },
+      "details": {
+        "en": "Thanks for pointing out the bug IIIIIII something",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Improvement"
+    },
     {
       "date": "2026-07-31",
       "version": "1.6.1",
@@ -348,34 +383,34 @@
       },
       "highlights": {
         "en": [
-          "NEW: Full group insurance simulation — configure your employer's monthly premium and optional employee contribution to see the complete financial impact on your salary.",
+          "NEW: Full group insurance simulation: configure your employer's monthly premium and optional employee contribution to see the complete financial impact on your salary.",
           "NEW: Employer cost breakdown showing the special social security contribution (8.86%) and insurance tax (4.4%) on top of the base premium.",
-          "NEW: Employee tax recovery (belastingvermindering) — if you contribute to your group insurance, see exactly how much tax benefit you receive (30% of your annual contribution, adjusted for your municipal tax rate).",
+          "NEW: Employee tax recovery (belastingvermindering): if you contribute to your group insurance, see exactly how much tax benefit you receive (30% of your annual contribution, adjusted for your municipal tax rate).",
           "NEW: Year-end settlement now includes the group insurance tax recovery as a positive adjustment, showing the real net benefit.",
           "NEW: Employer comparison view updated with group insurance costs in the pie chart and detailed breakdown.",
           "NEW: Support for pension, hospitalization, disability, and mixed plan types (displayed on the special items card).",
-          "NOTE: Group insurance does not affect your RSZ contribution, payroll tax base, 13th month bonus base, or vacation bonus base — these remain unchanged as per Belgian law.",
-          "INFO: Long-term aspects (payout taxation at retirement, 80% rule, Wijninckx contribution, WAP guaranteed return) are explained in tooltips for reference but are NOT simulated — the calculator focuses on your within-year salary impact only."
+          "NOTE: Group insurance does not affect your RSZ contribution, payroll tax base, 13th month bonus base, or vacation bonus base: these remain unchanged as per Belgian law.",
+          "INFO: Long-term aspects (payout taxation at retirement, 80% rule, Wijninckx contribution, WAP guaranteed return) are explained in tooltips for reference but are NOT simulated: the calculator focuses on your within-year salary impact only."
         ],
         "nl": [
-          "NEW: Volledige groepsverzekering simulatie — configureer de maandelijkse werkgeverspremie en optionele werknemersbijdrage om de volledige financiële impact op uw loon te zien.",
+          "NEW: Volledige groepsverzekering simulatie: configureer de maandelijkse werkgeverspremie en optionele werknemersbijdrage om de volledige financiële impact op uw loon te zien.",
           "NEW: Werkgeverskostenoverzicht met de bijzondere socialezekerheidsbijdrage (8,86%) en verzekeringstaks (4,4%) bovenop de basispremie.",
-          "NEW: Belastingvermindering voor werknemers — als u bijdraagt aan uw groepsverzekering, ziet u precies hoeveel belastingvoordeel u ontvangt (30% van uw jaarlijkse bijdrage, aangepast aan uw gemeentebelasting).",
+          "NEW: Belastingvermindering voor werknemers: als u bijdraagt aan uw groepsverzekering, ziet u precies hoeveel belastingvoordeel u ontvangt (30% van uw jaarlijkse bijdrage, aangepast aan uw gemeentebelasting).",
           "NEW: De eindafrekening bevat nu de belastingvermindering voor groepsverzekering als een positieve aanpassing, wat het werkelijke nettovoordeel toont.",
           "NEW: Het werkgeversvergelijkingsoverzicht is bijgewerkt met groepsverzekeringkosten in de taartdiagram en gedetailleerd overzicht.",
           "NEW: Ondersteuning voor pensioen-, hospitalisatie-, invaliditeits- en gemengde plantypes (weergegeven op de speciale items kaart).",
-          "OPMERKING: Groepsverzekering heeft geen invloed op uw RSZ-bijdrage, bedrijfsvoorheffingsbasis, dertiende maand basis of vakantiegeldbasis — deze blijven ongewijzigd volgens de Belgische wetgeving.",
-          "INFO: Langetermijnaspecten (uitkeringsbelasting bij pensionering, 80%-regel, Wijninckx-bijdrage, WAP gegarandeerd rendement) worden uitgelegd in tooltips ter referentie maar worden NIET gesimuleerd — de calculator richt zich alleen op de impact binnen het jaar."
+          "OPMERKING: Groepsverzekering heeft geen invloed op uw RSZ-bijdrage, bedrijfsvoorheffingsbasis, dertiende maand basis of vakantiegeldbasis: deze blijven ongewijzigd volgens de Belgische wetgeving.",
+          "INFO: Langetermijnaspecten (uitkeringsbelasting bij pensionering, 80%-regel, Wijninckx-bijdrage, WAP gegarandeerd rendement) worden uitgelegd in tooltips ter referentie maar worden NIET gesimuleerd: de calculator richt zich alleen op de impact binnen het jaar."
         ],
         "fr": [
-          "NOUVEAU: Simulation complète de l'assurance groupe — configurez la prime mensuelle de l'employeur et la contribution optionnelle de l'employé pour voir l'impact financier complet sur votre salaire.",
+          "NOUVEAU: Simulation complète de l'assurance groupe: configurez la prime mensuelle de l'employeur et la contribution optionnelle de l'employé pour voir l'impact financier complet sur votre salaire.",
           "NOUVEAU: Détail des coûts employeur montrant la cotisation spéciale de sécurité sociale (8,86%) et la taxe d'assurance (4,4%) en plus de la prime de base.",
-          "NOUVEAU: Réduction d'impôt pour les employés — si vous contribuez à votre assurance groupe, voyez exactement combien d'avantage fiscal vous recevez (30% de votre contribution annuelle, ajusté selon votre taux de taxe communale).",
+          "NOUVEAU: Réduction d'impôt pour les employés: si vous contribuez à votre assurance groupe, voyez exactement combien d'avantage fiscal vous recevez (30% de votre contribution annuelle, ajusté selon votre taux de taxe communale).",
           "NOUVEAU: Le décompte de fin d'année inclut désormais la réduction d'impôt de l'assurance groupe comme ajustement positif, montrant le bénéfice net réel.",
           "NOUVEAU: La vue de comparaison employeur est mise à jour avec les coûts d'assurance groupe dans le graphique en secteurs et le détail.",
           "NOUVEAU: Prise en charge des types de plan pension, hospitalisation, invalidité et mixte (affichés sur la carte des éléments spéciaux).",
-          "REMARQUE: L'assurance groupe n'affecte pas votre cotisation ONSS, la base du précompte professionnel, la base du 13ème mois ou la base du pécule de vacances — ceux-ci restent inchangés conformément à la législation belge.",
-          "INFO: Les aspects à long terme (taxation du capital au départ à la retraite, règle des 80%, contribution Wijninckx, rendement garanti WAP) sont expliqués dans les infobulles à titre de référence mais ne sont PAS simulés — le calculateur se concentre uniquement sur l'impact salarial dans l'année."
+          "REMARQUE: L'assurance groupe n'affecte pas votre cotisation ONSS, la base du précompte professionnel, la base du 13ème mois ou la base du pécule de vacances: ceux-ci restent inchangés conformément à la législation belge.",
+          "INFO: Les aspects à long terme (taxation du capital au départ à la retraite, règle des 80%, contribution Wijninckx, rendement garanti WAP) sont expliqués dans les infobulles à titre de référence mais ne sont PAS simulés: le calculateur se concentre uniquement sur l'impact salarial dans l'année."
         ]
       },
       "details": {
@@ -396,42 +431,42 @@
       "highlights": {
         "en": [
           "FIX: Net return percentage on the bike allowance card is now accurate when the allowance is part of a Mobility Budget.",
-          "FIX: Bike allowance rate input minimum is now €0.01/km — the previous UI incorrectly enforced a floor of €1.00/km.",
-          "FIX: Double counting of bike allowance within the mobility budget is now prevented — whether the bike is absorbed or paid separately, costs are tracked correctly without overlap.",
+          "FIX: Bike allowance rate input minimum is now €0.01/km: the previous UI incorrectly enforced a floor of €1.00/km.",
+          "FIX: Double counting of bike allowance within the mobility budget is now prevented: whether the bike is absorbed or paid separately, costs are tracked correctly without overlap.",
           "FIX: When bike allowance is absorbed into the mobility budget, any amount exceeding the remaining available budget (pillar 1 + pillar 2 balance) is now correctly discarded.",
-          "FIX: Mobility budget pillar 2 and pillar 3 benefits no longer generate employer social security (RSZ) or payroll tax costs — only the pillar 1 equivalent is subject to employer contributions, in line with the legal framework.",
+          "FIX: Mobility budget pillar 2 and pillar 3 benefits no longer generate employer social security (RSZ) or payroll tax costs: only the pillar 1 equivalent is subject to employer contributions, in line with the legal framework.",
           "NEW: Taxable bike allowance excess above the €0.37/km tax-free threshold is now displayed seperately in the special items / year-end column.",
           "NEW: Settings interface now includes a checkbox to configure bike allowance as seperate from mobility budget only IF the bike allowance was a perk of the employee for 3 months before they gained mobility budget as well.",
-          "NEW: 'Active Beforehand' separate mode for bike allowance — when the bike arrangement predates the mobility budget by 3+ months, the allowance is paid separately on top of the mobility budget instead of being absorbed into it.",
+          "NEW: 'Active Beforehand' separate mode for bike allowance: when the bike arrangement predates the mobility budget by 3+ months, the allowance is paid separately on top of the mobility budget instead of being absorbed into it.",
           "NEW: The special items column and extra-net display now show a dedicated entry when bike allowance is absorbed into the mobility budget, making the impact visible at a glance.",
-          "NEW: Employer-view pie chart updated — now correctly shows the full cost of the bike allowance including any taxable portion above the exempt threshold.",
-          "UPDATE (2026): Government-indexed values updated — bike allowance yearly cap raised to €3,690, mobility budget minimum raised to €3,233/year, mobility budget maximum raised to €17,244/year."
+          "NEW: Employer-view pie chart updated: now correctly shows the full cost of the bike allowance including any taxable portion above the exempt threshold.",
+          "UPDATE (2026): Government-indexed values updated: bike allowance yearly cap raised to €3,690, mobility budget minimum raised to €3,233/year, mobility budget maximum raised to €17,244/year."
         ],
         "nl": [
           "FIX: Het percentage netto rendement op de fietsvergoeding kaart is nu accuraat wanneer de vergoeding deel uitmaakt van een Mobiliteitsbudget.",
           "FIX: De minimum invoer voor het fietsvergoedingstarief is nu €0.01/km.",
-          "FIX: Dubbele telling van de fietsvergoeding binnen het mobiliteitsbudget wordt nu voorkomen — of de fiets nu wordt geabsorbeerd of apart wordt betaald, de kosten worden correct bijgehouden zonder overlap.",
+          "FIX: Dubbele telling van de fietsvergoeding binnen het mobiliteitsbudget wordt nu voorkomen: of de fiets nu wordt geabsorbeerd of apart wordt betaald, de kosten worden correct bijgehouden zonder overlap.",
           "FIX: Wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, wordt elk bedrag dat het resterende beschikbare budget (pilaar 1 + pilaar 2 saldo) overschrijdt nu correct genegeerd.",
-          "FIX: Mobiliteitsbudget pilaar 2 en pilaar 3 voordelen genereren niet langer werkgeverssocialezekerheidskosten (RSZ) of loonbelasting — alleen het pilaar 1 equivalent is onderhevig aan werkgeversbijdragen, in lijn met het wettelijke kader.",
+          "FIX: Mobiliteitsbudget pilaar 2 en pilaar 3 voordelen genereren niet langer werkgeverssocialezekerheidskosten (RSZ) of loonbelasting: alleen het pilaar 1 equivalent is onderhevig aan werkgeversbijdragen, in lijn met het wettelijke kader.",
           "NEW: Belaste fietsvergoeding boven de €0.37/km belastingvrije drempel wordt nu apart weergegeven in de speciale items / eindejaarskolom.",
           "NEW: De instellingen bevatten nu een checkbox om de fietsvergoeding als apart van het mobiliteitsbudget te configureren, alleen ALS de fietsvergoeding een voordeel was van de werknemer gedurende 3 maanden voordat ze ook een mobiliteitsbudget kregen.",
-          "NEW: 'Active Beforehand' aparte modus voor fietsvergoeding — wanneer de fietsregeling 3+ maanden voorafgaat aan het mobiliteitsbudget, wordt de vergoeding apart betaald bovenop het mobiliteitsbudget in plaats van erin te worden opgenomen.",
+          "NEW: 'Active Beforehand' aparte modus voor fietsvergoeding: wanneer de fietsregeling 3+ maanden voorafgaat aan het mobiliteitsbudget, wordt de vergoeding apart betaald bovenop het mobiliteitsbudget in plaats van erin te worden opgenomen.",
           "NEW: De speciale items kolom en extra-netto weergave tonen nu een aparte vermelding wanneer de fietsvergoeding wordt geabsorbeerd in het mobiliteitsbudget, waardoor de impact in één oogopslag zichtbaar is.",
-          "NEW: De taartdiagram in werkgeversweergave is bijgewerkt — toont nu correct de volledige kosten van de fietsvergoeding inclusief elk belastbaar deel boven de vrijgestelde drempel.",
-          "UPDATE (2026): Overheidsgeïndexeerde waarden bijgewerkt — fietsvergoeding jaarlijkse limiet verhoogd naar €3,690, mobiliteitsbudget minimum verhoogd naar €3,233/jaar, mobiliteitsbudget maximum verhoogd naar €17,244/jaar."
+          "NEW: De taartdiagram in werkgeversweergave is bijgewerkt: toont nu correct de volledige kosten van de fietsvergoeding inclusief elk belastbaar deel boven de vrijgestelde drempel.",
+          "UPDATE (2026): Overheidsgeïndexeerde waarden bijgewerkt: fietsvergoeding jaarlijkse limiet verhoogd naar €3,690, mobiliteitsbudget minimum verhoogd naar €3,233/jaar, mobiliteitsbudget maximum verhoogd naar €17,244/jaar."
         ],
         "fr": [
           "CORRECTION: Le pourcentage de rendement net sur la carte d'allocation vélo est désormais précis lorsque l'allocation fait partie d'un Budget Mobilité.",
-          "CORRECTION: Le minimum d'entrée pour le taux d'allocation vélo est maintenant de €0.01/km — l'interface précédente appliquait à tort un minimum de €1.00/km.",
-          "CORRECTION: La double comptabilisation de l'allocation vélo dans le budget mobilité est désormais évitée — que le vélo soit absorbé ou payé séparément, les coûts sont suivis correctement sans chevauchement.",
-          "CORRECTION: Lorsque l'allocation vélo est absorbée dans le budget mobilité, tout montant dépassant le budget disponible restant (pilier 1 + solde du pilier 2) est désormais correctement ignoré — aucun revenu ou coût fictif n'est généré.",
-          "CORRECTION: Les avantages du budget mobilité pilier 2 et pilier 3 ne génèrent plus de coûts de sécurité sociale employeur (RSZ) ou de taxe sur les salaires — seul l'équivalent du pilier 1 est soumis aux contributions patronales, conformément au cadre légal.",
+          "CORRECTION: Le minimum d'entrée pour le taux d'allocation vélo est maintenant de €0.01/km: l'interface précédente appliquait à tort un minimum de €1.00/km.",
+          "CORRECTION: La double comptabilisation de l'allocation vélo dans le budget mobilité est désormais évitée: que le vélo soit absorbé ou payé séparément, les coûts sont suivis correctement sans chevauchement.",
+          "CORRECTION: Lorsque l'allocation vélo est absorbée dans le budget mobilité, tout montant dépassant le budget disponible restant (pilier 1 + solde du pilier 2) est désormais correctement ignoré: aucun revenu ou coût fictif n'est généré.",
+          "CORRECTION: Les avantages du budget mobilité pilier 2 et pilier 3 ne génèrent plus de coûts de sécurité sociale employeur (RSZ) ou de taxe sur les salaires: seul l'équivalent du pilier 1 est soumis aux contributions patronales, conformément au cadre légal.",
           "NOUVEAU: L'excédent d'allocation vélo imposable au-dessus du seuil d'exonération de €0.37/km est désormais affiché séparément dans la colonne des éléments spéciaux / fin d'année.",
           "NOUVEAU: L'interface des paramètres comprend désormais une case à cocher pour configurer l'allocation vélo comme séparée du budget mobilité uniquement SI l'allocation vélo était un avantage de l'employé pendant 3 mois avant qu'il n'obtienne également un budget mobilité.",
-          "NOUVEAU: Mode séparé 'Active Beforehand' pour l'allocation vélo — lorsque l'arrangement vélo précède le budget mobilité de plus de 3 mois, l'allocation est payée séparément en plus du budget mobilité au lieu d'être absorbée dedans.",
+          "NOUVEAU: Mode séparé 'Active Beforehand' pour l'allocation vélo: lorsque l'arrangement vélo précède le budget mobilité de plus de 3 mois, l'allocation est payée séparément en plus du budget mobilité au lieu d'être absorbée dedans.",
           "NOUVEAU: La colonne des éléments spéciaux et l'affichage extra-netto montrent désormais une entrée dédiée lorsque l'allocation vélo est absorbée dans le budget mobilité, rendant l'impact visible en un coup d'œil.",
-          "NOUVEAU: Le graphique en secteurs dans la vue employeur est mis à jour — montre désormais correctement le coût total de l'allocation vélo, y compris toute partie imposable au-dessus du seuil d'exemption.",
-          "MISE À JOUR (2026): Valeurs indexées par le gouvernement mises à jour — plafond annuel de l'allocation vélo porté à €3,690, minimum du budget mobilité porté à €3,233/an, maximum du budget mobilité porté à €17,244/an."
+          "NOUVEAU: Le graphique en secteurs dans la vue employeur est mis à jour: montre désormais correctement le coût total de l'allocation vélo, y compris toute partie imposable au-dessus du seuil d'exemption.",
+          "MISE À JOUR (2026): Valeurs indexées par le gouvernement mises à jour: plafond annuel de l'allocation vélo porté à €3,690, minimum du budget mobilité porté à €3,233/an, maximum du budget mobilité porté à €17,244/an."
         ]
       },
       "details": {
