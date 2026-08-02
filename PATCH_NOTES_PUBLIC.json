@@ -1,12 +1,91 @@
 {
-  "version": "1.6.2",
-  "lastUpdated": "2026-08-01",
+  "version": "1.6.4",
+  "lastUpdated": "2026-08-02",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-08-02",
+      "version": "1.6.4",
+      "title": {
+        "en": "Group insurance: employee contribution as a percentage of gross salary",
+        "nl": "Groepsverzekering: werknemersbijdrage als percentage van het brutoloon",
+        "fr": "Assurance groupe: cotisation employé en pourcentage du salaire brut"
+      },
+      "highlights": {
+        "en": [
+          "The employee contribution to your group insurance can now be entered in two ways: a fixed amount per month or a percentage of your gross monthly salary.",
+          "Two checkboxes under the employer premium let you pick the mode and switch at any time; both entered values are kept, so switching back restores what you had.",
+          "In percentage mode the contribution follows your gross salary automatically: change your salary and the deduction updates with it.",
+          "All displays (net breakdown, insurance summary, shared configurations) show the resulting monthly amount, whichever mode you use."
+        ],
+        "nl": [
+          "De werknemersbijdrage aan je groepsverzekering kan nu op twee manieren worden ingevoerd: een vast bedrag per maand of een percentage van je bruto maandloon.",
+          "Twee aankruisvakjes onder de werkgeverspremie laten je de modus kiezen en op elk moment wisselen; beide ingevoerde waarden blijven bewaard, dus terugschakelen herstelt wat je had.",
+          "In percentagemodus volgt de bijdrage automatisch je brutoloon: pas je loon aan en de inhouding beweegt mee.",
+          "Alle weergaven (netto-overzicht, verzekeringsoverzicht, gedeelde configuraties) tonen het resulterende maandbedrag, welke modus je ook gebruikt."
+        ],
+        "fr": [
+          "La cotisation employé à votre assurance groupe peut désormais être saisie de deux manières: un montant fixe par mois ou un pourcentage de votre salaire mensuel brut.",
+          "Deux cases à cocher sous la prime patronale permettent de choisir le mode et de changer à tout moment; les deux valeurs saisies sont conservées, revenir en arrière restaure donc ce que vous aviez.",
+          "En mode pourcentage, la cotisation suit automatiquement votre salaire brut: modifiez votre salaire et la retenue s'adapte.",
+          "Tous les affichages (détail du net, résumé des assurances, configurations partagées) montrent le montant mensuel résultant, quel que soit le mode utilisé."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
+    {
+      "date": "2026-08-02",
+      "version": "1.6.3",
+      "title": {
+        "en": "All government amounts updated to the August 2026 legal values, plus new child relief on bonus withholding",
+        "nl": "Alle overheidsbedragen bijgewerkt naar de wettelijke waarden van augustus 2026, plus nieuwe kinderkorting op de voorheffing van premies",
+        "fr": "Tous les montants officiels mis à jour vers les valeurs légales d'août 2026, plus nouvelle réduction pour enfants sur le précompte des primes"
+      },
+      "highlights": {
+        "en": [
+          "Every government-regulated amount now follows the law in force in August 2026, after the July 2026 indexation and the enacted personal income tax reform (law of 15 July 2026).",
+          "Minimum wage (GGMMI): €2,233.61 per month (€13.56 per hour). The work bonus uses the RSZ amounts valid from 1 July 2026, and the fiscal work bonus for low wages rose to 63% with a yearly maximum of €2,000.",
+          "The year-end settlement follows the enacted reform: new tax brackets (25% up to €16,720, 40% up to €29,510, 45% up to €51,070), a tax-free sum of €11,550 and the updated child amounts. The marriage quotient phase-out is applied: €11,780 at the settlement, while the monthly withholding keeps the €13,790 rule for all of 2026, exactly as the law prescribes.",
+          "NEW: child relief on the withholding of vacation pay and 13th month. Parents with dependent children and a modest annual salary now receive the legal exemption or percentage reduction on the withholding of these bonuses.",
+          "CAO 90 bonus caps raised to €4,255 (RSZ) and €3,701 (tax-free). Bike allowance cap €3,700 per year, telework allowance up to €160.99 per month (the input field now accepts this new maximum), daily allowance €21.64, flexi-job income ceiling €18,440.",
+          "Meal vouchers: the employer tax deduction of €4 per voucher is applied when the employer grants the full €8.91 contribution.",
+          "Copyright income: the cost deduction tiers for artist certificate holders are indexed to €20,590 and €41,180. All tooltips and warnings now show the current legal amounts in every language."
+        ],
+        "nl": [
+          "Elk overheidsbedrag volgt nu de wetgeving van augustus 2026, na de indexatie van juli 2026 en de gestemde hervorming van de personenbelasting (wet van 15 juli 2026).",
+          "Minimumloon (GGMMI): €2.233,61 per maand (€13,56 per uur). De werkbonus volgt de RSZ-bedragen geldig vanaf 1 juli 2026, en de fiscale werkbonus voor lage lonen steeg naar 63% met een jaarmaximum van €2.000.",
+          "De eindafrekening volgt de gestemde hervorming: nieuwe belastingschijven (25% tot €16.720, 40% tot €29.510, 45% tot €51.070), een belastingvrije som van €11.550 en de bijgewerkte kinderbedragen. De afbouw van het huwelijksquotiënt is toegepast: €11.780 bij de eindafrekening, terwijl de maandelijkse bedrijfsvoorheffing heel 2026 de regel van €13.790 behoudt, precies zoals de wet voorschrijft.",
+          "NIEUW: kinderkorting op de voorheffing van vakantiegeld en 13de maand. Ouders met kinderen ten laste en een bescheiden jaarloon krijgen nu de wettelijke vrijstelling of procentuele vermindering op de voorheffing van deze premies.",
+          "CAO 90-bonusplafonds verhoogd naar €4.255 (RSZ) en €3.701 (belastingvrij). Fietsvergoedingsplafond €3.700 per jaar, telewerkvergoeding tot €160,99 per maand (het invoerveld aanvaardt nu dit nieuwe maximum), dagvergoeding €21,64, flexi-jobplafond €18.440.",
+          "Maaltijdcheques: de werkgeversaftrek van €4 per cheque wordt toegepast wanneer de werkgever de volledige bijdrage van €8,91 toekent.",
+          "Auteursrechten: de kostenaftrekschijven voor houders van een kunstenaarsattest zijn geïndexeerd naar €20.590 en €41.180. Alle tooltips en waarschuwingen tonen nu de actuele wettelijke bedragen in elke taal."
+        ],
+        "fr": [
+          "Chaque montant officiel suit désormais la législation d'août 2026, après l'indexation de juillet 2026 et la réforme votée de l'impôt des personnes physiques (loi du 15 juillet 2026).",
+          "Salaire minimum (RMMMG) : €2.233,61 par mois (€13,56 par heure). Le bonus à l'emploi suit les montants ONSS en vigueur depuis le 1er juillet 2026, et le bonus fiscal pour les bas salaires est passé à 63% avec un maximum annuel de €2.000.",
+          "Le décompte de fin d'année suit la réforme votée : nouvelles tranches d'imposition (25% jusqu'à €16.720, 40% jusqu'à €29.510, 45% jusqu'à €51.070), une quotité exemptée de €11.550 et les montants pour enfants mis à jour. La suppression progressive du quotient conjugal est appliquée : €11.780 au décompte, tandis que le précompte mensuel garde la règle de €13.790 pour toute l'année 2026, exactement comme la loi le prévoit.",
+          "NOUVEAU : réduction pour enfants sur le précompte du pécule de vacances et du 13e mois. Les parents avec enfants à charge et un salaire annuel modeste bénéficient désormais de l'exonération légale ou de la réduction en pourcentage sur le précompte de ces primes.",
+          "Plafonds du bonus CCT 90 relevés à €4.255 (ONSS) et €3.701 (exonéré d'impôt). Plafond de l'indemnité vélo €3.700 par an, indemnité de télétravail jusqu'à €160,99 par mois (le champ de saisie accepte désormais ce nouveau maximum), indemnité journalière €21,64, plafond flexi-job €18.440.",
+          "Chèques-repas : la déductibilité patronale de €4 par chèque s'applique lorsque l'employeur accorde la contribution complète de €8,91.",
+          "Droits d'auteur : les tranches de déduction forfaitaire pour les détenteurs d'une attestation d'artiste sont indexées à €20.590 et €41.180. Toutes les infobulles et tous les avertissements affichent désormais les montants légaux actuels dans chaque langue."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "Update"
+    },
     {
       "date": "2026-08-01",
       "version": "1.6.2",
