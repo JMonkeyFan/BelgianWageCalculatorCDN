@@ -1,12 +1,50 @@
 {
-  "version": "1.6.4",
-  "lastUpdated": "2026-08-02",
+  "version": "1.6.5",
+  "lastUpdated": "2026-08-04",
   "description": {
     "en": "Belgian Wage Calculator: Public Changelog. User-facing updates organized by date.",
     "nl": "Belgische Loonberekening: Publieke Wijzigingslog. Gebruikersupdates georganiseerd per datum.",
     "fr": "Calculateur de Salaire Belge: Journal des Modifications Public. Mises à jour utilisateur organisées par date."
   },
   "entries": [
+    {
+      "date": "2026-08-04",
+      "version": "1.6.5",
+      "title": {
+        "en": "Export to r/BeSalary: one-click salary template for Reddit",
+        "nl": "Exporteer naar r/BeSalary: salaristemplate met een klik voor Reddit",
+        "fr": "Exporter vers r/BeSalary: template salarial en un clic pour Reddit"
+      },
+      "highlights": {
+        "en": [
+          "New 'Export to r/BeSalary' button in the header generates a pre-filled Reddit salary template from your current calculator settings.",
+          "All pay package values (gross/net salary, 13th month, meal vouchers, ecocheques, group insurance, mobility, allowances, and more) are automatically filled in. Personal information fields are left blank for you to complete before posting.",
+          "A share link to your calculator configuration is included in the template so readers can view the full breakdown.",
+          "The export modal copies the template to your clipboard, offers a save-as-.md download, and includes a copy button. A disclaimer clarifies this is a Belgian Wage Calculator convenience feature, not created by or for r/BeSalary.",
+          "Copyright income now correctly blocked when yearly salary mode is active (mutual exclusion works in both directions)."
+        ],
+        "nl": [
+          "Nieuwe 'Export to r/BeSalary'-knop in de header genereert een vooraf ingevulde Reddit-salaristemplate op basis van je huidige rekenmachine-instellingen.",
+          "Alle loonpakketwaarden (bruto/netto salaris, 13e maand, maaltijdcheques, ecocheques, groepsverzekering, mobiliteit, vergoedingen en meer) worden automatisch ingevuld. Persoonlijke informatievelden blijven leeg zodat je ze zelf kunt invullen voor het posten.",
+          "Een deellink naar je rekenmachine-configuratie wordt opgenomen in de template zodat lezers het volledige overzicht kunnen bekijken.",
+          "De exportmodal kopieert de template naar je klembord, biedt een opslaan-als-.md download, en bevat een kopieerknop. Een disclaimer verduidelijkt dat dit een handige functie van Belgian Wage Calculator is, niet gemaakt door/voor r/BeSalary.",
+          "Auteursrechten worden nu correct geblokkeerd wanneer de jaarlijks-salarismodus actief is (wederzijdse uitsluiting werkt in beide richtingen)."
+        ],
+        "fr": [
+          "Nouveau bouton 'Export to r/BeSalary' dans l'en-tete genere un template salarial pre-rempli pour Reddit a partir de vos parametres actuels.",
+          "Toutes les valeurs du package salarial (salaire brut/net, 13e mois, cheques-repas, ecocheques, assurance groupe, mobilite, indemnites et plus) sont automatiquement remplies. Les champs d'informations personnelles restent vides pour que vous les compleiez avant de publier.",
+          "Un lien de partage vers votre configuration est inclus dans le template pour que les lecteurs puissent voir le detail complet.",
+          "Le modal d'export copie le template dans votre presse-papiers, propose un telechargement .md, et inclut un bouton de copie. Un avertissement precise qu'il s'agit d'une fonction pratique de Belgian Wage Calculator, pas crëeer pour r/BeSalary.",
+          "Les droits d'auteur sont maintenant correctement bloques lorsque le mode salaire annuel est actif (exclusion mutuelle dans les deux sens)."
+        ]
+      },
+      "details": {
+        "en": "",
+        "nl": "",
+        "fr": ""
+      },
+      "category": "New Feature"
+    },
     {
       "date": "2026-08-02",
       "version": "1.6.4",
